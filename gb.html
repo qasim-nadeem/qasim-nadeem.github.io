@@ -18,17 +18,13 @@
 <link href="style/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="style/owl.carousel.css" rel="stylesheet">
 <!--css-->
-<!-- js -->
-	<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-	
+<!-- js-->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
 		    <script type="text/javascript" src="js/camera.min.js"></script>
 <script type="text/javascript" src="js/jquery.devrama.slider-0.9.4.js"></script>
-<script type="text/javascript" src="js/handler.js"></script>
+<script type="text/javascript" src="custom.js"></script>
 <!-- //js -->
 
 <!--CDN-->
@@ -37,10 +33,17 @@
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Racing+Sans+One' rel='stylesheet' type='text/css'>
 
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
 <!--//CDN-->
-<script type="text/javascript">
-	
-	$(document).ready(function(){
+
+<script>
+
+$(document).ready(function(){
+
+var type = 0,velcro = 0,wrist = 0,throwing = 0,finger = 0,lace = 0,size = 0;
 
 $("#step1").click(function(){
 	$("#step_1_op").slideToggle();
@@ -61,22 +64,2243 @@ $("#step3").click(function(){
 });
 
 //////////////////////////////////////////////// color Selection handler ////////////////////////////////////////
-
+///////////////////////////////////////////////////// logo color handler/////////////////////////////////////////
 $("#red_logo").click(function(){
 	$("#red_logo").addClass("selected");
 	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
 	$("#logo_color").text("Color: Red");                                                                                                                   
 });
 $("#volt_green_logo").click(function(){
 	$("#red_logo").removeClass("selected");
 	$("#volt_green_logo").addClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
 	$("#logo_color").text("Color: Volt Green");                                                                                                                   
 });
+$("#sky_blue_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").addClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
 
+	$("#logo_color").text("Color: Sky Blue");                                                                                                                   
+});
+$("#tan_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").addClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: Tan");                                                                                                                   
+});
+$("#blonde_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").addClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: Blonde");                                                                                                                   
+});
+$("#teal_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").addClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: Teal");                                                                                                                   
+});
+$("#orange_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").addClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: Orange");                                                                                                                   
+});
+$("#white_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").addClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: White");                                                                                                                   
+});
+$("#pink_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").addClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: Pink");                                                                                                                   
+});
+$("#navy_blue_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").addClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: Navy Blue");                                                                                                                   
+});
+$("#purple_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").addClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: Purple");                                                                                                                   
+});
+$("#royal_blue_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").addClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: Royal Blue");                                                                                                                   
+});
+$("#brown_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").addClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: Brown");                                                                                                                   
+});
+$("#forest_green_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").addClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: Forest Green");                                                                                                                   
+});
+$("#silver_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").addClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: Silver");                                                                                                                   
+});
+$("#volt_yellow_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").addClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: Volt Yellow");                                                                                                                   
+});
+$("#maroon_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").addClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_color").text("Color: Maroon");                                                                                                                   
+});
+$("#gold_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").addClass("selected");
+
+	$("#logo_color").text("Color: Gold");                                                                                                                   
+});
+////////////////////////////////////////logo color handler enda here ////////////////////////////////////
+//////////////////////////////////////// laces color handler starts here ////////////////////////////////////
+$("#red_laces").click(function(){
+	$("#red_laces").addClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: Red");                                                                                                                   
+});
+$("#sky_blue_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").addClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: Sky Blue");                                                                                                                   
+});
+$("#tan_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").addClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: Tan");                                                                                                                   
+});
+$("#blonde_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").addClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: Blonde");                                                                                                                   
+});
+$("teal_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").addClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: Teal");                                                                                                                   
+});
+$("#orange_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").addClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: Orange");                                                                                                                   
+});
+$("#white_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").addClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: White");                                                                                                                   
+});
+$("#navy_blue_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").addClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: Navy Blue");                                                                                                                   
+});
+$("#purple_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").addClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: Purple");                                                                                                                   
+});
+$("#brown_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").addClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: Brown");                                                                                                                   
+});
+$("#forest_green_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").addClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: Forest Green");                                                                                                                   
+});
+$("#black_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").addClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: Black");                                                                                                                   
+});
+$("#royal_blue_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").addClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: Royal Blue");                                                                                                                   
+});
+$("#yellow_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").addClass("selected");
+	$("#grey_laces").removeClass("selected");
+
+	$("#laces_color").text("Color: Yellow");                                                                                                                   
+});
+$("#grey_laces").click(function(){
+	$("#red_laces").removeClass("selected");
+	$("#sky_blue_laces").removeClass("selected");
+	$("#tan_laces").removeClass("selected");
+	$("#blonde_laces").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_laces").removeClass("selected");
+	$("#white_laces").removeClass("selected");
+	$("#navy_blue_laces").removeClass("selected");
+	$("#purple_laces").removeClass("selected");
+	$("#brown_laces").removeClass("selected");
+	$("#forest_green_laces").removeClass("selected");
+	$("#black_laces").removeClass("selected");
+	$("#royal_blue_laces").removeClass("selected");
+	$("#yellow_laces").removeClass("selected");
+	$("#grey_laces").addClass("selected");
+
+	$("#laces_color").text("Color: grey");                                                                                                                   
+});
+/////////////////////////////////////////////////////////laces color ends ///////////////////////////////////////////
+//////////////////////////////////////////////////////// web color //////////////////////////////////////////////////
+$("#red_web").click(function(){
+	$("#red_web").addClass("selected");
+	$("#tan_web").removeClass("selected");
+	$("#blonde_web").removeClass("selected");
+	$("#orange_web").removeClass("selected");
+	$("#white_web").removeClass("selected");
+	$("#navy_blue_web").removeClass("selected");
+	$("#brown_web").removeClass("selected");
+	$("#forest_green_web").removeClass("selected");
+	$("#black_web").removeClass("selected");
+	$("#royal_blue_web").removeClass("selected");
+	$("#yellow_web").removeClass("selected");
+	$("#grey_web").removeClass("selected");
+
+	$("#web_color").text("Color: Red");                                                                                                                   
+});
+$("#tan_web").click(function(){
+	$("#red_web").removeClass("selected");
+	$("#tan_web").addClass("selected");
+	$("#blonde_web").removeClass("selected");
+	$("#orange_web").removeClass("selected");
+	$("#white_web").removeClass("selected");
+	$("#navy_blue_web").removeClass("selected");
+	$("#brown_web").removeClass("selected");
+	$("#forest_green_web").removeClass("selected");
+	$("#black_web").removeClass("selected");
+	$("#royal_blue_web").removeClass("selected");
+	$("#yellow_web").removeClass("selected");
+	$("#grey_web").removeClass("selected");
+
+	$("#web_color").text("Color: Tan");                                                                                                                   
+});
+$("#blonde_web").click(function(){
+	$("#red_web").removeClass("selected");
+	$("#tan_web").removeClass("selected");
+	$("#blonde_web").addClass("selected");
+	$("#orange_web").removeClass("selected");
+	$("#white_web").removeClass("selected");
+	$("#navy_blue_web").removeClass("selected");
+	$("#brown_web").removeClass("selected");
+	$("#forest_green_web").removeClass("selected");
+	$("#black_web").removeClass("selected");
+	$("#royal_blue_web").removeClass("selected");
+	$("#yellow_web").removeClass("selected");
+	$("#grey_web").removeClass("selected");
+
+	$("#web_color").text("Color: Blonde");                                                                                                                   
+});
+$("#orange_web").click(function(){
+	$("#red_web").removeClass("selected");
+	$("#tan_web").removeClass("selected");
+	$("#blonde_web").removeClass("selected");
+	$("#orange_web").addClass("selected");
+	$("#white_web").removeClass("selected");
+	$("#navy_blue_web").removeClass("selected");
+	$("#brown_web").removeClass("selected");
+	$("#forest_green_web").removeClass("selected");
+	$("#black_web").removeClass("selected");
+	$("#royal_blue_web").removeClass("selected");
+	$("#yellow_web").removeClass("selected");
+	$("#grey_web").removeClass("selected");
+
+	$("#web_color").text("Color: Orange");                                                                                                                   
+});
+$("#white_web").click(function(){
+	$("#red_web").removeClass("selected");
+	$("#tan_web").removeClass("selected");
+	$("#blonde_web").removeClass("selected");
+	$("#orange_web").removeClass("selected");
+	$("#white_web").addClass("selected");
+	$("#navy_blue_web").removeClass("selected");
+	$("#brown_web").removeClass("selected");
+	$("#forest_green_web").removeClass("selected");
+	$("#black_web").removeClass("selected");
+	$("#royal_blue_web").removeClass("selected");
+	$("#yellow_web").removeClass("selected");
+	$("#grey_web").removeClass("selected");
+
+	$("#web_color").text("Color: White");                                                                                                                   
+});
+$("#navy_blue_web").click(function(){
+	$("#red_web").removeClass("selected");
+	$("#tan_web").removeClass("selected");
+	$("#blonde_web").removeClass("selected");
+	$("#orange_web").removeClass("selected");
+	$("#white_web").removeClass("selected");
+	$("#navy_blue_web").addClass("selected");
+	$("#brown_web").removeClass("selected");
+	$("#forest_green_web").removeClass("selected");
+	$("#black_web").removeClass("selected");
+	$("#royal_blue_web").removeClass("selected");
+	$("#yellow_web").removeClass("selected");
+	$("#grey_web").removeClass("selected");
+
+	$("#web_color").text("Color: Navy Blue");                                                                                                                   
+});
+$("#brown_web").click(function(){
+	$("#red_web").removeClass("selected");
+	$("#tan_web").removeClass("selected");
+	$("#blonde_web").removeClass("selected");
+	$("#orange_web").removeClass("selected");
+	$("#white_web").removeClass("selected");
+	$("#navy_blue_web").removeClass("selected");
+	$("#brown_web").addClass("selected");
+	$("#forest_green_web").removeClass("selected");
+	$("#black_web").removeClass("selected");
+	$("#royal_blue_web").removeClass("selected");
+	$("#yellow_web").removeClass("selected");
+	$("#grey_web").removeClass("selected");
+
+	$("#web_color").text("Color: Brown");                                                                                                                   
+});
+$("#forest_green_web").click(function(){
+	$("#red_web").removeClass("selected");
+	$("#tan_web").removeClass("selected");
+	$("#blonde_web").removeClass("selected");
+	$("#orange_web").removeClass("selected");
+	$("#white_web").removeClass("selected");
+	$("#navy_blue_web").removeClass("selected");
+	$("#brown_web").removeClass("selected");
+	$("#forest_green_web").removeClass("selected");
+	$("#black_web").removeClass("selected");
+	$("#royal_blue_web").removeClass("selected");
+	$("#yellow_web").removeClass("selected");
+	$("#grey_web").removeClass("selected");
+
+	$("#web_color").text("Color: Forest Green");                                                                                                                   
+});
+$("#black_web").click(function(){
+	$("#red_web").removeClass("selected");
+	$("#tan_web").removeClass("selected");
+	$("#blonde_web").removeClass("selected");
+	$("#orange_web").removeClass("selected");
+	$("#white_web").removeClass("selected");
+	$("#navy_blue_web").removeClass("selected");
+	$("#brown_web").removeClass("selected");
+	$("#forest_green_web").removeClass("selected");
+	$("#black_web").removeClass("selected");
+	$("#royal_blue_web").removeClass("selected");
+	$("#yellow_web").removeClass("selected");
+	$("#grey_web").removeClass("selected");
+
+	$("#web_color").text("Color: Black");                                                                                                                   
+});
+$("#royal_blue_web").click(function(){
+	$("#red_web").removeClass("selected");
+	$("#tan_web").removeClass("selected");
+	$("#blonde_web").removeClass("selected");
+	$("#orange_web").removeClass("selected");
+	$("#white_web").removeClass("selected");
+	$("#navy_blue_web").removeClass("selected");
+	$("#brown_web").removeClass("selected");
+	$("#forest_green_web").removeClass("selected");
+	$("#black_web").removeClass("selected");
+	$("#royal_blue_web").addClass("selected");
+	$("#yellow_web").removeClass("selected");
+	$("#grey_web").removeClass("selected");
+
+	$("#web_color").text("Color: Royal Blue");                                                                                                                   
+});
+$("#yellow_web").click(function(){
+	$("#red_web").removeClass("selected");
+	$("#tan_web").removeClass("selected");
+	$("#blonde_web").removeClass("selected");
+	$("#orange_web").removeClass("selected");
+	$("#white_web").removeClass("selected");
+	$("#navy_blue_web").removeClass("selected");
+	$("#brown_web").removeClass("selected");
+	$("#forest_green_web").removeClass("selected");
+	$("#black_web").removeClass("selected");
+	$("#royal_blue_web").removeClass("selected");
+	$("#yellow_web").addClass("selected");
+	$("#grey_web").removeClass("selected");
+
+	$("#web_color").text("Color: Yellow");                                                                                                                   
+});
+$("#grey_web").click(function(){
+	$("#red_web").removeClass("selected");
+	$("#tan_web").removeClass("selected");
+	$("#blonde_web").removeClass("selected");
+	$("#orange_web").removeClass("selected");
+	$("#white_web").removeClass("selected");
+	$("#navy_blue_web").removeClass("selected");
+	$("#brown_web").removeClass("selected");
+	$("#forest_green_web").removeClass("selected");
+	$("#black_web").removeClass("selected");
+	$("#royal_blue_web").removeClass("selected");
+	$("#yellow_web").removeClass("selected");
+	$("#grey_web").addClass("selected");
+
+	$("#web_color").text("Color: Grey");                                                                                                                   
+});
+///////////////////////////////////////////////// web color handler ends here ///////////////////////////////
+///////////////////////////////////////////////// plam color handler strat ///////////////////////////////////
+
+$("#red_palm").click(function(){
+	$("#red_palm").addClass("selected");
+	$("#tan_palm").removeClass("selected");
+	$("#blonde_palm").removeClass("selected");
+	$("#orange_palm").removeClass("selected");
+	$("#white_palm").removeClass("selected");
+	$("#navy_blue_palm").removeClass("selected");
+	$("#brown_palm").removeClass("selected");
+	$("#forest_green_palm").removeClass("selected");
+	$("#black_palm").removeClass("selected");
+	$("#royal_blue_palm").removeClass("selected");
+	$("#yellow_palm").removeClass("selected");
+	$("#grey_palm").removeClass("selected");
+
+	$("#palm_color").text("Color: Red");                                                                                                                   
+});
+$("#tan_palm").click(function(){
+	$("#red_palm").removeClass("selected");
+	$("#tan_palm").addClass("selected");
+	$("#blonde_palm").removeClass("selected");
+	$("#orange_palm").removeClass("selected");
+	$("#white_palm").removeClass("selected");
+	$("#navy_blue_palm").removeClass("selected");
+	$("#brown_palm").removeClass("selected");
+	$("#forest_green_palm").removeClass("selected");
+	$("#black_palm").removeClass("selected");
+	$("#royal_blue_palm").removeClass("selected");
+	$("#yellow_palm").removeClass("selected");
+	$("#grey_palm").removeClass("selected");
+
+	$("#palm_color").text("Color: Tan");                                                                                                                   
+});
+$("#blonde_palm").click(function(){
+	$("#red_palm").removeClass("selected");
+	$("#tan_palm").removeClass("selected");
+	$("#blonde_palm").addClass("selected");
+	$("#orange_palm").removeClass("selected");
+	$("#white_palm").removeClass("selected");
+	$("#navy_blue_palm").removeClass("selected");
+	$("#brown_palm").removeClass("selected");
+	$("#forest_green_palm").removeClass("selected");
+	$("#black_palm").removeClass("selected");
+	$("#royal_blue_palm").removeClass("selected");
+	$("#yellow_palm").removeClass("selected");
+	$("#grey_palm").removeClass("selected");
+
+	$("#palm_color").text("Color: Blonde");                                                                                                                   
+});
+$("#orange_palm").click(function(){
+	$("#red_palm").removeClass("selected");
+	$("#tan_palm").removeClass("selected");
+	$("#blonde_palm").removeClass("selected");
+	$("#orange_palm").addClass("selected");
+	$("#white_palm").removeClass("selected");
+	$("#navy_blue_palm").removeClass("selected");
+	$("#brown_palm").removeClass("selected");
+	$("#forest_green_palm").removeClass("selected");
+	$("#black_palm").removeClass("selected");
+	$("#royal_blue_palm").removeClass("selected");
+	$("#yellow_palm").removeClass("selected");
+	$("#grey_palm").removeClass("selected");
+
+	$("#palm_color").text("Color: Orange");                                                                                                                   
+});
+$("#white_palm").click(function(){
+	$("#red_palm").removeClass("selected");
+	$("#tan_palm").removeClass("selected");
+	$("#blonde_palm").removeClass("selected");
+	$("#orange_palm").removeClass("selected");
+	$("#white_palm").addClass("selected");
+	$("#navy_blue_palm").removeClass("selected");
+	$("#brown_palm").removeClass("selected");
+	$("#forest_green_palm").removeClass("selected");
+	$("#black_palm").removeClass("selected");
+	$("#royal_blue_palm").removeClass("selected");
+	$("#yellow_palm").removeClass("selected");
+	$("#grey_palm").removeClass("selected");
+
+	$("#palm_color").text("Color: White");                                                                                                                   
+});
+/////////////////////////////error
+$("#navy_blue_palm").click(function(){
+	$("#red_palm").removeClass("selected");
+	$("#tan_palm").removeClass("selected");
+	$("#blonde_palm").removeClass("selected");
+	$("#orange_palm").removeClass("selected");
+	$("#white_palm").removeClass("selected");
+	$("#navy_blue_palm").addClass("selected");
+	$("#brown_palm").removeClass("selected");
+	$("#forest_green_palm").removeClass("selected");
+	$("#black_palm").removeClass("selected");
+	$("#royal_blue_palm").removeClass("selected");
+	$("#yellow_palm").removeClass("selected");
+	$("#grey_palm").removeClass("selected");
+
+	$("#palm_color").text("Color: Navy Blue");                                                                                                                   
+});
+////////////////////////////////////////\error
+$("#brown_palm").click(function(){
+	$("#red_palm").removeClass("selected");
+	$("#tan_palm").removeClass("selected");
+	$("#blonde_palm").removeClass("selected");
+	$("#orange_palm").removeClass("selected");
+	$("#white_palm").removeClass("selected");
+	$("#navy_blue_palm").removeClass("selected");
+	$("#brown_palm").addClass("selected");
+	$("#forest_green_palm").removeClass("selected");
+	$("#black_palm").removeClass("selected");
+	$("#royal_blue_palm").removeClass("selected");
+	$("#yellow_palm").removeClass("selected");
+	$("#grey_palm").removeClass("selected");
+
+	$("#palm_color").text("Color: Brown");                                                                                                                   
+});
+$("#forest_green_palm").click(function(){
+	$("#red_palm").removeClass("selected");
+	$("#tan_palm").removeClass("selected");
+	$("#blonde_palm").removeClass("selected");
+	$("#orange_palm").removeClass("selected");
+	$("#white_palm").removeClass("selected");
+	$("#navy_blue_palm").removeClass("selected");
+	$("#brown_palm").removeClass("selected");
+	$("#forest_green_palm").addClass("selected");
+	$("#black_palm").removeClass("selected");
+	$("#royal_blue_palm").removeClass("selected");
+	$("#yellow_palm").removeClass("selected");
+	$("#grey_palm").removeClass("selected");
+
+	$("#palm_color").text("Color: Forest Green");                                                                                                                   
+});
+$("#black_palm").click(function(){
+	$("#red_palm").removeClass("selected");
+	$("#tan_palm").removeClass("selected");
+	$("#blonde_palm").removeClass("selected");
+	$("#orange_palm").removeClass("selected");
+	$("#white_palm").removeClass("selected");
+	$("#navy_blue_palm").removeClass("selected");
+	$("#brown_palm").removeClass("selected");
+	$("#forest_green_palm").removeClass("selected");
+	$("#black_palm").addClass("selected");
+	$("#royal_blue_palm").removeClass("selected");
+	$("#yellow_palm").removeClass("selected");
+	$("#grey_palm").removeClass("selected");
+
+	$("#palm_color").text("Color: Black");                                                                                                                   
+});
+$("#royal_blue_palm").click(function(){
+	$("#red_palm").removeClass("selected");
+	$("#tan_palm").removeClass("selected");
+	$("#blonde_palm").removeClass("selected");
+	$("#orange_palm").removeClass("selected");
+	$("#white_palm").removeClass("selected");
+	$("#navy_blue_palm").removeClass("selected");
+	$("#brown_palm").removeClass("selected");
+	$("#forest_green_palm").removeClass("selected");
+	$("#black_palm").removeClass("selected");
+	$("#royal_blue_palm").addClass("selected");
+	$("#yellow_palm").removeClass("selected");
+	$("#grey_palm").removeClass("selected");
+
+	$("#palm_color").text("Color: Royal Blue");                                                                                                                   
+});
+$("#yellow_palm").click(function(){
+	$("#red_palm").removeClass("selected");
+	$("#tan_palm").removeClass("selected");
+	$("#blonde_palm").removeClass("selected");
+	$("#orange_palm").removeClass("selected");
+	$("#white_palm").removeClass("selected");
+	$("#navy_blue_palm").removeClass("selected");
+	$("#brown_palm").removeClass("selected");
+	$("#forest_green_palm").removeClass("selected");
+	$("#black_palm").removeClass("selected");
+	$("#royal_blue_palm").removeClass("selected");
+	$("#yellow_palm").addClass("selected");
+	$("#grey_palm").removeClass("selected");
+
+	$("#palm_color").text("Color: Yellow");                                                                                                                   
+});
+$("#grey_palm").click(function(){
+	$("#red_palm").removeClass("selected");
+	$("#tan_palm").removeClass("selected");
+	$("#blonde_palm").removeClass("selected");
+	$("#orange_palm").removeClass("selected");
+	$("#white_palm").removeClass("selected");
+	$("#navy_blue_palm").removeClass("selected");
+	$("#brown_palm").removeClass("selected");
+	$("#forest_green_palm").removeClass("selected");
+	$("#black_palm").removeClass("selected");
+	$("#royal_blue_palm").removeClass("selected");
+	$("#yellow_palm").removeClass("selected");
+	$("#grey_palm").addClass("selected");
+
+	$("#palm_color").text("Color: Grey");                                                                                                                   
 });
 
-////////////////////////////////////////////////step-1 counter //////////////////////////////////////////////////
-	
+///////////////////////////////////////////////// plam color handler end here /////////////////////////////////
+////////////////////////////////////////////////// back color handler strat ///////////////////////////////////
+
+
+$("#red_back").click(function(){
+	$("#red_back").addClass("selected");
+	$("#tan_back").removeClass("selected");
+	$("#blonde_back").removeClass("selected");
+	$("#orange_back").removeClass("selected");
+	$("#white_back").removeClass("selected");
+	$("#navy_blue_back").removeClass("selected");
+	$("#brown_back").removeClass("selected");
+	$("#forest_green_back").removeClass("selected");
+	$("#black_back").removeClass("selected");
+	$("#royal_blue_back").removeClass("selected");
+	$("#yellow_back").removeClass("selected");
+	$("#grey_back").removeClass("selected");
+
+	$("#back_color").text("Color: Red");                                                                                                                   
+});
+$("#tan_back").click(function(){
+	$("#red_back").removeClass("selected");
+	$("#tan_back").addClass("selected");
+	$("#blonde_back").removeClass("selected");
+	$("#orange_back").removeClass("selected");
+	$("#white_back").removeClass("selected");
+	$("#navy_blue_back").removeClass("selected");
+	$("#brown_back").removeClass("selected");
+	$("#forest_green_back").removeClass("selected");
+	$("#black_back").removeClass("selected");
+	$("#royal_blue_back").removeClass("selected");
+	$("#yellow_back").removeClass("selected");
+	$("#grey_back").removeClass("selected");
+
+	$("#back_color").text("Color: Tan");                                                                                                                   
+});
+$("#blonde_back").click(function(){
+	$("#red_back").removeClass("selected");
+	$("#tan_back").removeClass("selected");
+	$("#blonde_back").addClass("selected");
+	$("#orange_back").removeClass("selected");
+	$("#white_back").removeClass("selected");
+	$("#navy_blue_back").removeClass("selected");
+	$("#brown_back").removeClass("selected");
+	$("#forest_green_back").removeClass("selected");
+	$("#black_back").removeClass("selected");
+	$("#royal_blue_back").removeClass("selected");
+	$("#yellow_back").removeClass("selected");
+	$("#grey_back").removeClass("selected");
+
+	$("#back_color").text("Color: Blonde");                                                                                                                   
+});
+$("#orange_back").click(function(){
+	$("#red_back").removeClass("selected");
+	$("#tan_back").removeClass("selected");
+	$("#blonde_back").removeClass("selected");
+	$("#orange_back").addClass("selected");
+	$("#white_back").removeClass("selected");
+	$("#navy_blue_back").removeClass("selected");
+	$("#brown_back").removeClass("selected");
+	$("#forest_green_back").removeClass("selected");
+	$("#black_back").removeClass("selected");
+	$("#royal_blue_back").removeClass("selected");
+	$("#yellow_back").removeClass("selected");
+	$("#grey_back").removeClass("selected");
+
+	$("#back_color").text("Color: Orange");                                                                                                                   
+});
+$("#white_back").click(function(){
+	$("#red_back").removeClass("selected");
+	$("#tan_back").removeClass("selected");
+	$("#blonde_back").removeClass("selected");
+	$("#orange_back").removeClass("selected");
+	$("#white_back").addClass("selected");
+	$("#navy_blue_back").removeClass("selected");
+	$("#brown_back").removeClass("selected");
+	$("#forest_green_back").removeClass("selected");
+	$("#black_back").removeClass("selected");
+	$("#royal_blue_back").removeClass("selected");
+	$("#yellow_back").removeClass("selected");
+	$("#grey_back").removeClass("selected");
+
+	$("#back_color").text("Color: White");                                                                                                                   
+});
+$("#navy_blue_back").click(function(){
+	$("#red_back").removeClass("selected");
+	$("#tan_back").removeClass("selected");
+	$("#blonde_back").removeClass("selected");
+	$("#orange_back").removeClass("selected");
+	$("#white_back").removeClass("selected");
+	$("#navy_blue_back").addClass("selected");
+	$("#brown_back").removeClass("selected");
+	$("#forest_green_back").removeClass("selected");
+	$("#black_back").removeClass("selected");
+	$("#royal_blue_back").removeClass("selected");
+	$("#yellow_back").removeClass("selected");
+	$("#grey_back").removeClass("selected");
+
+	$("#back_color").text("Color: Navy Blue");                                                                                                                   
+});
+$("#brown_back").click(function(){
+	$("#red_back").removeClass("selected");
+	$("#tan_back").removeClass("selected");
+	$("#blonde_back").removeClass("selected");
+	$("#orange_back").removeClass("selected");
+	$("#white_back").removeClass("selected");
+	$("#navy_blue_back").removeClass("selected");
+	$("#brown_back").addClass("selected");
+	$("#forest_green_back").removeClass("selected");
+	$("#black_back").removeClass("selected");
+	$("#royal_blue_back").removeClass("selected");
+	$("#yellow_back").removeClass("selected");
+	$("#grey_back").removeClass("selected");
+
+	$("#back_color").text("Color: Brown");                                                                                                                   
+});
+$("#forest_green_back").click(function(){
+	$("#red_back").removeClass("selected");
+	$("#tan_back").removeClass("selected");
+	$("#blonde_back").removeClass("selected");
+	$("#orange_back").removeClass("selected");
+	$("#white_back").removeClass("selected");
+	$("#navy_blue_back").removeClass("selected");
+	$("#brown_back").removeClass("selected");
+	$("#forest_green_back").addClass("selected");
+	$("#black_back").removeClass("selected");
+	$("#royal_blue_back").removeClass("selected");
+	$("#yellow_back").removeClass("selected");
+	$("#grey_back").removeClass("selected");
+
+	$("#back_color").text("Color: Forest Green");                                                                                                                   
+});
+$("#black_back").click(function(){
+	$("#red_back").removeClass("selected");
+	$("#tan_back").removeClass("selected");
+	$("#blonde_back").removeClass("selected");
+	$("#orange_back").removeClass("selected");
+	$("#white_back").removeClass("selected");
+	$("#navy_blue_back").removeClass("selected");
+	$("#brown_back").removeClass("selected");
+	$("#forest_green_back").removeClass("selected");
+	$("#black_back").addClass("selected");
+	$("#royal_blue_back").removeClass("selected");
+	$("#yellow_back").removeClass("selected");
+	$("#grey_back").removeClass("selected");
+
+	$("#back_color").text("Color: Black");                                                                                                                   
+});
+$("#royal_blue_back").click(function(){
+	$("#red_back").removeClass("selected");
+	$("#tan_back").removeClass("selected");
+	$("#blonde_back").removeClass("selected");
+	$("#orange_back").removeClass("selected");
+	$("#white_back").removeClass("selected");
+	$("#navy_blue_back").removeClass("selected");
+	$("#brown_back").removeClass("selected");
+	$("#forest_green_back").removeClass("selected");
+	$("#black_back").removeClass("selected");
+	$("#royal_blue_back").addClass("selected");
+	$("#yellow_back").removeClass("selected");
+	$("#grey_back").removeClass("selected");
+
+	$("#back_color").text("Color: Royal Blue");                                                                                                                   
+});
+$("#yellow_back").click(function(){
+	$("#red_back").removeClass("selected");
+	$("#tan_back").removeClass("selected");
+	$("#blonde_back").removeClass("selected");
+	$("#orange_back").removeClass("selected");
+	$("#white_back").removeClass("selected");
+	$("#navy_blue_back").removeClass("selected");
+	$("#brown_back").removeClass("selected");
+	$("#forest_green_back").removeClass("selected");
+	$("#black_back").removeClass("selected");
+	$("#royal_blue_back").removeClass("selected");
+	$("#yellow_back").addClass("selected");
+	$("#grey_back").removeClass("selected");
+
+	$("#back_color").text("Color: Yellow");                                                                                                                   
+});
+$("#grey_back").click(function(){
+	$("#red_back").removeClass("selected");
+	$("#tan_back").removeClass("selected");
+	$("#blonde_back").removeClass("selected");
+	$("#orange_back").removeClass("selected");
+	$("#white_back").removeClass("selected");
+	$("#navy_blue_back").removeClass("selected");
+	$("#brown_back").removeClass("selected");
+	$("#forest_green_back").removeClass("selected");
+	$("#black_back").removeClass("selected");
+	$("#royal_blue_back").removeClass("selected");
+	$("#yellow_back").removeClass("selected");
+	$("#grey_back").addClass("selected");
+
+	$("#back_color").text("Color: Grey");                                                                                                                   
+});
+
+
+/////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////// back color handler ends ///////////////////////////////////
+
+/////////////////////////////////////////////////// crown color handler starts here /////////////////////////
+$("#red_crown").click(function(){
+	$("#red_crown").addClass("selected");
+	$("#tan_crown").removeClass("selected");
+	$("#blonde_crown").removeClass("selected");
+	$("#orange_crown").removeClass("selected");
+	$("#white_crown").removeClass("selected");
+	$("#navy_blue_crown").removeClass("selected");
+	$("#brown_crown").removeClass("selected");
+	$("#forest_green_crown").removeClass("selected");
+	$("#black_crown").removeClass("selected");
+	$("#royal_blue_crown").removeClass("selected");
+	$("#yellow_crown").removeClass("selected");
+	$("#grey_crown").removeClass("selected");
+
+	$("#crown_color").text("Color: Red");                                                                                                                   
+});
+$("#tan_crown").click(function(){
+	$("#red_crown").removeClass("selected");
+	$("#tan_crown").addClass("selected");
+	$("#blonde_crown").removeClass("selected");
+	$("#orange_crown").removeClass("selected");
+	$("#white_crown").removeClass("selected");
+	$("#navy_blue_crown").removeClass("selected");
+	$("#brown_crown").removeClass("selected");
+	$("#forest_green_crown").removeClass("selected");
+	$("#black_crown").removeClass("selected");
+	$("#royal_blue_crown").removeClass("selected");
+	$("#yellow_crown").removeClass("selected");
+	$("#grey_crown").removeClass("selected");
+
+	$("#crown_color").text("Color: Tan");                                                                                                                   
+});
+$("#blonde_crown").click(function(){
+	$("#red_crown").removeClass("selected");
+	$("#tan_crown").removeClass("selected");
+	$("#blonde_crown").addClass("selected");
+	$("#orange_crown").removeClass("selected");
+	$("#white_crown").removeClass("selected");
+	$("#navy_blue_crown").removeClass("selected");
+	$("#brown_crown").removeClass("selected");
+	$("#forest_green_crown").removeClass("selected");
+	$("#black_crown").removeClass("selected");
+	$("#royal_blue_crown").removeClass("selected");
+	$("#yellow_crown").removeClass("selected");
+	$("#grey_crown").removeClass("selected");
+
+	$("#crown_color").text("Color: Blonde");                                                                                                                   
+});
+$("#orange_crown").click(function(){
+	$("#red_crown").removeClass("selected");
+	$("#tan_crown").removeClass("selected");
+	$("#blonde_crown").removeClass("selected");
+	$("#orange_crown").addClass("selected");
+	$("#white_crown").removeClass("selected");
+	$("#navy_blue_crown").removeClass("selected");
+	$("#brown_crown").removeClass("selected");
+	$("#forest_green_crown").removeClass("selected");
+	$("#black_crown").removeClass("selected");
+	$("#royal_blue_crown").removeClass("selected");
+	$("#yellow_crown").removeClass("selected");
+	$("#grey_crown").removeClass("selected");
+
+	$("#crown_color").text("Color: Orange");                                                                                                                   
+});
+$("#white_crown").click(function(){
+	$("#red_crown").removeClass("selected");
+	$("#tan_crown").removeClass("selected");
+	$("#blonde_crown").removeClass("selected");
+	$("#orange_crown").removeClass("selected");
+	$("#white_crown").addClass("selected");
+	$("#navy_blue_crown").removeClass("selected");
+	$("#brown_crown").removeClass("selected");
+	$("#forest_green_crown").removeClass("selected");
+	$("#black_crown").removeClass("selected");
+	$("#royal_blue_crown").removeClass("selected");
+	$("#yellow_crown").removeClass("selected");
+	$("#grey_crown").removeClass("selected");
+
+	$("#crown_color").text("Color: White");                                                                                                                   
+});
+$("#navy_blue_crown").click(function(){
+	$("#red_crown").removeClass("selected");
+	$("#tan_crown").removeClass("selected");
+	$("#blonde_crown").removeClass("selected");
+	$("#orange_crown").removeClass("selected");
+	$("#white_crown").removeClass("selected");
+	$("#navy_blue_crown").addClass("selected");
+	$("#brown_crown").removeClass("selected");
+	$("#forest_green_crown").removeClass("selected");
+	$("#black_crown").removeClass("selected");
+	$("#royal_blue_crown").removeClass("selected");
+	$("#yellow_crown").removeClass("selected");
+	$("#grey_crown").removeClass("selected");
+
+	$("#crown_color").text("Color: Navy Blue");                                                                                                                   
+});
+$("#brown_crown").click(function(){
+	$("#red_crown").removeClass("selected");
+	$("#tan_crown").removeClass("selected");
+	$("#blonde_crown").removeClass("selected");
+	$("#orange_crown").removeClass("selected");
+	$("#white_crown").removeClass("selected");
+	$("#navy_blue_crown").removeClass("selected");
+	$("#brown_crown").addClass("selected");
+	$("#forest_green_crown").removeClass("selected");
+	$("#black_crown").removeClass("selected");
+	$("#royal_blue_crown").removeClass("selected");
+	$("#yellow_crown").removeClass("selected");
+	$("#grey_crown").removeClass("selected");
+
+	$("#crown_color").text("Color: Brown");                                                                                                                   
+});
+$("#forest_green_crown").click(function(){
+	$("#red_crown").removeClass("selected");
+	$("#tan_crown").removeClass("selected");
+	$("#blonde_crown").removeClass("selected");
+	$("#orange_crown").removeClass("selected");
+	$("#white_crown").removeClass("selected");
+	$("#navy_blue_crown").removeClass("selected");
+	$("#brown_crown").removeClass("selected");
+	$("#forest_green_crown").addClass("selected");
+	$("#black_crown").removeClass("selected");
+	$("#royal_blue_crown").removeClass("selected");
+	$("#yellow_crown").removeClass("selected");
+	$("#grey_crown").removeClass("selected");
+
+	$("#crown_color").text("Color: Forest Green");                                                                                                                   
+});
+$("#black_crown").click(function(){
+	$("#red_crown").removeClass("selected");
+	$("#tan_crown").removeClass("selected");
+	$("#blonde_crown").removeClass("selected");
+	$("#orange_crown").removeClass("selected");
+	$("#white_crown").removeClass("selected");
+	$("#navy_blue_crown").removeClass("selected");
+	$("#brown_crown").removeClass("selected");
+	$("#forest_green_crown").removeClass("selected");
+	$("#black_crown").addClass("selected");
+	$("#royal_blue_crown").removeClass("selected");
+	$("#yellow_crown").removeClass("selected");
+	$("#grey_crown").removeClass("selected");
+
+	$("#crown_color").text("Color: Black");                                                                                                                   
+});
+$("#royal_blue_crown").click(function(){
+	$("#red_crown").removeClass("selected");
+	$("#tan_crown").removeClass("selected");
+	$("#blonde_crown").removeClass("selected");
+	$("#orange_crown").removeClass("selected");
+	$("#white_crown").removeClass("selected");
+	$("#navy_blue_crown").removeClass("selected");
+	$("#brown_crown").removeClass("selected");
+	$("#forest_green_crown").removeClass("selected");
+	$("#black_crown").removeClass("selected");
+	$("#royal_blue_crown").addClass("selected");
+	$("#yellow_crown").removeClass("selected");
+	$("#grey_crown").removeClass("selected");
+
+	$("#crown_color").text("Color: Royal Blue");                                                                                                                   
+});
+$("#yellow_crown").click(function(){
+	$("#red_crown").removeClass("selected");
+	$("#tan_crown").removeClass("selected");
+	$("#blonde_crown").removeClass("selected");
+	$("#orange_crown").removeClass("selected");
+	$("#white_crown").removeClass("selected");
+	$("#navy_blue_crown").removeClass("selected");
+	$("#brown_crown").removeClass("selected");
+	$("#forest_green_crown").removeClass("selected");
+	$("#black_crown").removeClass("selected");
+	$("#royal_blue_crown").removeClass("selected");
+	$("#yellow_crown").addClass("selected");
+	$("#grey_crown").removeClass("selected");
+
+	$("#crown_color").text("Color: Yellow");                                                                                                                   
+});
+$("#grey_crown").click(function(){
+	$("#red_crown").removeClass("selected");
+	$("#tan_crown").removeClass("selected");
+	$("#blonde_crown").removeClass("selected");
+	$("#orange_crown").removeClass("selected");
+	$("#white_crown").removeClass("selected");
+	$("#navy_blue_crown").removeClass("selected");
+	$("#brown_crown").removeClass("selected");
+	$("#forest_green_crown").removeClass("selected");
+	$("#black_crown").removeClass("selected");
+	$("#royal_blue_crown").removeClass("selected");
+	$("#yellow_crown").removeClass("selected");
+	$("#grey_crown").addClass("selected");
+
+	$("#crown_color").text("Color: Grey");                                                                                                                   
+});
+
+/////////////////////////////////////////////// crown color handler ends here ///////////////////////////////
+////////////////////////////////////////////// binding color handler start  /////////////////////////////////
+$("#red_binding").click(function(){
+	$("#red_binding").addClass("selected");
+	$("#tan_binding").removeClass("selected");
+	$("#blonde_binding").removeClass("selected");
+	$("#orange_binding").removeClass("selected");
+	$("#white_binding").removeClass("selected");
+	$("#navy_blue_binding").removeClass("selected");
+	$("#brown_binding").removeClass("selected");
+	$("#forest_green_binding").removeClass("selected");
+	$("#black_binding").removeClass("selected");
+	$("#royal_blue_binding").removeClass("selected");
+	$("#yellow_binding").removeClass("selected");
+	$("#grey_binding").removeClass("selected");
+
+	$("#binding_color").text("Color: Red");                                                                                                                   
+});
+$("#tan_binding").click(function(){
+	$("#red_binding").removeClass("selected");
+	$("#tan_binding").addClass("selected");
+	$("#blonde_binding").removeClass("selected");
+	$("#orange_binding").removeClass("selected");
+	$("#white_binding").removeClass("selected");
+	$("#navy_blue_binding").removeClass("selected");
+	$("#brown_binding").removeClass("selected");
+	$("#forest_green_binding").removeClass("selected");
+	$("#black_binding").removeClass("selected");
+	$("#royal_blue_binding").removeClass("selected");
+	$("#yellow_binding").removeClass("selected");
+	$("#grey_binding").removeClass("selected");
+
+	$("#binding_color").text("Color: Tan");                                                                                                                   
+});
+$("#blonde_binding").click(function(){
+	$("#red_binding").removeClass("selected");
+	$("#tan_binding").removeClass("selected");
+	$("#blonde_binding").addClass("selected");
+	$("#orange_binding").removeClass("selected");
+	$("#white_binding").removeClass("selected");
+	$("#navy_blue_binding").removeClass("selected");
+	$("#brown_binding").removeClass("selected");
+	$("#forest_green_binding").removeClass("selected");
+	$("#black_binding").removeClass("selected");
+	$("#royal_blue_binding").removeClass("selected");
+	$("#yellow_binding").removeClass("selected");
+	$("#grey_binding").removeClass("selected");
+
+	$("#binding_color").text("Color: Blonde");                                                                                                                   
+});
+$("#orange_binding").click(function(){
+	$("#red_binding").removeClass("selected");
+	$("#tan_binding").removeClass("selected");
+	$("#blonde_binding").removeClass("selected");
+	$("#orange_binding").addClass("selected");
+	$("#white_binding").removeClass("selected");
+	$("#navy_blue_binding").removeClass("selected");
+	$("#brown_binding").removeClass("selected");
+	$("#forest_green_binding").removeClass("selected");
+	$("#black_binding").removeClass("selected");
+	$("#royal_blue_binding").removeClass("selected");
+	$("#yellow_binding").removeClass("selected");
+	$("#grey_binding").removeClass("selected");
+
+	$("#binding_color").text("Color: Orange");                                                                                                                   
+});
+$("#white_binding").click(function(){
+	$("#red_binding").removeClass("selected");
+	$("#tan_binding").removeClass("selected");
+	$("#blonde_binding").removeClass("selected");
+	$("#orange_binding").removeClass("selected");
+	$("#white_binding").addClass("selected");
+	$("#navy_blue_binding").removeClass("selected");
+	$("#brown_binding").removeClass("selected");
+	$("#forest_green_binding").removeClass("selected");
+	$("#black_binding").removeClass("selected");
+	$("#royal_blue_binding").removeClass("selected");
+	$("#yellow_binding").removeClass("selected");
+	$("#grey_binding").removeClass("selected");
+
+	$("#binding_color").text("Color: White");                                                                                                                   
+});
+$("#navy_blue_binding").click(function(){
+	$("#red_binding").removeClass("selected");
+	$("#tan_binding").removeClass("selected");
+	$("#blonde_binding").removeClass("selected");
+	$("#orange_binding").removeClass("selected");
+	$("#white_binding").removeClass("selected");
+	$("#navy_blue_binding").addClass("selected");
+	$("#brown_binding").removeClass("selected");
+	$("#forest_green_binding").removeClass("selected");
+	$("#black_binding").removeClass("selected");
+	$("#royal_blue_binding").removeClass("selected");
+	$("#yellow_binding").removeClass("selected");
+	$("#grey_binding").removeClass("selected");
+
+	$("#binding_color").text("Color: Navy Blue");                                                                                                                   
+});
+$("#brown_binding").click(function(){
+	$("#red_binding").removeClass("selected");
+	$("#tan_binding").removeClass("selected");
+	$("#blonde_binding").removeClass("selected");
+	$("#orange_binding").removeClass("selected");
+	$("#white_binding").removeClass("selected");
+	$("#navy_blue_binding").removeClass("selected");
+	$("#brown_binding").addClass("selected");
+	$("#forest_green_binding").removeClass("selected");
+	$("#black_binding").removeClass("selected");
+	$("#royal_blue_binding").removeClass("selected");
+	$("#yellow_binding").removeClass("selected");
+	$("#grey_binding").removeClass("selected");
+
+	$("#binding_color").text("Color: Brown");                                                                                                                   
+});
+$("#black_binding").click(function(){
+	$("#red_binding").removeClass("selected");
+	$("#tan_binding").removeClass("selected");
+	$("#blonde_binding").removeClass("selected");
+	$("#orange_binding").removeClass("selected");
+	$("#white_binding").removeClass("selected");
+	$("#navy_blue_binding").removeClass("selected");
+	$("#brown_binding").removeClass("selected");
+	$("#forest_green_binding").removeClass("selected");
+	$("#black_binding").addClass("selected");
+	$("#royal_blue_binding").removeClass("selected");
+	$("#yellow_binding").removeClass("selected");
+	$("#grey_binding").removeClass("selected");
+
+	$("#binding_color").text("Color: Black");                                                                                                                   
+});
+$("#royal_blue_binding").click(function(){
+	$("#red_binding").removeClass("selected");
+	$("#tan_binding").removeClass("selected");
+	$("#blonde_binding").removeClass("selected");
+	$("#orange_binding").removeClass("selected");
+	$("#white_binding").removeClass("selected");
+	$("#navy_blue_binding").removeClass("selected");
+	$("#brown_binding").removeClass("selected");
+	$("#forest_green_binding").removeClass("selected");
+	$("#black_binding").removeClass("selected");
+	$("#royal_blue_binding").addClass("selected");
+	$("#yellow_binding").removeClass("selected");
+	$("#grey_binding").removeClass("selected");
+
+	$("#binding_color").text("Color: Royal Blue");                                                                                                                   
+});
+$("#yellow_binding").click(function(){
+	$("#red_binding").removeClass("selected");
+	$("#tan_binding").removeClass("selected");
+	$("#blonde_binding").removeClass("selected");
+	$("#orange_binding").removeClass("selected");
+	$("#white_binding").removeClass("selected");
+	$("#navy_blue_binding").removeClass("selected");
+	$("#brown_binding").removeClass("selected");
+	$("#forest_green_binding").removeClass("selected");
+	$("#black_binding").removeClass("selected");
+	$("#royal_blue_binding").removeClass("selected");
+	$("#yellow_binding").addClass("selected");
+	$("#grey_binding").removeClass("selected");
+
+	$("#binding_color").text("Color: Yellow");                                                                                                                   
+});
+$("#grey_binding").click(function(){
+	$("#red_binding").removeClass("selected");
+	$("#tan_binding").removeClass("selected");
+	$("#blonde_binding").removeClass("selected");
+	$("#orange_binding").removeClass("selected");
+	$("#white_binding").removeClass("selected");
+	$("#navy_blue_binding").removeClass("selected");
+	$("#brown_binding").removeClass("selected");
+	$("#forest_green_binding").removeClass("selected");
+	$("#black_binding").removeClass("selected");
+	$("#royal_blue_binding").removeClass("selected");
+	$("#yellow_binding").removeClass("selected");
+	$("#grey_binding").addClass("selected");
+
+	$("#binding_color").text("Color: Grey");                                                                                                                   
+});
+//////////////////////////////////////////////////////// binding color handler ends //////////////////////////////////////
+/////////////////////////////////////////////////////// text color handler starts ////////////////////////////////////////////
+
+$("#red_text_color").click(function(){
+	$("#red_text_color").addClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+	$("#text_color").text("Color: Red");                                                                                                                   
+});
+$("#volt_green_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").addClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Volt Green");                                                                                                                   
+});
+$("#sky_blue_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").addClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Sky Blue");                                                                                                                   
+});
+$("#tan_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").addClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Tan");                                                                                                                   
+});
+$("#blonde_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").addClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Blonde");                                                                                                                   
+});
+$("#teal_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").addClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Teal");                                                                                                                   
+});
+$("#orange_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").addClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Orange");                                                                                                                   
+});
+$("#white_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").addClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: White");                                                                                                                   
+});
+$("#pink_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").addClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Pink");                                                                                                                   
+});
+$("#navy_blue_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").addClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Navy Blue");                                                                                                                   
+});
+$("#purple_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").addClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Purple");                                                                                                                   
+});
+$("#royal_blue_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").addClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Royal Blue");                                                                                                                   
+});
+$("#brown_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").addClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Brown");                                                                                                                   
+});
+$("#forest_green_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").addClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Forest Green");                                                                                                                   
+});
+$("#silver_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").addClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Silver");                                                                                                                   
+});
+$("#volt_yellow_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").addClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Volt Yellow");                                                                                                                   
+});
+$("#maroon_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").addClass("selected");
+	$("#gold_text_color").removeClass("selected");
+
+	$("#text_color").text("Color: Maroon");                                                                                                                   
+});
+$("#gold_text_color").click(function(){
+	$("#red_text_color").removeClass("selected");
+	$("#volt_green_text_color").removeClass("selected");
+	$("#sky_blue_text_color").removeClass("selected");
+	$("#tan_text_color").removeClass("selected");
+	$("#blonde_text_color").removeClass("selected");
+	$("#teal_text_color").removeClass("selected");
+	$("#orange_text_color").removeClass("selected");
+	$("#white_text_color").removeClass("selected");
+	$("#pink_text_color").removeClass("selected");
+	$("#navy_blue_text_color").removeClass("selected");
+	$("#purple_text_color").removeClass("selected");
+	$("#royal_blue_text_color").removeClass("selected");
+	$("#brown_text_color").removeClass("selected");
+	$("#forest_green_text_color").removeClass("selected");
+	$("#silver_text_color").removeClass("selected");
+	$("#volt_yellow_text_color").removeClass("selected");
+	$("#maroon_text_color").removeClass("selected");
+	$("#gold_text_color").addClass("selected");
+
+	$("#text_color").text("Color: Gold");                                                                                                                   
+});
+
+/////////////////////////////////////////////////////// text color handler ends here //////////////////////////////////
+/////////////////////////////////////////////// glove type handler //////////////////////////////////////////
+$("#f_type1").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	type = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#f_type2").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	type = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#f_type3").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	type = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#f_type4").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	type = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+////////////////////////////////////////////////////////////glove type handler ends here /////////////////////////
+//////////////////////////////////////////////////////////// glove velcro wrist handler ////////////////////////
+
+$("#velcro_wrist_yes").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	velcro = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#velcro_wrist_no").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	velcro = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+///////////////////////////////////////////////////////// glove velcro wrist handler ends //////////////////////
+///////////////////////////////////////////////////////// glove wrist guard handler stasts /////////////////////
+
+$("#wrist_guard_yes").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	wrist = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#wrist_guard_no").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	wrist = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+///////////////////////////////////////////////////////// glove wrist gurad handler ends /////////////////////// 
+//////////////////////////////////////////////////////// glove throwing hand handler start ////////////////////
+
+$("#throwing_hand_left").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	throwing = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#throwing_hand_right").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	throwing = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+//////////////////////////////////////////////////////// glove throwing handler ends ///////////////////////////
+//////////////////////////////////////////////////////// glove finger hood handler stars ////////////////////////
+
+$("#finger_hood_none").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	finger = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#finger_hood_pad").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	finger = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#finger_hood_hood").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	finger = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+//////////////////////////////////////////////////////// glove finger hood handler edns ///////////////////////////
+/////////////////////////////////////////////////////// glove lace handler ///////////////////////////////////////
+
+$("#lace_length_normal").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	lace = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#lace_length_long").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	lace = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+////////////////////////////////////////////////////// glove lace handler ends ///////////////////////////////////
+////////////////////////////////////////////////////// glove size handler start /////////////////////////////////
+
+$("#glove_size_33").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_34").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_33_5").click(function(){
+	$("#img2").attr("src","pics/classic_series.png");
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+///////////////////////////////////////////////////// glove size handler ends ////////////////////////////////////
+});
+
+
+
+
 </script>
 
 
@@ -97,7 +2321,6 @@ $("#volt_green_logo").click(function(){
 		</div>
 		<div id = "content">
 			<h1>Your Glove Design</h1>
-			<img id = "img1" src="imgs/g22.png"></img>
 			<img id = "img2" src="imgs/g33.png"></img>
 			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		</div>
@@ -105,39 +2328,13 @@ $("#volt_green_logo").click(function(){
 			<h4>Select custome glove properties</h4><hr>
 			<!--------------------------------------------------step1-------------------------------->
 			<div id="step1">
-				<b>STEP 1 - GLOVE BASE</b>
+				<b>STEP 1 - GLOVE BASE <span style="color:red" id = "step_1_count">(0/7)</span></b>
 			</div>
 			<div id="step_1_op">
             
-                <h4 style="margin-bottom:20px;">Glove Model*</h4>
-                <div class="radio">
-                    <label>
-                    <input type="radio" name="f_model" id="f_model1" value="f_model1">Signature Series - $184.99
-                                                                            Includes Custom Glove Bag
-                                                                            Kip Leather (4-5 weeks)
-                    </label>
-                </div>
-                <div class="radio">
-                    <label>
-                    <input type="radio" name="f_model" id="f_model2" value="f_model2">Signature Series Crown Tip - $184.99
-                                                                                        Includes Custom Glove Bag
-                                                                                        Kip Leather (4-5 weeks)
-                    </label>
-                </div>
-                <div class="radio">
-                    <label>
-                    <input type="radio" name="f_model" id="f_model3" value="f_model3">Classic Series 2 (C2) - $154.99
-                                                                                    Premium Steerhide (4-5 weeks)
-                    </label>
-                </div>
-                <div class="radio">
-                    <label>
-                    <input type="radio" name="f_model" id="f_model4" value="f_model4">YOUTH Rise Series - $119.99
-                                                                                    USA Steerhide Leather (4-5 weeks)
-                    </label>
-                </div>
+                
 
-                <h4 style="margin-bottom:20px;">Glove model*</h4>
+                <h4 style="margin-bottom:20px;">Glove Type*</h4>
                 <div class="radio">
                     <label>
                     <input type="radio" name="f_type" id="f_type1" value="f_type1">Catcher
@@ -145,17 +2342,17 @@ $("#volt_green_logo").click(function(){
                 </div>
                 <div class="radio">
                     <label>
-                    <input type="radio" name="f_type" id="f_type1" value="f_type1">Fielding
+                    <input type="radio" name="f_type" id="f_type2" value="f_type2">Fielding
                     </label>
                 </div>
                 <div class="radio">
                     <label>
-                    <input type="radio" name="f_type" id="f_type1" value="f_type1">First Base
+                    <input type="radio" name="f_type" id="f_type3" value="f_type3">First Base
                     </label>
                 </div>
                 <div class="radio">
                     <label>
-                    <input type="radio" name="f_type" id="f_type1" value="f_type1">Softball
+                    <input type="radio" name="f_type" id="f_type4" value="f_type4">Softball
                     </label>
                 </div>
 
@@ -251,206 +2448,210 @@ $("#volt_green_logo").click(function(){
 						</div>
 						<div class = "volt_green" id = "volt_green_logo">
 						</div>
-						<div class = "sky_blue">
+						<div class = "sky_blue" id="sky_blue_logo">
 						</div>
-						<div class = "tan">
+						<div class = "tan" id="tan_logo">
 						</div>
-						<div class = "blonde">
+						<div class = "blonde" id="blonde_logo">
 						</div>
-						<div class = "teal">
+						<div class = "teal" id="teal_logo">
 						</div>
-						<div class = "orange">
+						<div class = "orange" id="orange_logo">
 						</div>
-						<div class = "white">
+						<div class = "white" id="white_logo">
 						</div>
-						<div class = "pink">
+						<div class = "pink" id="pink_logo">
 						</div>
-						<div class = "navy_blue">
+						<div class = "navy_blue" id="navy_blue_logo">
 						</div>
-						<div class = "purple">
+						<div class = "purple" id = "purple_logo">
 						</div>
-						<div class = "royal_blue">
+						<div class = "royal_blue" id = "royal_blue_logo">
 						</div>
-						<div class = "brown">
+						<div class = "brown" id="brown_logo">
 						</div>
-						<div class = "forest_green">
+						<div class = "forest_green" id="forest_green_logo">
 						</div>
-						<div class = "black">
+						<div class = "silver" id="silver_logo">
 						</div>
-						<div class = "silver">
+						<div class = "volt_yellow" id="volt_yellow_logo">
 						</div>
-						<div class = "volt_yellow">
+						<div class = "maroon" id="maroon_logo">
 						</div>
-						<div class = "maroon">
-						</div>
-						<div class = "gold">
+						<div class = "gold" id="gold_logo">
 						</div>
 					</div><br><br><br>
 					<div id = "logo_color">Color:Not Selected</div>
                 <h4 style="margin-bottom:20px;">Laces</h4>
                 	<div id="color_container">
-						<div class="red" id="red_logo_color">
+						<div class="red" id="red_laces">
 						</div>
-						<div class = "sky_blue">
+						<div class = "sky_blue" id="sky_blue_laces">
 						</div>
-						<div class = "tan">
+						<div class = "tan" id="tan_laces">
 						</div>
-						<div class = "blonde">
+						<div class = "blonde" id="blonde_laces">
 						</div>
-						<div class = "orange">
+						<div class = "orange" id="orange_laces">
 						</div>
-						<div class = "white">
+						<div class = "white" id="white_laces">
 						</div>
-						<div class = "navy_blue">
+						<div class = "navy_blue" id="navy_blue_laces">
 						</div>
-						<div class = "purple">
+						<div class = "purple" id="purple_laces">
 						</div>
-						<div class = "brown">
+						<div class = "brown" id="brown_laces">
 						</div>
-						<div class = "forest_green">
+						<div class = "forest_green" id="forest_green_laces">
 						</div>
-						<div class = "black">
+						<div class = "black" id="black_laces">
 						</div>
-						<div class = "royal_blue">
+						<div class = "royal_blue" id="royal_blue_laces">
 						</div>
-						<div class = "yellow">
+						<div class = "yellow" id="yellow_laces">
 						</div>
-						<div class = "grey">
+						<div class = "grey" id="grey_laces">
 						</div>
-					</div><br><br>
+					</div><br><br><br>
+					<div id = "laces_color">Color:Not Selected</div>
 					<h4 style="margin-bottom:20px;">Web*</h4>
 					<div id="color_container">
-						<div class="red" id="red_logo_color">
+						<div class="red" id="red_web">
 						</div>
-						<div class = "tan">
+						<div class = "tan" id="tan_web">
 						</div>
-						<div class = "blonde">
+						<div class = "blonde" id="blonde_web">
 						</div>
-						<div class = "orange">
+						<div class = "orange" id="orange_web">
 						</div>
-						<div class = "white">
+						<div class = "white" id="white_web">
 						</div>
-						<div class = "navy_blue">
+						<div class = "navy_blue" id="navy_blue_web">
 						</div>
-						<div class = "brown">
+						<div class = "brown" id="brown_web">
 						</div>
-						<div class = "forest_green">
+						<div class = "forest_green" id="forest_green_web">
 						</div>
-						<div class = "black">
+						<div class = "black" id="black_web">
 						</div>
-						<div class = "royal_blue">
+						<div class = "royal_blue" id="royal_blue_web">
 						</div>
-						<div class = "yellow">
+						<div class = "yellow" id="yellow_web">
 						</div>
-						<div class = "grey">
+						<div class = "grey" id="grey_web">
 						</div>
 					</div><br><br>
+					<div id = "web_color">Color:Not Selected</div>
 					<h4 style="margin-bottom:20px;">Palm Leather*</h4>
 					<div id="color_container">
-						<div class="red" id="red_logo_color">
+						<div class="red" id="red_palm">
 						</div>
-						<div class = "tan">
+						<div class = "tan" id="tan_palm">
 						</div>
-						<div class = "blonde">
+						<div class = "blonde" id="blonde_palm">
 						</div>
-						<div class = "orange">
+						<div class = "orange" id="orange_palm">
 						</div>
-						<div class = "white">
+						<div class = "white" id="white_palm">
 						</div>
-						<div class = "navy_blue">
+						<div class = "navy_blue" id="navy_blue_palm">
 						</div>
-						<div class = "brown">
+						<div class = "brown" id="brown_palm">
 						</div>
-						<div class = "forest_green">
+						<div class = "forest_green" id="forest_green_palm">
 						</div>
-						<div class = "black">
+						<div class = "black" id="black_palm">
 						</div>
-						<div class = "royal_blue">
+						<div class = "royal_blue" id="royal_blue_palm">
 						</div>
-						<div class = "yellow">
+						<div class = "yellow" id="yellow_palm">
 						</div>
-						<div class = "grey">
+						<div class = "grey" id="grey_palm">
 						</div>
 					</div><br><br>
+					<div id = "palm_color">Color:Not Selected</div>
 					<h4 style="margin-bottom:20px;">Back Leather 1*</h4>
 					<div id="color_container">
-						<div class="red" id="red_logo_color">
+						<div class="red" id="red_back">
 						</div>
-						<div class = "tan">
+						<div class = "tan" id="tan_back">
 						</div>
-						<div class = "blonde">
+						<div class = "blonde" id="blonde_back">
 						</div>
-						<div class = "orange">
+						<div class = "orange" id = "orange_back">
 						</div>
-						<div class = "white">
+						<div class = "white" id="white_back">
 						</div>
-						<div class = "navy_blue">
+						<div class = "navy_blue" id="navy_blue_back">
 						</div>
-						<div class = "brown">
+						<div class = "brown" id="brown_back">
 						</div>
-						<div class = "forest_green">
+						<div class = "forest_green" id="forest_green_back">
 						</div>
-						<div class = "black">
+						<div class = "black" id="black_back">
 						</div>
-						<div class = "royal_blue">
+						<div class = "royal_blue" id="royal_blue_back">
 						</div>
-						<div class = "yellow">
+						<div class = "yellow" id="yellow_back">
 						</div>
-						<div class = "grey">
+						<div class = "grey" id="grey_back">
 						</div>
 					</div><br><br>
+					<div id = "back_color">Color:Not Selected</div>
 					<h4 style="margin-bottom:20px;">Binding*</h4>
 					<div id="color_container">
-						<div class="red" id="red_logo_color">
+						<div class="red" id="red_binding">
 						</div>
-						<div class = "tan">
+						<div class = "tan" id="tan_binding">
 						</div>
-						<div class = "blonde">
+						<div class = "blonde" id="blonde_binding">
 						</div>
-						<div class = "orange">
+						<div class = "orange" id = "orange_binding">
 						</div>
-						<div class = "white">
+						<div class = "white" id="white_binding">
 						</div>
-						<div class = "navy_blue">
+						<div class = "navy_blue" id="navy_blue_binding">
 						</div>
-						<div class = "brown">
+						<div class = "brown" id="brown_binding">
 						</div>
-						<div class = "black">
+						<div class = "black" id="black_binding">
 						</div>
-						<div class = "royal_blue">
+						<div class = "royal_blue" id="royal_blue_binding">
 						</div>
-						<div class = "yellow">
+						<div class = "yellow" id="yellow_binding">
 						</div>
-						<div class = "grey">
+						<div class = "grey" id="grey_binding">
 						</div>
 					</div><br><br>
+					<div id = "binding_color">Color:Not Selected</div>
 					<h4 style="margin-bottom:20px;">Crown*</h4>
 					<div id="color_container">
-						<div class="red" id="red_logo_color">
+						<div class="red" id="red_crown">
 						</div>
-						<div class = "tan">
+						<div class = "tan" id="tan_crown">
 						</div>
-						<div class = "blonde">
+						<div class = "blonde" id="blonde_crown">
 						</div>
-						<div class = "orange">
+						<div class = "orange" id="orange_crown">
 						</div>
-						<div class = "white">
+						<div class = "white" id="white_crown">
 						</div>
-						<div class = "navy_blue">
+						<div class = "navy_blue" id="navy_blue_crown">
 						</div>
-						<div class = "brown">
+						<div class = "brown" id="brown_crown">
 						</div>
-						<div class = "forest_green">
+						<div class = "forest_green" id="forest_green_crown">
 						</div>
-						<div class = "black">
+						<div class = "black" id="black_crown">
 						</div>
-						<div class = "royal_blue">
+						<div class = "royal_blue" id="royal_blue_crown">
 						</div>
-						<div class = "yellow">
+						<div class = "yellow" id="yellow_crown">
 						</div>
-						<div class = "grey">
+						<div class = "grey" id="grey_crown">
 						</div>
-					</div>
+					</div><br><br>
+					<div id = "crown_color">Color:Not Selected</div>
 			</div>
 			<div id="step3">
 				<b>STEP - 3 PERSONALIZE</b>
@@ -459,48 +2660,45 @@ $("#volt_green_logo").click(function(){
 
 				<h4 style="margin-bottom:20px;">Text Color*</h4>
 	               	<div id="color_container">
-						<div class="red" id="red_logo_color">
+						<div class="red" id="red_text_color">
 						</div>
-						<div class = "volt_green">
+						<div class = "volt_green" id = "volt_green_text_color">
 						</div>
-						<div class = "sky_blue">
+						<div class = "sky_blue" id="sky_blue_text_color">
 						</div>
-						<div class = "tan">
+						<div class = "tan" id="tan_text_color">
 						</div>
-						<div class = "blonde">
+						<div class = "blonde" id="blonde_text_color">
 						</div>
-						<div class = "teal">
+						<div class = "teal" id="teal_text_color">
 						</div>
-						<div class = "orange">
+						<div class = "orange" id="orange_text_color">
 						</div>
-						<div class = "white">
+						<div class = "white" id="white_text_color">
 						</div>
-						<div class = "pink">
+						<div class = "pink" id="pink_text_color">
 						</div>
-						<div class = "navy_blue">
+						<div class = "navy_blue" id="navy_blue_text_color">
 						</div>
-						<div class = "purple">
+						<div class = "purple" id = "purple_text_color">
 						</div>
-						<div class = "royal_blue">
+						<div class = "royal_blue" id = "royal_blue_text_color">
 						</div>
-						<div class = "brown">
+						<div class = "brown" id="brown_text_color">
 						</div>
-						<div class = "forest_green">
+						<div class = "forest_green" id="forest_green_text_color">
 						</div>
-						<div class = "black">
+						<div class = "silver" id="silver_text_color">
 						</div>
-						<div class = "silver">
+						<div class = "volt_yellow" id="volt_yellow_text_color">
 						</div>
-						<div class = "volt_green">
+						<div class = "maroon" id="maroon_text_color">
 						</div>
-						<div class = "volt_yellow">
-						</div>
-						<div class = "maroon">
-						</div>
-						<div class = "gold">
+						<div class = "gold" id="gold_text_color">
 						</div>
 					</div>
-						<br><br>
+						<br><br><br>
+						<div id = "text_color">Color:Not Selected</div>
 					<h4 style="margin-bottom:20px;">Text Font*</h4>
 						<div class="radio">
 	                    <label>
