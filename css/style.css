@@ -2528,4 +2528,68 @@ li.resp-tab-item.bath6{
 		background-size: 53% !important;
 	}
 }
+.banner_slogan{
+background-color: #f87617;
+opacity: .7;
+border-radius: 100px;
+}
+.get_quote_style{
+  border-bottom: 5px solid #f87617;
+}
+#dialnow{
+  width:100%;
+  background-color: #f87617;
+  margin:none;
+  padding-top:20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
 
+.hr_aboutus{
+  margin-top: -10px;
+}
+/*page aboutus.htm*/
+.intro{
+  margin-top: 80px;
+}
+.page_heading{
+  color: #f87617;
+  text-align: center;
+}
+/*lis style*/
+.info{
+  margin-left: 200px;
+  list-style-type: none;
+}
+.info li h3{
+  border: 3px solid #f87617;
+  width: 40px;
+  padding-left: 10px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+.info li p{
+  color: #878282;
+}
+.info li{
+  margin:10px;
+}
+.info li a{
+  color: #878282;
+  text-decoration: none;
+}
+.info li a:hover{
+  color: #f87617;
+  text-decoration: underline;
+}
+.info li h3:hover{
+  border: 3px solid black;
+  width: 40px;
+  padding-left: 10px;
+  border-radius: 60px;
+  cursor: pointer;
+  color: #f87617
+}
+/*social icons*/
+
+/*===================================== aboutus.htm page end =======================*/
