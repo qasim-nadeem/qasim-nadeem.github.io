@@ -241,7 +241,7 @@ top: 9%;
 
 /*-- Slider part Ends Here --*/
 .banner1{
-    background: url(../images/sp1.jpg) no-repeat center;
+    background: url(../images/sh.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -257,6 +257,24 @@ top: 9%;
     -ms-background-size: cover;
     -moz-background-size: cover;
     min-height: 700px;		
+}
+.banner3{
+    background: url(../images/education.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 700px;    
+}
+.banner4{
+    background: url(../images/health.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 700px;    
 }
 .banner-info {
     margin: 15em auto 0;
@@ -2528,6 +2546,7 @@ li.resp-tab-item.bath6{
 		background-size: 53% !important;
 	}
 }
+/*=============================================== index2.htm start ==================================*/
 .banner_slogan{
 background-color: #f87617;
 opacity: .7;
@@ -2545,8 +2564,42 @@ border-radius: 100px;
   text-align: center;
 }
 
+#services{
+  padding-left: 10%;
+  background-color: none;
+  height: 250px;
+}
+#traction{
+  background-color: none;
+}
+#main h3{
+  text-align: center;
+  margin: 10px;
+  font: arial;
+  text-shadow:.2em .2em .3em silver;
+}
+#ach{
+  background-color: none;
+  padding-top: 30px;
+}
+#team{
+  background-color: none;
+}
+#team_table{
+  text-align: center;
+}
+#team_table tr td{
+  padding: 30px;
+}
+.profile_pic{
+  border-radius: 100px;
+}
+.profile_pic:hover{
+  border: 5px solid #f87617;
+}
+/*==============================================index2.htm ends ==========================================*/
 .hr_aboutus{
-  margin-top: -10px;
+  margin-top: -40px;
 }
 /*page aboutus.htm*/
 .intro{
