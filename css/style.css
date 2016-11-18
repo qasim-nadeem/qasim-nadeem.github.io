@@ -2550,7 +2550,7 @@ border-radius: 100px;
 }
 /*page aboutus.htm*/
 .intro{
-  margin-top: 80px;
+  margin-top: 20px;
 }
 .page_heading{
   color: #f87617;
@@ -2591,5 +2591,124 @@ border-radius: 100px;
   color: #f87617
 }
 /*social icons*/
-
+.service_button{
+  border: 2px solid #f87617;
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: gray;
+}
+.service_button:hover{
+  border: 4px solid black;
+  border-radius: 70px;
+}
 /*===================================== aboutus.htm page end =======================*/
+
+/*=======================================solutions.htm strat =======================*/
+.left_pan{
+  background-color: #fd9950;
+  height: 600px;
+}
+.right_pan{
+  background-color: white;
+  height: 200px;
+}
+#solution_hr{
+  margin-top: -10px;
+}
+.panel_button{
+  text-align: center;
+  padding-top: 15px;
+  width:250px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: white; 
+}
+.panel_button_drop{
+  text-align: center;
+  padding-top: 15px;
+  width:250px;
+  height: 50px;
+  background-color: white; 
+  border-top: 1px solid gray;
+  display: none;
+}
+.panel_button_drop:hover{
+  background-color: #ffcca6;
+}
+.panel_button b{
+  margin-left: 30px;
+}
+#econo_plan{
+  width: 500px;
+  height: 300px;
+  text-align: center;
+}
+/*=======================================solutions .htm ends ================================*/
+/*============================================= contact .htm start ========================*/
+.send_message{
+  background-color: black;
+}
+/*=============================================contact.htm ends ===========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
