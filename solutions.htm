@@ -45,13 +45,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--//end-animate-->
 <script src="js/responsiveslides.min.js"></script>
 <link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+
+<script>
+$(document).ready(function(){
+$("#backup").click(function(){
+$(".panel_button_drop").slideToggle();
+});
+
+
+});
+
+
+</script>
 </head>
 
 
 <body>
 <!-- header -->
 <div class="header-bottom">
-		<div class="container" style="width:100%;margin-top:-10px;margin-bottom:-10px;">
+		<div class="container" style="width:100%;margin-top:-10px;margin-bottom:-10px">
 			<div class="row">
 			<div class="col-md-12 col-lg-12 col-sm-12">
 			<nav class="navbar navbar-default">
@@ -77,12 +89,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="collapse navbar-collapse nav-wil links" id="bs-example-navbar-collapse-1">
 						<nav class="link-effect-4" id="link-effect-4">
 							<ul class="nav1 nav navbar-nav nav-wil" style="padding:-5px;">
-									<li><a   data-hover="Home" href="index2.htm">Home</a></li>
-									<li><a class="active " data-hover="About Us" href="aboutus.htm">About Us</a></li>
+									<li><a  class="active " data-hover="Home" href="index2.htm">Home</a></li>
+									<li><a data-hover="About Us" href="aboutus.htm">About Us</a></li>
 									<!--<li><a data-hover="Solution" href="#services" class="scroll">Solution</a></li>-->
 
 											<li class="dropdown">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="Solution">
+												<a href="solutions.htm" class="dropdown-toggle" data-toggle="dropdown" data-hover="Solution">
 												Solution <b class="caret"></b>
 												</a>
 												
@@ -118,80 +130,85 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 <!-- //header -->
+<hr id = "solution_hr">
 
-<hr class = "hr_aboutus">
-<!----------------------------------------------------about us ------------------------------------------------------>
-<div class = "page_heading">
-	<h1>About Us</h1>
-</div>
-<hr class = "hr">
-<!--intro -->
-<div class = "intro">
 <div class = "container">
 	<div class = "row">
-		<div class = "col-md-7">
-			<p style = "color:#878282;">TechMight Solutions (Pvt.) Limited is a subsidiary firm of TechMight Solutions Pvt. Limited. </p><br>
-			<p style = "color:#878282;">TechMight Solutions (Pvt.) Limited is a leading Engineering Procurement and Construction Company for establishing Solar Power Plants, Solar Commercial Solutions and Solar Home Solutions on fast track basis. With optimum mix of quality and Punctuality, thereby giving maximum value to the customers. Our Head Office is located in Lahore, Pakistan with a network of marketing/consultancy services spread all over Pakistan. The company is currently handling a diverse portfolio with solutions deployed all over the Pakistan with satisfied customers.</p>
-		</div>
-		<div class = "col-md-4">
-			<ul class="info">
-			<li>
-				<h3>P</h3>
-				<p>0321-7283213<br/>0302-4600190</p>
-			</li>
-			<li>
-				<h3>A</h3>
-				<p>Head Office:109 K Gulberg-III , Lahore</p>
-			</li>
-			<li>
-				<h3>S</h3>
-				<p> <a href="mailto:Email@mail.com"> ibrahimshah99@gmail.com </a> </p>
-			</li>
-			</ul>
+		<div class = "col-md-4 col-md-offset-5">
+			<h3>Select your solution</h3>
+			<br>
 		</div>
 	</div>
-</div>
-</div>
-<!-- //intro -->
-<!-- services-->
-<div id="services" class="services-list">
-	<div class="container" style="margin-top:-80px;border-radius:30px;">
+	<hr>
+	<div class = "row">
+		<div class = "col-md-3 left_pan">
+			<div id = "backup" class = "panel_button">
+				Hybrid Solutions
+				<b class = "caret"></b>
+			</div>
+			<div id = "econo" class = "panel_button_drop">
+				Econo
+			</div>
+			<div id = "econo_plus" class = "panel_button_drop">
+				Econo Plus
+			</div>
+			<div id = "econo_plus" class = "panel_button_drop">
+				Basic
+			</div>
+			<div id = "econo_plus" class = "panel_button_drop">
+				Essential Plus
+			</div>
+			<div id = "econo_plus" class = "panel_button_drop">
+				Pro
+			</div>
+			<div id = "econo_plus" class = "panel_button_drop">
+				Pro Plus
+			</div>
+			<div id = "econo_plus" class = "panel_button_drop">
+				Premium
+			</div>
+			<div id = "no_backup" class = "panel_button" id = "b2">
+				On-Grid Solutions
+				<b class = "caret"></b>
+			</div>
+
+		</div>
 		<center>
-		<h3 class="title" style="margin-top:10px;font-size:20px;"> Our Services </h3>
-		</center>
-		
-		<div class = "row wow flipInX" data-wow-duration="1s">
-			<a href="">
-			<div class = "col-md-2 service_button">
-				<img src = "images/education.png" /><br>
-				Educational
-			</div>
-			</a>
-			<a href="">
-			<div class = "col-md-2 service_button">
-				<img src = "images/commercial.png" /><br>
-				Commercial
-			</div>
-			</a>
-			<a href="">
-			<div class = "col-md-2 service_button">
-				<img src = "images/domestic.png" /><br>
-				Domestic
-			</div>
-			</a>
-			<a href="">
-			<div class = "col-md-2 service_button" >
-				<img src = "images/health.png" /><br>
-				Health
-			</div>
-			</a>
+		<div class = "col-md-9 right_pan">
+			<table id = "econo_plan">
+				<tr>
+					<td colspan = "4">Can Electify</td>
+				</tr>
+				<tr>
+					<td><img src="images/Bulb.png"/></td>
+					<td><img src = "images/fan.png"/></td>
+					<td><img src = "images/tv.png"/></td>
+					<td><img src = "images/fridge.png"/></td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>5</td>
+					<td>1</td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td colspan = "4"> Components </td>
+				</tr>
+				<tr>
+					<td><img src="images/inverter.png"/></td>
+					<td><img src = "images/battery.png"/></td>
+					<td><img src = "images/solarpanel.png"/></td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>4</td>
+				</tr>
+			</table>
 		</div>
-
+	</center>
 	</div>
 </div>
-<!-- //services-->
-<!-----------------------------------------------------about us end ------------------------------------------------->
-
 
 <!-- footer -->
 <div class="footer wow fadeIn animated animated" data-wow-delay="0.1s" data-wow-duration="0.2s">
