@@ -2572,7 +2572,7 @@ border-radius: 100px;
 #traction{
   background-color: none;
 }
-#main h3{
+#main h3,#prod_main h3{
   text-align: center;
   margin: 10px;
   font: arial;
@@ -2705,7 +2705,12 @@ border-radius: 100px;
   background-color: black;
 }
 /*=============================================contact.htm ends ===========================*/
+/*============================================= products.htm start ========================*/
+#prod_main p{
+  color: gray;
+}
 
+/*============================================== products.htm ends =========================*/
 
 
 
