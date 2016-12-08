@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+/*================================main body=================================================================================*/
+#main{
+	width: 90%;
+	margin: 0 10% 0 5%;
+}
+#header{
+	width: 100%; 
+	background-color: none;
+}
+#logo p{
+	margin: 15px auto 0 30px;
+	font-size: 65px;
+	font-weight: bolder;
+	font-family: "Arial black";
+	text-shadow: .05em .05em .1em black;
+/*==========================coloring==================*/
+color: #1e5799;
+color: -moz-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+color: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8));
+color: -webkit-linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+color: -o-linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+color: -ms-linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+color: linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+/*=========================end coloring===============*/
+}
+
+body{
+	background: #606c88;
+background: -moz-linear-gradient(45deg, #606c88 0%, #3f4c6b 100%);
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#606c88), color-stop(100%,#3f4c6b));
+background: -webkit-linear-gradient(45deg, #606c88 0%,#3f4c6b 100%);
+background: -o-linear-gradient(45deg, #606c88 0%,#3f4c6b 100%);
+background: -ms-linear-gradient(45deg, #606c88 0%,#3f4c6b 100%);
+background: linear-gradient(45deg, #606c88 0%,#3f4c6b 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=1 );
+}
+/*===========================nav bar designing====================================*/
+#nav{
+	width:100%;
+	border-radius: 10px;
+/*=============== coloring===========================*/
+	background: #cedce7;
+background: -moz-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#cedce7), color-stop(100%,#596a72));
+background: -webkit-linear-gradient(45deg, #cedce7 0%,#596a72 100%);
+background: -o-linear-gradient(45deg, #cedce7 0%,#596a72 100%);
+background: -ms-linear-gradient(45deg, #cedce7 0%,#596a72 100%);
+background: linear-gradient(45deg, #cedce7 0%,#596a72 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 );
+/*=====================end coloring===================*/
+	display: inline-block;
+}
+#nav ul{
+	background-color: none;
+	display: inline-table;
+	list-style-type: none;
+}
+#nav ul li{
+	float: left;
+	margin: 0px;
+
+}
+#nav ul li a:hover{
+	text-shadow: .05em .05em .3em black;
+}
+#nav ul li a{
+	margin: 10px;
+	text-decoration: none;
+	font-family: "Arial black";
+	color: white;
+	transition-property: text-shadow;
+	transition-duration: .4s;
+}
+/*==============================end nav bar designing================================*/
+
+#content{
+	width: 69%;
+	
+	border-radius: 10px;
+	margin-top: 20px;
+	float: right;
+	padding-left: 100px;
+
+	background-color:blue;
+}
+#content p{
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	font-style: Gadugi,"Arial black";
+}
+#content h1{
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+#content h3{
+	margin-left: 20px;
+}
+#left{
+	width: 30%;
+	border-radius: 10px;
+	background-color: ;
+}
+#left h4{
+	position: relative;
+	top: 10px;
+	left: 10px;
+} 
+#left ul{
+	margin-bottom: 10px;
+	margin-left: 20px;
+	list-style-image: url(../css/imgs/bullet.png);
+
+}
+#left ul li a{
+	text-decoration: none;
+	color: white;
+}
+#left ul li a:hover{
+	color: navy;
+}
+#footer{
+	clear: both;
+	background: #1e5799;
+background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8));
+background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+background: -o-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+background: -ms-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+}
+#footer p{
+	text-align: left;
+	margin: 15px;
+	letter-spacing: 5px;
+}
+/*========================================== image styling ==========================*/
+#img1{
+	position: relative;
+	left: 20px;
+}
+#img2,#img3{
+	position: relative;
+	left: 20px;
+	top: 20px;
+	height: 400px;
+	width: 400px;
+}
+#logo{
+	position: relative;
+	top: 200px;
+	left: 200px;
+	height: 30px;
+	width: 60px;
+}
+
+/*===================================== left form designning===========================*/
+#step1, #step2, #step3{
+	/*==========================coloring =========================================*/
+	background-color: #cedce7;
+background-color: -moz-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+background-color: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#cedce7), color-stop(100%,#596a72));
+background-color: -webkit-linear-gradient(45deg, #cedce7 0%,#596a72 100%);
+background-color: -o-linear-gradient(45deg, #cedce7 0%,#596a72 100%);
+background-color: -ms-linear-gradient(45deg, #cedce7 0%,#596a72 100%);
+background-color: linear-gradient(45deg, #cedce7 0%,#596a72 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=1 );
+	/*============================end coloring ==================================*/
+	text-align: center;
+	height: 60px;
+	border-radius: 3px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	margin-top:5px;
+	border: 1px solid #999;
+	
+				cursor:context-menu;
+}
+#step1:hover,#step2:hover,#step3:hover{
+	color:blue;
+}
+#step_1_op,#step_2_op,#step_3_op{
+	display: none;
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid #83868A;
+	padding-top: 5px;
+	margin-top: 2px;
+	height: 250px;
+	size:fixed;
+	overflow: auto;
+	overflow:scroll;
+	 
+}
+#step_1_op ul{
+	margin-top: 10px;
+	margin-left: 20px;
+	padding: 0px 10px;
+	list-style-type: none;
+}
+#step_1_op ul li {
+     
+        padding-top: 5px;
+        width: 300px;
+        float: left;
+        color:#4B4D4F;
+        font-family: Arial;
+        font-size: 15px;
+		text-align:justify;
+    }
+#step_2_op h{
+	margin-left:10px;
+	font-weight: bolder;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	}
+
+
+#CBLogoColor{
+	transform: rotate(90deg);
+}
+/*========================================== glove sizes ==================================================*/
+
+/*
+#step_2_op{
+	display: none;
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid #83868A;
+	padding-top: 5px;
+	margin-top: 2px;
+	height: 250px;
+}
+#step_3_op{
+	display: none;
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid #83868A;
+	padding-top: 5px;
+	margin-top: 2px;
+	height: 250px;
+}*/
