@@ -40,7 +40,9 @@
 $(document).ready(function() {
 
 var type = 0,velcro = 0,wrist = 0,throwing = 0,finger = 0,lace = 0,size = 0;
-
+var logo = 0,lace = 0,web = 0,palm = 0,back1 = 0,back2 = 0,back3 = 0,binding = 0,
+		crown = 0,wrist = 0,stitch = 0,hood = 0,pad = 0,welting = 0,wingtip = 0;
+var prop_total = 15;
 $("#step1").click(function(){
 	$("#step_1_op").slideToggle();
 	$("#step_2_op").slideUp();
@@ -48,15 +50,27 @@ $("#step1").click(function(){
 });
 
 $("#step2").click(function(){
-	$("#step_2_op").slideToggle();
-	$("#step_1_op").slideUp();
-	$("#step_3_op").slideUp();
+	var t = $('input[name = f_type]:checked').val();
+	if(t == "f_type1" || t == "f_type2" || t == "f_type3" || t == "f_type4"){
+		$("#step_2_op").slideToggle();
+		$("#step_1_op").slideUp();
+		$("#step_3_op").slideUp();
+	}
+	else{
+		alert("Select glove type in \"Step-1\" please");
+	}
 });
 
 $("#step3").click(function(){
-	$("#step_3_op").slideToggle();
-	$("#step_2_op").slideUp();
-	$("#step_1_op").slideUp();
+	var t = $('input[name = f_type]:checked').val();
+	if(t == "f_type1" || t == "f_type2" || t == "f_type3" || t == "f_type4"){
+		$("#step_3_op").slideToggle();
+		$("#step_2_op").slideUp();
+		$("#step_1_op").slideUp();
+	}
+	else{
+		alert("Select glove type in \"Step-1\" please");
+	}
 });
 //////////////////////////////////////////////// color Selection handler ////////////////////////////////////////
 ///////////////////////////////////////////////////// logo color handler/////////////////////////////////////////
@@ -5345,6 +5359,8 @@ $("#f_type1").click(function(){
 	/*
 	$("#img2").attr("src","imgs/CatcherPalm.png");
 	$("#img3").attr("src","imgs/CatcherBack.png");*/
+	size = 0;
+	$("#SimHeading").html("Catcher");
 	$("#glove_size_catcher").attr("style","display:block;");
 	$("#glove_size_fielding").attr("style","display:none;");
 	$("#glove_size_fbase").attr("style","display:none;");
@@ -5375,6 +5391,8 @@ $("#f_type2").click(function(){
 	/*
 	$("#img2").attr("src","imgs/FieldingPalm.png");
 	$("#img3").attr("src","imgs/FieldingBack.png");*/
+	size = 0;
+	$("#SimHeading").html("Fielding");
 	$("#glove_size_catcher").attr("style","display:none;");
 	$("#glove_size_fielding").attr("style","display:block;");
 	$("#glove_size_fbase").attr("style","display:none;");
@@ -5393,7 +5411,6 @@ $("#f_type2").click(function(){
 	$("#FieldingWingTip").attr("style","display:block");
 	$("#Crown").attr("style","display:none;");
 
-
 	type = 1;
 	sum = type+velcro+wrist+throwing+finger+lace+size;
 	if(sum != 7)
@@ -5405,6 +5422,8 @@ $("#f_type3").click(function(){
 	/*
 	$("#img2").attr("src","imgs/FirstBasePalm.png");
 	$("#img3").attr("src","imgs/FirstBaseBack.png");*/
+	size = 0;
+	$("#SimHeading").html("First Base");
 	$("#glove_size_catcher").attr("style","display:none;");
 	$("#glove_size_fielding").attr("style","display:none;");
 	$("#glove_size_fbase").attr("style","display:block;");
@@ -5434,6 +5453,8 @@ $("#f_type4").click(function(){
 	/*
 	$("#img2").attr("src","imgs/SoftBallPalm.png");
 	$("#img3").attr("src","imgs/void.png");*/
+	size = 0;
+	$("#SimHeading").html("Soft Ball");
 	$("#glove_size_catcher").attr("style","display:none;");
 	$("#glove_size_fielding").attr("style","display:none;");
 	$("#glove_size_fbase").attr("style","display:none;");
@@ -5579,9 +5600,7 @@ $("#lace_length_long").click(function(){
 });
 ////////////////////////////////////////////////////// glove lace handler ends ///////////////////////////////////
 ////////////////////////////////////////////////////// glove size handler start /////////////////////////////////
-
-$("#glove_size_33").click(function(){
-	$("#img2").attr("src","pics/classic_series.png");
+$("#glove_size_32_5").click(function(){
 	size = 1;
 	sum = type+velcro+wrist+throwing+finger+lace+size;
 	if(sum != 7)
@@ -5589,8 +5608,7 @@ $("#glove_size_33").click(function(){
 	else
 		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
 });
-$("#glove_size_34").click(function(){
-	$("#img2").attr("src","pics/classic_series.png");
+$("#glove_size_33").click(function(){
 	size = 1;
 	sum = type+velcro+wrist+throwing+finger+lace+size;
 	if(sum != 7)
@@ -5599,7 +5617,286 @@ $("#glove_size_34").click(function(){
 		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
 });
 $("#glove_size_33_5").click(function(){
-	$("#img2").attr("src","pics/classic_series.png");
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_34").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_35").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_9_5").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_10").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_10_5").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_10_75").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_11").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_11_25").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_11_50_f").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_11_75_f").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_12_f").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_12_25_f").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_12_50_f").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_12_75_f").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_13_f").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_13_25_f").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_12_fb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_12_25_fb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_12_50_fb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_12_75_fb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_13_fb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_13_25_fb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_13_50_fb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_14_fb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_11_50_sb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_11_75_sb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_12_sb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_12_25_sb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_12_50_sb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_12_75_sb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_13_sb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_13_25_sb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_13_50_sb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_14_sb").click(function(){
+	size = 1;
+	sum = type+velcro+wrist+throwing+finger+lace+size;
+	if(sum != 7)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/7)</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
+$("#glove_size_15_sb").click(function(){
 	size = 1;
 	sum = type+velcro+wrist+throwing+finger+lace+size;
 	if(sum != 7)
@@ -5690,7 +5987,7 @@ $("#other_flag").click(function(){
 			</center>
 		</div>
 		<div id = "content">
-			<h1>Your Glove Design</h1>
+			<h1 id = "SimHeading">See Your Glove Design bellow</h1>
 			<!------------------------------------------------------------simulator background -------------------------->
 			<div id = "SimBackground" style = "display:block;">
 				<svg xmlns="http://www.w3.org/2000/svg" style = "background-color:none;width:621px;height:556px;">
@@ -5903,6 +6200,28 @@ $("#other_flag").click(function(){
 	            </div>
 	            <div id  = "glove_size_fielding" style = "display:none;">
 	            	<h4 style="margin-bottom:20px;">Glove Size*</h4>
+	            	<div class="radio">
+	                    <label>
+	                    <input type="radio" name="glove_size" id="glove_size_9_5" value="glove_size_9_5">9.5"(Youth)
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="glove_size" id="glove_size_10" value="glove_size_10">10"(Youth)
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="glove_size" id="glove_size_10_5" value="glove_size_10_5">10.5"(Youth)
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="glove_size" id="glove_size_10_5" value="glove_size_10_5">10.75"(Youth)
+	                    </label>
+	                </div>
+	                
+
 	                <div class="radio">
 	                    <label>
 	                    <input type="radio" name="glove_size" id="glove_size_11" value="glove_size_11">11"
@@ -5915,37 +6234,42 @@ $("#other_flag").click(function(){
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_11_50" value="glove_size_11_50">11.50"
+	                    <input type="radio" name="glove_size" id="glove_size_11_50_f" value="glove_size_11_50_f">11.50"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_11_75" value="glove_size_11_75">11.75"
+	                    <input type="radio" name="glove_size" id="glove_size_11_75_f" value="glove_size_11_75_f">11.75"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_12" value="glove_size_12">12"
+	                    <input type="radio" name="glove_size" id="glove_size_12_f" value="glove_size_12_f">12"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_12_25" value="glove_size_12_25">12.25"
+	                    <input type="radio" name="glove_size" id="glove_size_12_25_f" value="glove_size_12_25_f">12.25"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_12_50" value="glove_size_12_50">12.50"
+	                    <input type="radio" name="glove_size" id="glove_size_12_50_f" value="glove_size_12_50_f">12.50"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_12_75" value="glove_size_12_75">12.75"
+	                    <input type="radio" name="glove_size" id="glove_size_12_75_f" value="glove_size_12_75_f">12.75"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_13" value="glove_size_13">13"
+	                    <input type="radio" name="glove_size" id="glove_size_13_f" value="glove_size_13_f">13"
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="glove_size" id="glove_size_13_25_f" value="glove_size_13_25_f">13.25"
 	                    </label>
 	                </div>
 	            </div>
@@ -5953,42 +6277,42 @@ $("#other_flag").click(function(){
 	            	<h4 style="margin-bottom:20px;">Glove Size*</h4>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_12" value="glove_size_12">12"
+	                    <input type="radio" name="glove_size" id="glove_size_12_fb" value="glove_size_12_fb">12"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_12_25" value="glove_size_12_25">12.25"
+	                    <input type="radio" name="glove_size" id="glove_size_12_25_fb" value="glove_size_12_25_fb">12.25"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_12_50" value="glove_size_12_50">12.50"
+	                    <input type="radio" name="glove_size" id="glove_size_12_50_fb" value="glove_size_12_50_fb">12.50"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_12_75" value="glove_size_12_75">12.75"
+	                    <input type="radio" name="glove_size" id="glove_size_12_75_fb" value="glove_size_12_75_fb">12.75"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_13" value="glove_size_13">13"
+	                    <input type="radio" name="glove_size" id="glove_size_13_fb" value="glove_size_13_fb">13"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_13_25" value="glove_size_13_25">13.25"
+	                    <input type="radio" name="glove_size" id="glove_size_13_25_fb" value="glove_size_13_25_fb">13.25"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_13_50" value="glove_size_13_50">13.50"
+	                    <input type="radio" name="glove_size" id="glove_size_13_50_fb" value="glove_size_13_50_fb">13.50"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_14" value="glove_size_14">14"
+	                    <input type="radio" name="glove_size" id="glove_size_14_fb" value="glove_size_14_fb">14"
 	                    </label>
 	                </div>
 	            </div>
@@ -5996,69 +6320,67 @@ $("#other_flag").click(function(){
 	            	<h4 style="margin-bottom:20px;">Glove Size*</h4>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_11_50" value="glove_size_11_50">11.50"
+	                    <input type="radio" name="glove_size" id="glove_size_11_50_sb" value="glove_size_11_50_sb">11.50"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_11_75" value="glove_size_11_75">11.75"
+	                    <input type="radio" name="glove_size" id="glove_size_11_75_sb" value="glove_size_11_75_sb">11.75"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_12" value="glove_size_12">12"
+	                    <input type="radio" name="glove_size" id="glove_size_12_sb" value="glove_size_12_sb">12"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_12_25" value="glove_size_12_25">12.25"
+	                    <input type="radio" name="glove_size" id="glove_size_12_25_sb" value="glove_size_12_25_sb_sb">12.25"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_12_50" value="glove_size_12_50">12.50"
+	                    <input type="radio" name="glove_size" id="glove_size_12_50_sb" value="glove_size_12_50_sb">12.50"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_12_75" value="glove_size_12_75">12.75"
+	                    <input type="radio" name="glove_size" id="glove_size_12_75_sb" value="glove_size_12_75_sb">12.75"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_13" value="glove_size_13">13"
+	                    <input type="radio" name="glove_size" id="glove_size_13_sb" value="glove_size_13_sb">13"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_13_25" value="glove_size_13_25">13.25"
+	                    <input type="radio" name="glove_size" id="glove_size_13_25_sb" value="glove_size_13_25_sb">13.25"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_13_50" value="glove_size_13_50">13.50"
+	                    <input type="radio" name="glove_size" id="glove_size_13_50_sb" value="glove_size_13_50_sb">13.50"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_13_50" value="glove_size_13_50">13.50"
+	                    <input type="radio" name="glove_size" id="glove_size_14_sb" value="glove_size_14_sb">14"
 	                    </label>
 	                </div>
 	                <div class="radio">
 	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_14" value="glove_size_14">14"
-	                    </label>
-	                </div>
-	                <div class="radio">
-	                    <label>
-	                    <input type="radio" name="glove_size" id="glove_size_15" value="glove_size_15">15"
+	                    <input type="radio" name="glove_size" id="glove_size_15_sb" value="glove_size_15_sb">15"
 	                    </label>
 	                </div>
 	            </div>
             </div>
             <!-------------------------------------Step2 ---------------------------------------->
 			<div id="step2">
-				<b>STEP 2 - GLOVE COLOR</b>
+				<b>STEP 2 - GLOVE COLOR </b>
+			</div>
+			<div id = "glove_type_not_selected" style = "display:none">
+				Please select Glove type
 			</div>
 			<div id="step_2_op">
             	<h4 style="margin-bottom:20px;">Logo Color</h4>
