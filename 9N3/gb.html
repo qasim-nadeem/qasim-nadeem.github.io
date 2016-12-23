@@ -926,7 +926,7 @@ $("#black_logo").click(function(){
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Black.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Black.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Black.png");
-	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLGold.png");
+	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLBlack.png");
 	//
 	// handling step 2 count 
 	//
@@ -3450,7 +3450,7 @@ $("#royal_blue_back2").click(function(){
 	$("#purple_back2").removeClass("selected");
 
 	$("#back2_color").text("Color: Royal Blue");
-	$("#FBack2Colors").attr("xlink:href","imgs/Fielding/Back2/FB2NBlue.png");
+	$("#FBack2Colors").attr("xlink:href","imgs/Fielding/Back2/FB2RBlue.png");
 	// handling step 2 count 
 	//
 	back2 = 1;
@@ -7077,7 +7077,41 @@ $("#purple_binding").click(function(){
 	//
 	
 });
+$("#forest_green_binding").click(function(){
+	$("#red_binding").removeClass("selected");
+	$("#tan_binding").removeClass("selected");
+	$("#blonde_binding").removeClass("selected");
+	$("#orange_binding").removeClass("selected");
+	$("#white_binding").removeClass("selected");
+	$("#navy_blue_binding").removeClass("selected");
+	$("#brown_binding").removeClass("selected");
+	$("#forest_green_binding").removeClass("selected");
+	$("#black_binding").removeClass("selected");
+	$("#royal_blue_binding").removeClass("selected");
+	$("#yellow_binding").removeClass("selected");
+	$("#grey_binding").removeClass("selected");
+	$("#pink_binding").removeClass("selected");
+	$("#purple_binding").removeClass("selected");
+	$("#forest_green_binding").addClass("selected");
 
+	$("#binding_color").text("Color: Forest Green");
+
+	$("#CBinColors").attr("xlink:href","imgs/Catcher/BindingColors/CBinFGreen.png");
+	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinFGreen.png");     
+	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebFGreen.png");                                              
+	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebFGreen.png");
+	//
+	// handling step 2 count 
+	//
+	binding = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+	
+});
 //////////////////////////////////////////////////////// binding color handler ends //////////////////////////////////////
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -8471,6 +8505,14 @@ $("#lace_length_long").click(function(){
 });
 ////////////////////////////////////////////////////// glove lace1 handler ends ///////////////////////////////////
 ////////////////////////////////////////////////////// glove size handler start /////////////////////////////////
+$("#glove_size_32").click(function(){
+	size = 1;
+	sum = type+velcro+wrist1+throwing+finger+lace1+size;
+	if(sum != prop1_total)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/"+prop1_total+")</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+});
 $("#glove_size_32_5").click(function(){
 	size = 1;
 	sum = type+velcro+wrist1+throwing+finger+lace1+size;
@@ -9196,9 +9238,11 @@ $("#TB_ThumbText").keyup(function(){
 });
 $("#text_font_block").click(function(){
 	$(".CustomText").attr("font-family","verdana");
+	$(".CustomText").attr("font-size","15px");
 });
 $("#text_font_script").click(function(){
-	$(".CustomText").attr("font-family","Blackadder ITC");
+	$(".CustomText").attr("font-family","Edwardian Script ITC");
+	$(".CustomText").attr("font-size","25px");
 });
 
 //////////////////////////////////////////////////// thumb text text box input handler ends ///////////////////////////
@@ -9369,7 +9413,7 @@ $("#other_flag").click(function(){
 				<image id = "FBWebColors" xlink:href = "imgs/FirstBase/Web/GWeb/Web/FBGWebWhite.png" x="0" y="0" width="621" height="556" opacity="1" />
 				<image id = "FBBWebColors" xlink:href = "imgs/FirstBase/Web/BWeb/Web/FBBWebWhite.png" x="0" y="0" width="621" height="556" opacity="0" />
 				<image id = "FBWrstColors" xlink:href = "imgs/FirstBase/fb8.png" x="0" y="0" width="621" height="556" opacity="1" />
-				<!--<image id = "FBLImg" xlink:href = "imgs/FirstBase/fb3.png" x="0" y="0" width="621" height="556" opacity="1" />-->
+				<image id = "FBLImg" xlink:href = "imgs/FirstBase/fb3.png" x="0" y="0" width="621" height="556" opacity="1" />
 				<!-- =============================================== crown ============================================== -->
 				<image id = "FBCrownColors" xlink:href = "imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebWhite.png" x="0" y="0" width="621" height="556" opacity="1" />
 				<image id = "FBBWebCrownColors" xlink:href = "imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebWhite.png" x="0" y="0" width="621" height="556" opacity="0" />
@@ -9404,7 +9448,7 @@ $("#other_flag").click(function(){
 			<br><br><br>
 		</div>
 		<div id = "left">
-			<h4>Customize Your Glove Here</h4><hr>
+			<h4 style = "color:white;" >Customize Your Glove Here</h4><hr>
 			<!--------------------------------------------------step1-------------------------------->
 			<div id="step1">
 				<b>STEP 1 - GLOVE BASE <span style="color:red" id = "step_1_count">(0/7)</span></b>
@@ -9498,6 +9542,11 @@ $("#other_flag").click(function(){
 	            </div>
 	                <div id  = "glove_size_catcher" style = "display:none;">
 		                <h4 style="margin-bottom:20px;">Glove Size*</h4>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_32" value="glove_size_32">32"
+		                    </label>
+		                </div>
 		                <div class="radio">
 		                    <label>
 		                    <input type="radio" name="glove_size" id="glove_size_32_5" value="glove_size_32_5">32.5"
@@ -10086,6 +10135,8 @@ $("#other_flag").click(function(){
 						</div>
 						<div class = "brown" id="brown_binding">
 						</div>
+						<div class = "forest_green" id="forest_green_binding">
+						</div>
 						<div class = "black" id="black_binding">
 						</div>
 						<div class = "royal_blue" id="royal_blue_binding">
@@ -10098,7 +10149,7 @@ $("#other_flag").click(function(){
 						</div>
 						<div class = "purple" id="purple_binding">
 						</div>
-					</div><br><br>
+					</div><br><br><br>
 					<div id = "binding_color">Color:Not Selected</div>
 					<div id = "Crown" style = "display:none;">
 					<h4 style="margin-bottom:20px;">Crown*</h4>
