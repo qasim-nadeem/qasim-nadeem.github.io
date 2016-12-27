@@ -173,10 +173,13 @@ function clearBack3Color(){
 
 var type = 0,velcro = 0,wrist1 = 0,throwing = 0,finger = 0,lace1 = 0,size = 0,webstyle = 0;;
 var logo = 0,lace = 0,web = 0,palm = 0,back1 = 0,back2 = 0,back3 = 0,binding = 0,
-		crown = 0,wrist = 0,stitch = 0,hood = 0,pad = 0,welting = 0,wingtip = 0;
+	crown = 0,wrist = 0,stitch = 0,hood = 0,pad = 0,welting = 0,wingtip = 0;
+var text_color = 0, text_font = 0,thumb_text = 0, Flag = 0,custom_flag = 0;
 var prop_total = 15; // holds steop 2 properties total
 var prop1_total = 7; // holds step 1 properies total
+var prop2_total = 5;
 var sel_prop = 0;
+var sel_prop1 = 0;
 $("#step1").click(function(){
 	$("#step_1_op").slideToggle();
 	$("#step_2_op").slideUp();
@@ -972,6 +975,7 @@ $("#red_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebRed.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebRed.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebRed.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebRed.png");
 	//
 	// handling step 2 count 
 	//
@@ -1015,6 +1019,7 @@ $("#sky_blue_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebSBlue.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebSBlue.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebSBlue.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebSBlue.png");
 	//
 	// handling step 2 count 
 	//
@@ -1057,6 +1062,7 @@ $("#tan_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebTan.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebTan.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebTan.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebTan.png");
 	//
 	// handling step 2 count 
 	//
@@ -1100,6 +1106,7 @@ $("#blonde_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebBlonde.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebBlonde.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebBlonde.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebBlonde.png");
 	//
 	// handling step 2 count 
 	//
@@ -1134,6 +1141,7 @@ $("teal_laces").click(function(){
 	$("#laces_color").text("Color: Teal");         
 	$("#CLColor").attr("xlink:href","imgs/Catcher/LacesColors/CLTeal.png");  
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWeb.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWeb.png");
 	//
 	// handling step 2 count 
 	//
@@ -1177,6 +1185,7 @@ $("#orange_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebOrange.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebOrange.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebOrange.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebOrange.png");
 	//
 	// handling step 2 count 
 	//
@@ -1220,6 +1229,7 @@ $("#white_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebWhite.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/fb6.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebWhite.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebWhite.png");
 	//
 	// handling step 2 count 
 	//
@@ -1263,6 +1273,7 @@ $("#navy_blue_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebNBlue.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebNBlue.png");                                                              
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebNBlue.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebNBlue.png");
 	//
 	// handling step 2 count 
 	//
@@ -1305,6 +1316,7 @@ $("#purple_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebPurple.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebPurple.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebPurple.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebPurple.png");
 	//
 	// handling step 2 count 
 	//
@@ -1348,6 +1360,7 @@ $("#brown_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebBrown.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebBrown.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebBrown.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebBrown.png");
 	//
 	// handling step 2 count 
 	//
@@ -1391,6 +1404,7 @@ $("#forest_green_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebFGreen.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebFGreen.png");                                                     
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebFGreen.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebFGreen.png");
 	//
 	// handling step 2 count 
 	//
@@ -1434,6 +1448,7 @@ $("#black_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebBlack.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebBlack.png");                                                
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebBlack.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebBlack.png");
 	//
 	// handling step 2 count 
 	//
@@ -1477,6 +1492,7 @@ $("#royal_blue_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebRBlue.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebRBlue.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebRBlue.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebRBlue.png");
 	//
 	// handling step 2 count 
 	//
@@ -1520,6 +1536,7 @@ $("#yellow_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebYellow.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebYellow.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebYellow.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebYellow.png");
 	//
 	// handling step 2 count 
 	//
@@ -1563,6 +1580,7 @@ $("#grey_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebGrey.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebGrey.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebGrey.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebGrey.png");
 	//
 	// handling step 2 count 
 	//
@@ -1606,6 +1624,7 @@ $("#pink_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebPink.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebPink.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebPink.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebPink.png");
 	//
 	// handling step 2 count 
 	//
@@ -1649,6 +1668,7 @@ $("#purple_laces").click(function(){
 	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/BinMWeb/FBinMWebPurple.png");
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebPurple.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebPurple.png");
+	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebPurple.png");
 	//
 	// handling step 2 count 
 	//
@@ -1693,6 +1713,7 @@ $("#red_web").click(function(){
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebRed.png");
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebRed.png");                                        
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebRed.png");                                        
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebRed.png");                                        
 	//
 	// handling step 2 count 
 	//
@@ -1732,7 +1753,8 @@ $("#tan_web").click(function(){
 	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/FLWebTan.png");
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebTan.png");
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebTan.png");
-	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebTan.png");                                        
+	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebTan.png");
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebTan.png");                                        
 	//
 	// handling step 2 count 
 	//
@@ -1772,7 +1794,8 @@ $("#blonde_web").click(function(){
 	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/FLWebBlonde.png");
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebBlonde.png");
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebBlonde.png");
-	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebBlonde.png");                                        
+	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebBlonde.png");  
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebBlonde.png");                                      
 	//
 	// handling step 2 count 
 	//
@@ -1812,7 +1835,8 @@ $("#orange_web").click(function(){
 	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/FLWebOrange.png");
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebOrange.png");
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebOrange.png");
-	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebOrange.png");                                        
+	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebOrange.png");  
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebOrange.png");                                      
 	//
 	// handling step 2 count 
 	//
@@ -1852,7 +1876,8 @@ $("#white_web").click(function(){
 	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/FLWebWhite.png");
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebWhite.png");
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/fb7.png");
-	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebWhite.png");                                        
+	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebWhite.png");
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebWhite.png");
 	//
 	// handling step 2 count 
 	//
@@ -1891,8 +1916,9 @@ $("#navy_blue_web").click(function(){
 	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/FIWebNBlue.png");
 	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/FLWebNBlue.png");
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebNBlue.png");
-	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebNBlue.png");                                                                  
-	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebNBlue.png");                                        
+	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebNBlue.png");                               
+	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebNBlue.png");
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebNBlue.png");                                        
 	//
 	// handling step 2 count 
 	//
@@ -1932,7 +1958,8 @@ $("#brown_web").click(function(){
 	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/FLWebBrown.png");
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebBrown.png");
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebBrown.png");                                                  
-	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebBrown.png");                                        
+	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebBrown.png");  
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebBrown.png");                                      
 	//
 	// handling step 2 count 
 	//
@@ -1972,7 +1999,8 @@ $("#forest_green_web").click(function(){
 	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/FLWebFGreen.png");
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebFGreen.png");
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebFGreen.png");                                                  
-	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebFGreen.png");                                        
+	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebFGreen.png"); 
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebFGreen.png");                                       
 	//
 	// handling step 2 count 
 	//
@@ -2012,7 +2040,8 @@ $("#black_web").click(function(){
 	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/FLWebBlack.png");
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebBlack.png");
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebBlack.png");
-	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebBlack.png");                                        
+	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebBlack.png");  
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebBlack.png");                                      
 	//
 	// handling step 2 count 
 	//
@@ -2052,7 +2081,8 @@ $("#royal_blue_web").click(function(){
 	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/FLWebRBlue.png");
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebRBlue.png");
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebRBlue.png");
-	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebRBlue.png");                                        
+	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebRBlue.png"); 
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebRBlue.png");                                       
 	//
 	// handling step 2 count 
 	//
@@ -2092,7 +2122,8 @@ $("#yellow_web").click(function(){
 	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/FLWebYellow.png");
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebYellow.png");
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebYellow.png");
-	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebYellow.png");                                        
+	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebYellow.png"); 
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebYellow.png");                                       
 	//
 	// handling step 2 count 
 	//
@@ -2132,7 +2163,8 @@ $("#grey_web").click(function(){
 	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/FLWebGrey.png");
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebGrey.png");
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebGrey.png");
-	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebGrey.png");                                        
+	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebGrey.png"); 
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebGrey.png");                                       
 	//
 	// handling step 2 count 
 	//
@@ -2172,7 +2204,8 @@ $("#pink_web").click(function(){
 	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/FLWebPink.png");
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebPink.png");
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebPink.png");
-	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebPink.png");                                        
+	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebPink.png"); 
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebPink.png");                                       
 	//
 	// handling step 2 count 
 	//
@@ -2212,7 +2245,8 @@ $("#purple_web").click(function(){
 	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/FLWebPurple.png");
 	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/FMWebPurple.png");
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebPurple.png");
-	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebPurple.png");                                        
+	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebPurple.png"); 
+	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebPurple.png");                                       
 	//
 	// handling step 2 count 
 	//
@@ -4878,6 +4912,7 @@ $("#red_crown").click(function(){
 	$("#CCColors").attr("xlink:href","imgs/Catcher/CrownColors/CCRed.png");
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebRed.png");
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebRed.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebRed.png");
 	//
 	// handling step 2 count 
 	//
@@ -4910,8 +4945,8 @@ $("#tan_crown").click(function(){
 
 	$("#CCColors").attr("xlink:href","imgs/Catcher/CrownColors/CCTan.png"); 
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebTan.png");
-
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebTan.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebTan.png");
 	//
 	// handling step 2 count 
 	//
@@ -4944,8 +4979,8 @@ $("#blonde_crown").click(function(){
 
 	$("#CCColors").attr("xlink:href","imgs/Catcher/CrownColors/CCBlonde.png");
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebBlonde.png");
-
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebBlonde.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebBlonde.png");
 	//
 	// handling step 2 count 
 	//
@@ -4978,6 +5013,7 @@ $("#orange_crown").click(function(){
 	$("#CCColors").attr("xlink:href","imgs/Catcher/CrownColors/CCOrange.png");
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebOrange.png");
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebOrange.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebOrange.png");
 	//
 	// handling step 2 count 
 	//
@@ -5010,6 +5046,7 @@ $("#white_crown").click(function(){
 	$("#CCColors").attr("xlink:href","imgs/Catcher/c3.png");
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/fb9.png");
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebWhite.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebWhite.png");
 	//
 	// handling step 2 count 
 	//
@@ -5042,6 +5079,7 @@ $("#navy_blue_crown").click(function(){
 	$("#CCColors").attr("xlink:href","imgs/Catcher/CrownColors/CCNBlue.png");
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebNBlue.png");
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebNBlue.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebNBlue.png");
 	//
 	// handling step 2 count 
 	//
@@ -5074,6 +5112,7 @@ $("#brown_crown").click(function(){
 	$("#CCColors").attr("xlink:href","imgs/Catcher/CrownColors/CCBrown.png");
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebBrown.png");
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebBrown.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebBrown.png");
 	//
 	// handling step 2 count 
 	//
@@ -5106,6 +5145,7 @@ $("#forest_green_crown").click(function(){
 	$("#CCColors").attr("xlink:href","imgs/Catcher/CrownColors/CCFGreen.png");
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebFGreen.png");
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebFGreen.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebFGreen.png");
 	//
 	// handling step 2 count 
 	//
@@ -5138,6 +5178,7 @@ $("#black_crown").click(function(){
 	$("#CCColors").attr("xlink:href","imgs/Catcher/CrownColors/CCBlack.png");
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebBlack.png");
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebBlack.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebBlack.png");
 	//
 	// handling step 2 count 
 	//
@@ -5170,6 +5211,7 @@ $("#royal_blue_crown").click(function(){
 	$("#CCColors").attr("xlink:href","imgs/Catcher/CrownColors/CCRBlue.png");
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebRBlue.png");
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebRBlue.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebRBlue.png");
 	//
 	// handling step 2 count 
 	//
@@ -5202,6 +5244,7 @@ $("#yellow_crown").click(function(){
 	$("#CCColors").attr("xlink:href","imgs/Catcher/CrownColors/CCYellow.png");
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebYellow.png");
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebYellow.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebYellow.png");
 	//
 	// handling step 2 count 
 	//
@@ -5234,6 +5277,7 @@ $("#grey_crown").click(function(){
 	$("#CCColors").attr("xlink:href","imgs/Catcher/CrownColors/CCGrey.png");
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebGrey.png");
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebGrey.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebGrey.png");
 	//
 	// handling step 2 count 
 	//
@@ -5266,6 +5310,7 @@ $("#pink_crown").click(function(){
 	$("#CCColors").attr("xlink:href","imgs/Catcher/CrownColors/CCPink.png");
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebPink.png");
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebPink.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebPink.png");
 	//
 	// handling step 2 count 
 	//
@@ -5299,6 +5344,7 @@ $("#purple_crown").click(function(){
 	$("#CCColors").attr("xlink:href","imgs/Catcher/CrownColors/CCPurple.png");
 	$("#FBCrownColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebPurple.png");
 	$("#FBBWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebPurple.png");
+	$("#FBHWebCrownColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebPurple.png");
 	//
 	// handling step 2 count 
 	//
@@ -6657,6 +6703,7 @@ $("#red_binding").click(function(){
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinRed.png");
 	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebRed.png");
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebRed.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebRed.png");
 	//
 	// handling step 2 count 
 	//
@@ -6689,8 +6736,9 @@ $("#tan_binding").click(function(){
 
 	$("#CBinColors").attr("xlink:href","imgs/Catcher/BindingColors/CBinTan.png");                                                             
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinTan.png");
-	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebTan.png");                                                      
+	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebTan.png");
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebTan.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebTan.png");
 	//
 	// handling step 2 count 
 	//
@@ -6723,8 +6771,9 @@ $("#blonde_binding").click(function(){
 
 	$("#CBinColors").attr("xlink:href","imgs/Catcher/BindingColors/CBinBlonde.png");
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinBlonde.png");     
-	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebBlonde.png");                                                 
+	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebBlonde.png");                                        
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebBlonde.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebBlonde.png");
 	//
 	// handling step 2 count 
 	//
@@ -6759,6 +6808,7 @@ $("#orange_binding").click(function(){
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinOrange.png");
 	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebOrange.png");
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebOrange.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebOrange.png");
 	//
 	// handling step 2 count 
 	//
@@ -6793,6 +6843,7 @@ $("#white_binding").click(function(){
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/f0.png");
 	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/fb5.png");
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebWhite.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebWhite.png");
 	//
 	// handling step 2 count 
 	//
@@ -6827,6 +6878,7 @@ $("#navy_blue_binding").click(function(){
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinNBlue.png");
 	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebNBlue.png");
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebNBlue.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebNBlue.png");
 	//
 	// handling step 2 count 
 	//
@@ -6861,6 +6913,7 @@ $("#brown_binding").click(function(){
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinBrown.png");     
 	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebBrown.png");                                               
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebBrown.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebBrown.png");
 	//
 	// handling step 2 count 
 	//
@@ -6895,6 +6948,7 @@ $("#black_binding").click(function(){
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinBlack.png");     
 	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebBlack.png");                                               
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebBlack.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebBlack.png");
 	//
 	// handling step 2 count 
 	//
@@ -6929,6 +6983,7 @@ $("#royal_blue_binding").click(function(){
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinRBlue.png");      
 	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebRBlue.png");                                              
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebRBlue.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebRBlue.png");
 	//
 	// handling step 2 count 
 	//
@@ -6963,6 +7018,7 @@ $("#yellow_binding").click(function(){
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinYellow.png");      
 	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebYellow.png");                                              
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebYellow.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebYellow.png");
 	//
 	// handling step 2 count 
 	//
@@ -6997,6 +7053,7 @@ $("#grey_binding").click(function(){
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinGrey.png");     
 	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebGrey.png");                                              
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebGrey.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebGrey.png");
 	//
 	// handling step 2 count 
 	//
@@ -7031,6 +7088,7 @@ $("#pink_binding").click(function(){
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinPink.png");     
 	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebPink.png");                                              
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebPink.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebPink.png");
 	//
 	// handling step 2 count 
 	//
@@ -7065,6 +7123,7 @@ $("#purple_binding").click(function(){
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinPurple.png");     
 	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebPurple.png");                                              
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebPurple.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebPurple.png");
 	//
 	// handling step 2 count 
 	//
@@ -7100,6 +7159,7 @@ $("#forest_green_binding").click(function(){
 	$("#FBinColors").attr("xlink:href","imgs/Fielding/Binding/FBinFGreen.png");     
 	$("#FBBinColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebFGreen.png");                                              
 	$("#FBBWebBinColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebFGreen.png");
+	$("#FBHWebBinColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebFGreen.png");
 	//
 	// handling step 2 count 
 	//
@@ -7150,7 +7210,8 @@ $("#red_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebRed.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebRed.png");
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebRed.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebRed.png");                                             
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebRed.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebRed.png");                                             
 	//
 	// handling step 2 count 
 	//
@@ -7190,7 +7251,8 @@ $("#tan_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebTan.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebTan.png");
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebTan.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebTan.png");                                             
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebTan.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebTan.png");                                             
 	//
 	// handling step 2 count 
 	//
@@ -7230,7 +7292,8 @@ $("#blonde_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebBlonde.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebBlonde.png");
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebBlonde.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebBlonde.png");                                             
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebBlonde.png");  
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebBlonde.png");                                           
 	//
 	// handling step 2 count 
 	//
@@ -7270,7 +7333,8 @@ $("#orange_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebOrange.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebOrange.png");
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebOrange.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebOrange.png");                                             
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebOrange.png"); 
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebOrange.png");                                            
 	//
 	// handling step 2 count 
 	//
@@ -7310,7 +7374,8 @@ $("#white_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebWhite.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebWhite.png");                  
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/fb1.png");        
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebWhite.png");                                             
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebWhite.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebWhite.png");
 	//
 	// handling step 2 count 
 	//
@@ -7349,8 +7414,9 @@ $("#navy_blue_stitch").click(function(){
 	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/SIWeb/FSIWebNBlue.png");
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebNBlue.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebNBlue.png");                                                      
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebNBlue.png");                                                            
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebNBlue.png");                                             
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebNBlue.png"); 
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebNBlue.png"); 
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebNBlue.png");                                            
 	//
 	// handling step 2 count 
 	//
@@ -7390,7 +7456,8 @@ $("#brown_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebBrown.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebBrown.png");
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebBrown.png");                                             
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebBrown.png");                                             
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebBrown.png"); 
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebBrown.png");                                            
 	//
 	// handling step 2 count 
 	//
@@ -7430,7 +7497,8 @@ $("#forest_green_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebFGreen.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebFGreen.png");
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebFGreen.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebFGreen.png");                                             
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebFGreen.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebFGreen.png");
 	//
 	// handling step 2 count 
 	//
@@ -7470,7 +7538,8 @@ $("#black_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebBlack.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebBlack.png");
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebBlack.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebBlack.png");                                             
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebBlack.png"); 
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebBlack.png");                                            
 	//
 	// handling step 2 count 
 	//
@@ -7510,7 +7579,8 @@ $("#royal_blue_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebRBlue.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebRBlue.png");
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebRBlue.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebRBlue.png");                                             
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebRBlue.png"); 
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebRBlue.png");                                            
 	//
 	// handling step 2 count 
 	//
@@ -7550,7 +7620,8 @@ $("#yellow_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebYellow.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebYellow.png");
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebYellow.png");                                             
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebYellow.png");                                             
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebYellow.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebYellow.png");                                             
 	//
 	// handling step 2 count 
 	//
@@ -7590,7 +7661,8 @@ $("#grey_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebGrey.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebGrey.png");
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebGrey.png");                                             
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebGrey.png");                                             
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebGrey.png"); 
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebGrey.png");                                            
 	//
 	// handling step 2 count 
 	//
@@ -7630,7 +7702,8 @@ $("#pink_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebPink.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebPink.png");
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebPink.png");                                             
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebPink.png");                                             
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebPink.png"); 
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebPink.png");                                            
 	//
 	// handling step 2 count 
 	//
@@ -7670,7 +7743,8 @@ $("#purple_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/SLWeb/FSLWebPurple.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/SMWeb/FSMWebPurple.png");
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebPurple.png");                                             
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebPurple.png");                                             
+	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebPurple.png"); 
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebPurple.png");                                            
 	//
 	// handling step 2 count 
 	//
@@ -7685,7 +7759,6 @@ $("#purple_stitch").click(function(){
 });
 
 /////////////////////////////////////////////// stitch color handler ends here ///////////////////////////////
-
 
 
 /////////////////////////////////////////////////////// text color handler starts ///////////////////////////
@@ -8289,7 +8362,7 @@ $("#f_type3").click(function(){
 	/// handling the count
 	///
 	prop_total = 9;
-	prop1_total = 6;
+	prop1_total = 7;
 	type = 1;
 	size = 0;crown = 0;back2 = 0; back3 = 0; welting = 0; wingtip = 0; hood = 0; pad = 0; //these must be set to zero when ever this glove 
 																							//type is selected
@@ -9207,6 +9280,12 @@ $("#firstbase_web_g").click(function(){
 	$("#FBBWebBinColors").attr("opacity","0");
 	$("#FBBWebCrownColors").attr("opacity","0");
 	$("#FBBWebStitchColors").attr("opacity","0");
+
+	$("#FBHWebColors").attr("opacity","0");
+	$("#FBHWebLaceColors").attr("opacity","0");
+	$("#FBHWebBinColors").attr("opacity","0");
+	$("#FBHWebCrownColors").attr("opacity","0");
+	$("#FBHWebStitchColors").attr("opacity","0");
 });
 $("#firstbase_web_b").click(function(){
 	webstyle = 1;
@@ -9227,20 +9306,69 @@ $("#firstbase_web_b").click(function(){
 	$("#FBBWebBinColors").attr("opacity","1");
 	$("#FBBWebCrownColors").attr("opacity","1");
 	$("#FBBWebStitchColors").attr("opacity","1");
+
+	$("#FBHWebColors").attr("opacity","0");
+	$("#FBHWebLaceColors").attr("opacity","0");
+	$("#FBHWebBinColors").attr("opacity","0");
+	$("#FBHWebCrownColors").attr("opacity","0");
+	$("#FBHWebStitchColors").attr("opacity","0");
+});
+$("#firstbase_web_h").click(function(){
+	webstyle = 1;
+	sum = type+velcro+wrist1+throwing+finger+lace1+size+webstyle;
+	if(sum != prop1_total)
+		$("#step_1_count").html("<span style = \"color:red;\" id = \"step_1_count\">("+sum+"/"+prop1_total+")</span>")
+	else
+		$("#step_1_count").html("<span style = \"color:green;\" id = \"step_1_count\">(Completed!)</span>")
+	//$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/FAWebWhite.png");
+	$("#FBWebColors").attr("opacity","0");
+	$("#FBLaceColors").attr("opacity","0");
+	$("#FBBinColors").attr("opacity","0");
+	$("#FBCrownColors").attr("opacity","0");
+	$("#FBStitchColors").attr("opacity","0");
+
+	$("#FBBWebColors").attr("opacity","0");
+	$("#FBBWebLaceColors").attr("opacity","0");
+	$("#FBBWebBinColors").attr("opacity","0");
+	$("#FBBWebCrownColors").attr("opacity","0");
+	$("#FBBWebStitchColors").attr("opacity","0");
+
+	$("#FBHWebColors").attr("opacity","1");
+	$("#FBHWebLaceColors").attr("opacity","1");
+	$("#FBHWebBinColors").attr("opacity","1");
+	$("#FBHWebCrownColors").attr("opacity","1");
+	$("#FBHWebStitchColors").attr("opacity","1");
 });
 
 ///////////////////////////////////////////////////// webs tyle fielding handler ends////////////////////////////
 //////////////////////////////////////////////////// thumb text text box input handler ///////////////////////////
 
 $("#TB_ThumbText").keyup(function(){
+	thumb_text = 1;
+	 sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
+	 if(sel_prop1 != prop2_total)
+		$("#step_3_count").html("<span style = \"color:red;\" id = \"step_3_count\">("+sel_prop1+"/"+prop2_total+")</span>")
+	else
+		$("#step_3_count").html("<span style = \"color:green;\" id = \"step_3_count\">(Completed!)</span>")
 	var text  = $("#TB_ThumbText").val();
 	$(".CustomText").html(text);
 });
 $("#text_font_block").click(function(){
+	text_font = 1;
+	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
+	 if(sel_prop1 != prop2_total)
+		$("#step_3_count").html("<span style = \"color:red;\" id = \"step_3_count\">("+sel_prop1+"/"+prop2_total+")</span>")
+
 	$(".CustomText").attr("font-family","verdana");
 	$(".CustomText").attr("font-size","15px");
 });
 $("#text_font_script").click(function(){
+
+	text_font = 1;
+	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
+	 if(sel_prop1 != prop2_total)
+		$("#step_3_count").html("<span style = \"color:red;\" id = \"step_3_count\">("+sel_prop1+"/"+prop2_total+")</span>")
+
 	$(".CustomText").attr("font-family","Edwardian Script ITC");
 	$(".CustomText").attr("font-size","25px");
 });
@@ -9406,22 +9534,27 @@ $("#other_flag").click(function(){
 				<!-- =============================================== Bindings ============================================== -->
 				<image id = "FBBinColors" xlink:href = "imgs/FirstBase/Web/GWeb/BinGWeb/FBBinGWebWhite.png" x="0" y="0" width="621" height="556" opacity="1" />
 				<image id = "FBBWebBinColors" xlink:href = "imgs/FirstBase/Web/BWeb/BinBWeb/FBBinBWebWhite.png" x="0" y="0" width="621" height="556" opacity="0" />
+				<image id = "FBHWebBinColors" xlink:href = "imgs/FirstBase/Web/HWeb/BinHWeb/FBBinHWebWhite.png" x="0" y="0" width="621" height="556" opacity="0" />
 				<!-- =============================================== laces ============================================== -->
 				<image id = "FBLaceColors" xlink:href = "imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebWhite.png" x="0" y="0" width="621" height="556" opacity="1" />
 				<image id = "FBBWebLaceColors" xlink:href = "imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebWhite.png" x="0" y="0" width="621" height="556" opacity="0" />
+				<image id = "FBHWebLaceColors" xlink:href = "imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebWhite.png" x="0" y="0" width="621" height="556" opacity="0" />
 				<!-- =============================================== webs ============================================== -->
 				<image id = "FBWebColors" xlink:href = "imgs/FirstBase/Web/GWeb/Web/FBGWebWhite.png" x="0" y="0" width="621" height="556" opacity="1" />
 				<image id = "FBBWebColors" xlink:href = "imgs/FirstBase/Web/BWeb/Web/FBBWebWhite.png" x="0" y="0" width="621" height="556" opacity="0" />
+				<image id = "FBHWebColors" xlink:href = "imgs/FirstBase/Web/HWeb/Web/FBHWebWhite.png" x="0" y="0" width="621" height="556" opacity="0" />
 				<image id = "FBWrstColors" xlink:href = "imgs/FirstBase/fb8.png" x="0" y="0" width="621" height="556" opacity="1" />
 				<image id = "FBLImg" xlink:href = "imgs/FirstBase/fb3.png" x="0" y="0" width="621" height="556" opacity="1" />
 				<!-- =============================================== crown ============================================== -->
 				<image id = "FBCrownColors" xlink:href = "imgs/FirstBase/Web/GWeb/CGWeb/FBCGWebWhite.png" x="0" y="0" width="621" height="556" opacity="1" />
 				<image id = "FBBWebCrownColors" xlink:href = "imgs/FirstBase/Web/BWeb/CBWeb/FBCBWebWhite.png" x="0" y="0" width="621" height="556" opacity="0" />
+				<image id = "FBHWebCrownColors" xlink:href = "imgs/FirstBase/Web/HWeb/CHWeb/FBCHWebWhite.png" x="0" y="0" width="621" height="556" opacity="0" />
 				<image id = "img" xlink:href = "imgs/FirstBase/fb10.png" x="0" y="0" width="621" height="556" opacity="1" />
 				<image id = "FBFlag" xlink:href = "" x="-20" y="40" width="621" height="556" opacity="1" />
 				<!-- =============================================== stitches ============================================== -->
 				<image id = "FBStitchColors" xlink:href = "imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebWhite.png" x="0" y="0" width="621" height="556" opacity="1" />
 				<image id = "FBBWebStitchColors" xlink:href = "imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebWhite.png" x="0" y="0" width="621" height="556" opacity="0" />
+				<image id = "FBHWebStitchColors" xlink:href = "imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebWhite.png" x="0" y="0" width="621" height="556" opacity="0" />
 				<text class = "CustomText" x = "200px" y = "460px" font-family="verdana" font-size = "15px" fill = "black" transform = "rotate(0)">Qasim</text>
 				</svg>
 			</div>
@@ -9793,6 +9926,11 @@ $("#other_flag").click(function(){
 		            	<div class="radio">
 			                <label>
 			                    <input type="radio" name="fb_web_style" id="firstbase_web_b" value="firstbase_web_b">b-Web
+			                </label>
+		            	</div>
+		            	<div class="radio">
+			                <label>
+			                    <input type="radio" name="fb_web_style" id="firstbase_web_h" value="firstbase_web_h">h-Web
 			                </label>
 		            	</div>
 		            </div>
@@ -10324,7 +10462,7 @@ $("#other_flag").click(function(){
 					<div id = "stitch_color">Color:Not Selected</div>
 			</div>
 			<div id="step3">
-				<b>STEP - 3 PERSONALIZE</b>
+				<b>STEP - 3 PERSONALIZE <span style="color:red" id = "step_3_count">(0/5)</span> </b>
 			</div>
 			<div id="step_3_op">
 
