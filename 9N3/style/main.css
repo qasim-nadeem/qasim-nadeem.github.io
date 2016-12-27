@@ -224,6 +224,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', end
 #CBLogoColor{
 	transform: rotate(90deg);
 }
+#footer a{
+	color: black;
+	float: right;
+}
+#footer a:hover{
+	color: blue;
+}
+#SimHeading{
+	color: white;
+	margin-left: 110px;
+	margin-bottom: 30px;
+}
 /*========================================== glove sizes ==================================================*/
 
 /*
