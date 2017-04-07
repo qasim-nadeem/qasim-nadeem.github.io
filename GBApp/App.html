@@ -1,0 +1,1058 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- All styling files -->
+<link href="style/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="style/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="style/bootstrap-theme.css" rel="stylesheet" type="text/css" media="all" />
+<link href="style/bootstrap-theme.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="style/main.css" rel="stylesheet" type="text/css" media="all" />
+<link href="style/color.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- All JS scriots -->
+<script type="text/javascript" src="js/bootstrap.js" ></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/npm.js"></script>
+<script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+<script type="text/javascript" src="js/panels.js"></script>
+<!-- All font files -->
+
+<title>Glove Builder - 9N3 Pro Gloves</title>
+</head>
+<body>
+<div id="main">
+    <div id="header">
+    </div>
+    <div id="content">
+    	<!------ step 1 --->
+        <center>
+        <div class="row" id="option-steps">
+        	<div class="col-md-3 col-sm-3" id="logo">
+            <img src="imgs/logo.png" height="80px" width="250px"/>
+            </div>
+            <div class="col-md-3 col-sm-3" id="step-1">
+            step-1<br>
+            Glove Data
+            </div>
+            <!-- step 2 -->
+            <div class="col-md-3 col-sm-3" id="step-2">
+            step-2<br>
+            Glove Coloring
+            </div>
+            <!-- step-3 -->
+            <div class="col-md-3 col-sm-3" id="step-3">
+            step-3<br>
+            Glove Personalization
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-md-9 col-sm-9" id="glove-view">
+        Glove view<br>
+        <img src="imgs/catcher.png" width="600px" height="600px">
+        </div>
+        <div class="col-md-3 col-sm-3" id="option-content">
+        Select Options below
+            <div id="step1-options">
+            <!----------------------------- step1 options ------------------------------------------->
+            <h4 style="margin-bottom:20px;">Glove Type*</h4>
+                <div class="radio">
+                    <label>
+                    <input type="radio" name="f_type" id="f_type1" value="Catcher">Catcher
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                    <input type="radio" name="f_type" id="f_type2" value="Fielding">Fielding
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                    <input type="radio" name="f_type" id="f_type3" value="First Base">First Base
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                    <input type="radio" name="f_type" id="f_type4" value="Soft Ball">Softball
+                    </label>
+                </div>
+                <div id = "when_glove_type_selected" style = "display:block;">
+                	<h4 style="margin-bottom:20px;">Throwing Hand*</h4>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="throwing_hand" id="throwing_hand_left" value="Left">Left
+	                    </label>
+	                </div>	
+	                
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="velcro_wrist" id="velcro_wrist_no" value="No">No
+	                    </label>
+	                </div>
+
+	                <h4 style="margin-bottom:20px;">Wrist Guard*</h4>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="wrist_guard" id="wrist_guard_yes" value="Yes">Yes (+$14.95)
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="wrist_guard" id="wrist_guard_no" value="No">No
+	                    </label>
+	                </div>
+	                <h4 style="margin-bottom:20px;">Velcro Wrist*</h4>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="velcro_wrist" id="velcro_wrist_yes" value="Yes">Yes (not shown on builder)
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="throwing_hand" id="throwing_hand_right" value="Right">Right
+	                    </label>
+	                </div>
+	                <div id = "finger_HoodPad" style = "display:block">
+	                <h4 style="margin-bottom:20px;">Finger Hood or Pad*</h4>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="finger_hood" id="finger_hood_none" value="None">None
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="finger_hood" id="finger_hood_hood" value="Hood">Hood
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="finger_hood" id="finger_hood_pad" value="Pad">Pad
+	                    </label>
+	                </div>
+	            	</div>
+	            	<div id = "game_type" style = "display:block">
+	                <h4 style="margin-bottom:20px;">Game Type*</h4>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="game_type" id="game_type_slowPitching" value="Slow Pitching">Slow Pitching
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="game_type" id="game_type_fastPitching" value="Fast Pitching">Fast Pitching
+	                    </label>
+	                </div>
+	            	</div>
+	                <h4 style="margin-bottom:20px;">Lace Length*</h4>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="lace_length" id="lace_length_normal" value="Normal">Normal
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="lace_length" id="lace_length_long" value="Long">long (not shown on builder)
+	                    </label>
+	                </div>
+	            </div>
+	                <div id  = "glove_size_catcher" style = "display:block;">
+		                <h4 style="margin-bottom:20px;">Glove Size*</h4>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_32" value="32-inches">32"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_32_5" value="32.5-inches">32.5"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_33" value="33-inches">33"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_34" value="34-inches">34"
+		                    </label>
+		                </div>
+		            </div>
+		            <div id  = "glove_size_fielding" style = "display:none;">
+		            	<h4 style="margin-bottom:20px;">Glove Size*</h4>
+		            	<div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_9_5" value="9.5-inches">9.5"(Youth)
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_10" value="10-inches">10"(Youth)
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_10_5" value="10.5-inches">10.5"(Youth)
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_10_75" value="10.75-inches">10.75"(Youth)
+		                    </label>
+		                </div>
+		                
+
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_11" value="11-inches">11"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_11_25" value="11.25-inches">11.25"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_11_50_f" value="11.5-inches">11.50"
+		                    </label>
+		                </div>
+		               
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_f" value="12-inches">12"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_25_f" value="12.25-inches">12.25"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_50_f" value="12.50-inches">12.50"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_75_f" value="12.75-inches">12.75"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_f" value="13-inches">13"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_25_f" value="13.25-inches">13.25"
+		                    </label>
+		                </div>
+		            </div>
+		            <div id  = "glove_size_fbase" style = "display:none;">
+		            	<h4 style="margin-bottom:20px;">Glove Size*</h4>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_fb" value="12-inches">12"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_25_fb" value="12.25-inches">12.25"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_50_fb" value="12.50-inches">12.50"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_75_fb" value="12.75-inches">12.75"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_fb" value="13-inches">13"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_25_fb" value="13.25-inches">13.25"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_50_fb" value="13.50-inches">13.50"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_14_fb" value="14-inches">14"
+		                    </label>
+		                </div>
+		            </div>
+		            <div id  = "glove_size_softball" style = "display:none;">
+		            	<h4 style="margin-bottom:20px;">Glove Size*</h4>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_11_50_sb" value="11.50-inches">11.50"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_11_75_sb" value="11.75">11.75"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_sb" value="12-inches">12"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_25_sb" value="12.25-inches">12.25"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_50_sb" value="12.50-inches">12.50"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_75_sb" value="12.75-inches">12.75"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_sb" value="13-inches">13"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_25_sb" value="13.25-inches">13.25"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_50_sb" value="13.50-inches">13.50"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_14_sb" value="14-inches">14"
+		                    </label>
+		                </div>
+		            </div>
+		            <div id = "fielding_web_styles" style = "display:none">
+		            	<h4 style="margin-bottom:20px;">Web Style*</h4>
+		            	<div id="f_web_k" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_k" value="Web-k">k-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	<div id="f_web_i" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_i" value="Web-i">i-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	<div id="f_web_a" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_a" value="Web-a">a-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	<div id="f_web_e" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_e" value="Web-e">e-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	<div id="f_web_h" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_h" value="Web-h">h-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	<div id="f_web_l" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_l" value="Web-L">l-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	<div id="f_web_m" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_m" value="Web-m">m-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	
+		            </div>
+		            <div id = "firstbase_webstyles" style = "display:none;">
+		            	<h4 style="margin-bottom:20px;">Web Style*</h4>
+			            <div class="radio">
+			                <label>
+			                    <input type="radio" name="fb_web_style" id="firstbase_web_g" value="Web-g">g-Web
+			                </label>
+		            	</div>
+		            	<div class="radio">
+			                <label>
+			                    <input type="radio" name="fb_web_style" id="firstbase_web_b" value="Web-b">b-Web
+			                </label>
+		            	</div>
+		            	<div class="radio">
+			                <label>
+			                    <input type="radio" name="fb_web_style" id="firstbase_web_h" value="Web-h">h-Web
+			                </label>
+		            	</div>
+		            </div>
+            <!----------------------------- step1 options end------------------------------------------->
+            </div>
+            <div id="step2-options">
+            <!-------------------------------- step 2 options ------------------------------------------->
+            <h4 style="margin-bottom:20px;">Logo Color</h4>
+	               	<div id="color_container">
+						<div class="red selected" id="red_logo">
+						</div>
+						<div class = "volt_green" id = "volt_green_logo">
+						</div>
+						<div class = "sky_blue" id="sky_blue_logo">
+						</div>
+						<div class = "tan" id="tan_logo">
+						</div>
+						<div class = "blonde" id="blonde_logo">
+						</div>
+						<div class = "teal" id="teal_logo">
+						</div>
+						<div class = "orange" id="orange_logo">
+						</div>
+						<div class = "white" id="white_logo">
+						</div>
+						<div class = "pink" id="pink_logo">
+						</div>
+						<div class = "navy_blue" id="navy_blue_logo">
+						</div>
+						<div class = "purple" id = "purple_logo">
+						</div>
+						<div class = "royal_blue" id = "royal_blue_logo">
+						</div>
+						<div class = "brown" id="brown_logo">
+						</div>
+						<div class = "forest_green" id="forest_green_logo">
+						</div>
+						<div class = "silver" id="silver_logo">
+						</div>
+						<div class = "volt_yellow" id="volt_yellow_logo">
+						</div>
+						<div class = "maroon" id="maroon_logo">
+						</div>
+						<div class = "gold" id="gold_logo">
+						</div>
+						<div class = "black" id = "black_logo">
+						</div>
+					</div><br><br><br><br><br><br><br>
+					<div id = "logo_color">Color:Not Selected</div>
+                <h4 style="margin-bottom:20px;">Laces</h4>
+                	<div id="color_container">
+						<div class="red" id="red_laces">
+						</div>
+						<div class = "sky_blue" id="sky_blue_laces">
+						</div>
+						<div class = "tan" id="tan_laces">
+						</div>
+						<div class = "blonde" id="blonde_laces">
+						</div>
+						<div class = "orange" id="orange_laces">
+						</div>
+						<div class = "white" id="white_laces">
+						</div>
+						<div class = "navy_blue" id="navy_blue_laces">
+						</div>
+						<div class = "brown" id="brown_laces">
+						</div>
+						<div class = "forest_green" id="forest_green_laces">
+						</div>
+						<div class = "black" id="black_laces">
+						</div>
+						<div class = "royal_blue" id="royal_blue_laces">
+						</div>
+						<div class = "yellow" id="yellow_laces">
+						</div>
+						<div class = "grey" id="grey_laces">
+						</div>
+						<div class = "pink" id  = "pink_laces" >
+						</div>
+						<div class = "purple" id="purple_laces">
+						</div>
+					</div><br><br><br><br><br><br><br>
+					<div id = "laces_color">Color:Not Selected</div>
+					<h4 style="margin-bottom:20px;">Web*</h4>
+					<div id="color_container">
+						<div class="red" id="red_web">
+						</div>
+						<div class = "tan" id="tan_web">
+						</div>
+						<div class = "blonde" id="blonde_web">
+						</div>
+						<div class = "orange" id="orange_web">
+						</div>
+						<div class = "white" id="white_web">
+						</div>
+						<div class = "navy_blue" id="navy_blue_web">
+						</div>
+						<div class = "brown" id="brown_web">
+						</div>
+						<div class = "forest_green" id="forest_green_web">
+						</div>
+						<div class = "black" id="black_web">
+						</div>
+						<div class = "royal_blue" id="royal_blue_web">
+						</div>
+						<div class = "yellow" id="yellow_web">
+						</div>
+						<div class = "grey" id="grey_web">
+						</div>
+						<div class = "pink" id  = "pink_web" >
+						</div>
+						<div class = "purple" id="purple_web">
+						</div>
+					</div><br><br><br><br><br>
+					<div id = "web_color">Color:Not Selected</div>
+					<h4 style="margin-bottom:20px;">Palm Leather*</h4>
+					<div id="color_container">
+						<div class="red" id="red_palm">
+						</div>
+						<div class = "tan" id="tan_palm">
+						</div>
+						<div class = "blonde" id="blonde_palm">
+						</div>
+						<div class = "orange" id="orange_palm">
+						</div>
+						<div class = "white" id="white_palm">
+						</div>
+						<div class = "navy_blue" id="navy_blue_palm">
+						</div>
+						<div class = "brown" id="brown_palm">
+						</div>
+						<div class = "forest_green" id="forest_green_palm">
+						</div>
+						<div class = "black" id="black_palm">
+						</div>
+						<div class = "royal_blue" id="royal_blue_palm">
+						</div>
+						<div class = "yellow" id="yellow_palm">
+						</div>
+						<div class = "grey" id="grey_palm">
+						</div>
+						<div class = "pink" id  = "pink_palm" >
+						</div>
+						<div class = "purple" id="purple_palm">
+						</div>
+					</div><br><br><br><br><br>
+					<div id = "palm_color">Color:Not Selected</div>
+					<h4 style="margin-bottom:20px;">Back Leather 1*</h4>
+					<div id="color_container">
+						<div class="red" id="red_back">
+						</div>
+						<div class = "tan" id="tan_back">
+						</div>
+						<div class = "blonde" id="blonde_back">
+						</div>
+						<div class = "orange" id = "orange_back">
+						</div>
+						<div class = "white" id="white_back">
+						</div>
+						<div class = "navy_blue" id="navy_blue_back">
+						</div>
+						<div class = "brown" id="brown_back">
+						</div>
+						<div class = "forest_green" id="forest_green_back">
+						</div>
+						<div class = "black" id="black_back">
+						</div>
+						<div class = "royal_blue" id="royal_blue_back">
+						</div>
+						<div class = "yellow" id="yellow_back">
+						</div>
+						<div class = "grey" id="grey_back">
+						</div>
+						<div class = "pink" id  = "pink_back" >
+						</div>
+						<div class = "purple" id="purple_back">
+						</div>
+					</div><br><br><br><br><br>
+					<div id = "back_color">Color:Not Selected</div>
+
+<!--------------------------------------------------- additional options if fielding gloves ------------------------------------------------>
+
+					<div id  = "Fieldingback2" style = "display:none">
+						<h4 style="margin-bottom:20px;">Back Leather 2*</h4>
+					<div id="color_container">
+						<div class="red" id="red_back2">
+						</div>
+						<div class = "tan" id="tan_back2">
+						</div>
+						<div class = "blonde" id="blonde_back2">
+						</div>
+						<div class = "orange" id = "orange_back2">
+						</div>
+						<div class = "white" id="white_back2">
+						</div>
+						<div class = "navy_blue" id="navy_blue_back2">
+						</div>
+						<div class = "brown" id="brown_back2">
+						</div>
+						<div class = "forest_green" id="forest_green_back2">
+						</div>
+						<div class = "black" id="black_back2">
+						</div>
+						<div class = "royal_blue" id="royal_blue_back2">
+						</div>
+						<div class = "yellow" id="yellow_back2">
+						</div>
+						<div class = "grey" id="grey_back2">
+						</div>
+						<div class = "pink" id  = "pink_back2" >
+						</div>
+						<div class = "purple" id="purple_back2">
+						</div>
+					</div><br><br><br><br><br>
+					<div id = "back2_color">Color:Not Selected</div>
+					</div>
+					<div id  = "Fieldingback3" style = "display:none" >
+						<h4 style="margin-bottom:20px;">Back Leather 3*</h4>
+					<div id="color_container">
+						<div class="red" id="red_back3">
+						</div>
+						<div class = "tan" id="tan_back3">
+						</div>
+						<div class = "blonde" id="blonde_back3">
+						</div>
+						<div class = "orange" id = "orange_back3">
+						</div>
+						<div class = "white" id="white_back3">
+						</div>
+						<div class = "navy_blue" id="navy_blue_back3">
+						</div>
+						<div class = "brown" id="brown_back3">
+						</div>
+						<div class = "forest_green" id="forest_green_back3">
+						</div>
+						<div class = "black" id="black_back3">
+						</div>
+						<div class = "royal_blue" id="royal_blue_back3">
+						</div>
+						<div class = "yellow" id="yellow_back3">
+						</div>
+						<div class = "grey" id="grey_back3">
+						</div>
+						<div class = "pink" id  = "pink_back3" >
+						</div>
+						<div class = "purple" id="purple_back3">
+						</div>
+					</div><br><br><br><br><br>
+					<div id = "back3_color">Color:Not Selected</div>
+					</div>
+					<div id  = "FieldingWelting" style = "display:none" >
+						<h4 style="margin-bottom:20px;">Welting*</h4>
+					<div id="color_container">
+						<div class="red" id="red_welting">
+						</div>
+						<div class = "tan" id="tan_welting">
+						</div>
+						<div class = "blonde" id="blonde_welting">
+						</div>
+						<div class = "orange" id = "orange_welting">
+						</div>
+						<div class = "white" id="white_welting">
+						</div>
+						<div class = "navy_blue" id="navy_blue_welting">
+						</div>
+						<div class = "brown" id="brown_welting">
+						</div>
+						<div class = "forest_green" id="forest_green_welting">
+						</div>
+						<div class = "black" id="black_welting">
+						</div>
+						<div class = "royal_blue" id="royal_blue_welting">
+						</div>
+						<div class = "yellow" id="yellow_welting">
+						</div>
+						<div class = "grey" id="grey_welting">
+						</div>
+						<div class = "pink" id  = "pink_welting" >
+						</div>
+						<div class = "purple" id="purple_welting">
+						</div>
+					</div><br><br><br><br><br>
+					<div id = "welting_color">Color:Not Selected</div>
+					</div>
+					<div id  = "FieldingWingTip" style = "display:none" >
+						<h4 style="margin-bottom:20px;">Wing Tip*</h4>
+					<div id="color_container">
+						<div class="red" id="red_wingtip">
+						</div>
+						<div class = "tan" id="tan_wingtip">
+						</div>
+						<div class = "blonde" id="blonde_wingtip">
+						</div>
+						<div class = "orange" id = "orange_wingtip">
+						</div>
+						<div class = "white" id="white_wingtip">
+						</div>
+						<div class = "navy_blue" id="navy_blue_wingtip">
+						</div>
+						<div class = "brown" id="brown_wingtip">
+						</div>
+						<div class = "forest_green" id="forest_green_wingtip">
+						</div>
+						<div class = "black" id="black_wingtip">
+						</div>
+						<div class = "royal_blue" id="royal_blue_wingtip">
+						</div>
+						<div class = "yellow" id="yellow_wingtip">
+						</div>
+						<div class = "grey" id="grey_wingtip">
+						</div>
+						<div class = "pink" id  = "pink_wingtip" >
+						</div>
+						<div class = "purple" id="purple_wingtip">
+						</div>
+					</div><br><br><br><br><br>
+					<div id = "wingtip_color">Color:Not Selected</div>
+					</div>
+
+<!-------------------------------------------------------------------- additional option in fielding end ------------------------------------>
+
+					<h4 style="margin-bottom:20px;">Binding*</h4>
+					<div id="color_container">
+						<div class="red" id="red_binding">
+						</div>
+						<div class = "tan" id="tan_binding">
+						</div>
+						<div class = "blonde" id="blonde_binding">
+						</div>
+						<div class = "orange" id = "orange_binding">
+						</div>
+						<div class = "white" id="white_binding">
+						</div>
+						<div class = "navy_blue" id="navy_blue_binding">
+						</div>
+						<div class = "brown" id="brown_binding">
+						</div>
+						<div class = "forest_green" id="forest_green_binding">
+						</div>
+						<div class = "black" id="black_binding">
+						</div>
+						<div class = "royal_blue" id="royal_blue_binding">
+						</div>
+						<div class = "yellow" id="yellow_binding">
+						</div>
+						<div class = "grey" id="grey_binding">
+						</div>
+						<div class = "pink" id  = "pink_binding" >
+						</div>
+						<div class = "purple" id="purple_binding">
+						</div>
+					</div><br><br><br><br><br>
+					<div id = "binding_color">Color:Not Selected</div>
+					<div id = "Crown" style = "display:none;">
+					<h4 style="margin-bottom:20px;">Crown*</h4>
+					<div id="color_container">
+						<div class="red" id="red_crown">
+						</div>
+						<div class = "tan" id="tan_crown">
+						</div>
+						<div class = "blonde" id="blonde_crown">
+						</div>
+						<div class = "orange" id="orange_crown">
+						</div>
+						<div class = "white" id="white_crown">
+						</div>
+						<div class = "navy_blue" id="navy_blue_crown">
+						</div>
+						<div class = "brown" id="brown_crown">
+						</div>
+						<div class = "forest_green" id="forest_green_crown">
+						</div>
+						<div class = "black" id="black_crown">
+						</div>
+						<div class = "royal_blue" id="royal_blue_crown">
+						</div>
+						<div class = "yellow" id="yellow_crown">
+						</div>
+						<div class = "grey" id="grey_crown">
+						</div>
+						<div class = "pink" id  = "pink_crown" >
+						</div>
+						<div class = "purple" id="purple_crown">
+						</div>
+					</div><br><br><br><br><br>
+					<div id = "crown_color">Color:Not Selected</div>
+					</div>
+					<h4 style="margin-bottom:20px;">Wrist Color*</h4>
+					<div id="color_container">
+						<div class="red" id="red_wrist">
+						</div>
+						<div class = "tan" id="tan_wrist">
+						</div>
+						<div class = "blonde" id="blonde_wrist">
+						</div>
+						<div class = "orange" id="orange_wrist">
+						</div>
+						<div class = "white" id="white_wrist">
+						</div>
+						<div class = "navy_blue" id="navy_blue_wrist">
+						</div>
+						<div class = "brown" id="brown_wrist">
+						</div>
+						<div class = "forest_green" id="forest_green_wrist">
+						</div>
+						<div class = "black" id="black_wrist">
+						</div>
+						<div class = "royal_blue" id="royal_blue_wrist">
+						</div>
+						<div class = "yellow" id="yellow_wrist">
+						</div>
+						<div class = "grey" id="grey_wrist">
+						</div>
+						<div class = "pink" id  = "pink_wrist" >
+						</div>
+						<div class = "purple" id="purple_wrist">
+						</div>
+					</div><br><br><br><br><br>
+					<div id = "wrist_color">Color:Not Selected</div>
+
+<!---------------------------------------------------------------------- finger hood colors ------------------------------------------------>
+					<div id = "FingerHoodColors" style = "display:none;">
+						<h4 style="margin-bottom:20px;">Finger Hood Color*</h4>
+						<div id="color_container">
+							<div class="red" id="red_hood">
+							</div>
+							<div class = "tan" id="tan_hood">
+							</div>
+							<div class = "blonde" id="blonde_hood">
+							</div>
+							<div class = "orange" id="orange_hood">
+							</div>
+							<div class = "white" id="white_hood">
+							</div>
+							<div class = "navy_blue" id="navy_blue_hood">
+							</div>
+							<div class = "brown" id="brown_hood">
+							</div>
+							<div class = "forest_green" id="forest_green_hood">
+							</div>
+							<div class = "black" id="black_hood">
+							</div>
+							<div class = "royal_blue" id="royal_blue_hood">
+							</div>
+							<div class = "yellow" id="yellow_hood">
+							</div>
+							<div class = "grey" id="grey_hood">
+							</div>
+							<div class = "pink" id  = "pink_hood" >
+							</div>
+							<div class = "purple" id="purple_hood">
+							</div>
+						</div><br><br><br><br><br>
+						<div id = "hood_color">Color:Not Selected</div>
+					</div>
+					<!---------------------------------------------------------------------- finger Pad colors ------------------------------------------------>
+					<div id = "FingerPadColors" style = "display:none;">
+						<h4 style="margin-bottom:20px;">Finger Pad Color*</h4>
+						<div id="color_container">
+							<div class="red" id="red_pad">
+							</div>
+							<div class = "tan" id="tan_pad">
+							</div>
+							<div class = "blonde" id="blonde_pad">
+							</div>
+							<div class = "orange" id="orange_pad">
+							</div>
+							<div class = "white" id="white_pad">
+							</div>
+							<div class = "navy_blue" id="navy_blue_pad">
+							</div>
+							<div class = "brown" id="brown_pad">
+							</div>
+							<div class = "forest_green" id="forest_green_pad">
+							</div>
+							<div class = "black" id="black_pad">
+							</div>
+							<div class = "royal_blue" id="royal_blue_pad">
+							</div>
+							<div class = "yellow" id="yellow_pad">
+							</div>
+							<div class = "grey" id="grey_pad">
+							</div>
+							<div class = "pink" id  = "pink_pad" >
+							</div>
+							<div class = "purple" id="purple_pad">
+							</div>
+						</div><br><br><br><br><br>
+						<div id = "pad_color">Color:Not Selected</div>
+						</div>
+
+
+					<h4 style="margin-bottom:20px;">Stitching Color*</h4>
+					<div id="color_container">
+						<div class="red" id="red_stitch">
+						</div>
+						<div class = "tan" id="tan_stitch">
+						</div>
+						<div class = "blonde" id="blonde_stitch">
+						</div>
+						<div class = "orange" id="orange_stitch">
+						</div>
+						<div class = "white" id="white_stitch">
+						</div>
+						<div class = "navy_blue" id="navy_blue_stitch">
+						</div>
+						<div class = "brown" id="brown_stitch">
+						</div>
+						<div class = "forest_green" id="forest_green_stitch">
+						</div>
+						<div class = "black" id="black_stitch">
+						</div>
+						<div class = "royal_blue" id="royal_blue_stitch">
+						</div>
+						<div class = "yellow" id="yellow_stitch">
+						</div>
+						<div class = "grey" id="grey_stitch">
+						</div>
+						<div class = "pink" id  = "pink_stitch" >
+						</div>
+						<div class = "purple" id="purple_stitch">
+						</div>
+					</div><br><br><br><br><br>
+					<div id = "stitch_color">Color:Not Selected</div>
+            <!-------------------------------- step 2 options end --------------------------------------->
+            </div>
+            <div id="step3-options">
+            <!-- -------------------------------- step 3 options ----------------------------------------->
+            <h4 style="margin-bottom:20px;">Text Color*</h4>
+	               	<div id="color_container">
+						<div class="red" id="red_text_color">
+						</div>
+						<div class = "volt_green" id = "volt_green_text_color">
+						</div>
+						<div class = "sky_blue" id="sky_blue_text_color">
+						</div>
+						<div class = "tan" id="tan_text_color">
+						</div>
+						<div class = "blonde" id="blonde_text_color">
+						</div>
+						<div class = "teal" id="teal_text_color">
+						</div>
+						<div class = "orange" id="orange_text_color">
+						</div>
+						<div class = "white" id="white_text_color">
+						</div>
+						<div class = "pink" id="pink_text_color">
+						</div>
+						<div class = "navy_blue" id="navy_blue_text_color">
+						</div>
+						<div class = "purple" id = "purple_text_color">
+						</div>
+						<div class = "royal_blue" id = "royal_blue_text_color">
+						</div>
+						<div class = "brown" id="brown_text_color">
+						</div>
+						<div class = "forest_green" id="forest_green_text_color">
+						</div>
+						<div class = "silver" id="silver_text_color">
+						</div>
+						<div class = "volt_yellow" id="volt_yellow_text_color">
+						</div>
+						<div class = "maroon" id="maroon_text_color">
+						</div>
+						<div class = "gold" id="gold_text_color">
+						</div>
+						<div class = "black" id="black_text_color">
+						</div>
+					</div>
+						<br><br><br><br><br><br><br>
+						<div id = "text_color">Color:Not Selected</div>
+					<h4 style="margin-bottom:20px;">Text Font*</h4>
+						<div class="radio">
+	                    <label>
+	                    <input type="radio" name="text_font" id="text_font_block" value="Block">Block
+	                    </label>
+	                	</div>
+	                	<div class="radio">
+	                    <label>
+	                    <input type="radio" name="text_font" id="text_font_script" value="Script">Script
+	                    </label>
+	                	</div>
+	                <h4 style="margin-bottom:20px;">Thumb Text*</h4>
+		                <div class="form-group">
+						<input id = "TB_ThumbText" type="text" class="form-control" placeholder="" value = "">
+						</div>
+						<div id = "Flags">
+							<h4 style="margin-bottom:20px;">Flags*</h4>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="usa_flag" value="USA">USA
+			                    </label>
+			                </div>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="mexico_flag" value="Mexico">Mexico
+			                    </label>
+			                </div>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="puerto_flag" value="Puerto Rico">Puerto Rico
+			                    </label>
+			                </div>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="cuba_flag" value="Cuba">Cuba
+			                    </label>
+			                </div>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="dominican_flag" value="Dominican Republic">Dominican Republic
+			                    </label>
+			                </div>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="australia_flag" value="Australia">Australia
+			                    </label>
+			                </div>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="other_flag" value="Custom Flag">Other
+			                    </label>
+			                </div>
+			                <div id = "flag_discription" style = "display:none">
+			                	<h4 style="margin-bottom:20px;">Flag Name*</h4>
+			                	<div class="form-group">
+									<input id = "TB_custom_flag" type="text" class="form-control" placeholder="" value = "">
+								</div>
+			                </div>
+						</div>
+            <!------------------------------------- step 3 options end ----------------------------------->
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="footer">
+    copyright
+    </div>
+</div>
+
+</body>
+</html>

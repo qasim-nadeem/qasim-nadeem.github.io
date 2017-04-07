@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+#color_container{
+	width:350px;
+	display: inline;
+}
+.red,.green, .blue, .tan, .teal, .orange, .blonde, .white, .pink,.navy_blue, .purple, .royal_blue, .brown, 
+.forest_green, .sky_blue, .black, .gold, .silver, .volt_green, .volt_yellow, .maroon, .yellow, .grey{
+	background-color:#ff0000;
+	width:25px;
+	height:25px;
+	float: left;
+	margin: 8px;
+	border-radius:20px;	
+}
+.green{
+	background-color:green;	
+}
+.blue{
+	background-color:blue;
+	
+}
+.tan{
+	background-color:#b97a4f;
+	
+}
+
+.teal{
+	background-color:#0c929d;
+	
+}
+
+.orange{
+	background-color:#ff7409;
+}
+
+.blonde{
+	background-color:#cdc3ae;
+	
+}
+
+.white{
+	background-color:white;
+	border: 1px solid black;
+	
+}
+
+.pink{
+	background-color:#f4b1de;
+	
+}
+
+.navy_blue{
+	background-color:#324162;
+
+}
+.purple{
+	background-color:#733555;
+
+}
+.royal_blue{
+	background-color:#1d5f98;
+		
+}
+
+.brown{
+	background-color:#542714;
+	
+}
+
+.forest_green{
+	background-color:#344d30;
+	
+}
+
+.sky_blue{
+	background-color:#6ebbd9;
+	
+}
+.black{
+	background-color:black;
+	
+}
+
+.gold{
+	background-color:#e1bb31;
+	
+}
+
+.silver{
+	background-color:#9e9e9e;
+	
+}
+
+.volt_green{
+	background-color:#73ff10;
+	
+}
+
+.volt_yellow{
+	background-color:#fafa44;
+	
+}
+
+.maroon{
+	background-color:#983636;
+	
+}
+.yellow{
+	background-color:#fab900;
+	
+}
+
+.grey{
+	background-color: #dddddd;
+}
+
+/******************************************************* selected boxed design ****************************/
+.selected{
+	border: 3px solid black;
+}
