@@ -53,7 +53,7 @@ $("#red_logo").click(function(){
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
 	$("#logo_color").text("Color: Red");
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLRed.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNRed.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Red.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Red.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Red.png");
@@ -92,7 +92,7 @@ $("#volt_green_logo").click(function(){
 	$("#gold_logo").removeClass("selected");
 	$("#logo_color").text("Color: Volt Green");
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLVGreen.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNVGreen.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1VGreen.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2VGreen.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3VGreen.png");
@@ -132,7 +132,7 @@ $("#sky_blue_logo").click(function(){
 
 	$("#logo_color").text("Color: Sky Blue");
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLSBlue.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNSBlue.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1SBlue.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2SBlue.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3SBlue.png");
@@ -172,7 +172,7 @@ $("#tan_logo").click(function(){
 
 	$("#logo_color").text("Color: Tan");
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLTan.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNTan.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Tan.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Tan.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Tan.png");
@@ -212,7 +212,7 @@ $("#blonde_logo").click(function(){
 
 	$("#logo_color").text("Color: Bone");  
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLBlonde.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNBone.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Blonde.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Blonde.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Blonde.png");
@@ -252,7 +252,7 @@ $("#teal_logo").click(function(){
 
 	$("#logo_color").text("Color: Teal");    
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLTeal.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNTeal.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Teal.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Teal.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Teal.png");
@@ -293,7 +293,7 @@ $("#orange_logo").click(function(){
 
 	$("#logo_color").text("Color: Orange");  
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLOrange.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNOrange.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Orange.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Orange.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Orange.png");
@@ -334,7 +334,7 @@ $("#white_logo").click(function(){
 
 	$("#logo_color").text("Color: White");  
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLWhite.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNWhite.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1White.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2White.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3White.png");
@@ -375,7 +375,7 @@ $("#pink_logo").click(function(){
 
 	$("#logo_color").text("Color: Pink");
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLPink.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNPink.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Pink.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Pink.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Pink.png");
@@ -416,7 +416,7 @@ $("#navy_blue_logo").click(function(){
 
 	$("#logo_color").text("Color: Navy Blue");  
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLNBlue.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNNBlue.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1NBlue.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2NBlue.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3NBlue.png");
@@ -457,7 +457,7 @@ $("#purple_logo").click(function(){
 
 	$("#logo_color").text("Color: Purple");  
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLPurple.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNPurple.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Purple.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Purple.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Purple.png");
@@ -498,7 +498,7 @@ $("#royal_blue_logo").click(function(){
 
 	$("#logo_color").text("Color: Royal Blue");
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLRBlue.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNRBlue.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1RBlue.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2RBlue.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3RBlue.png");
@@ -539,7 +539,7 @@ $("#brown_logo").click(function(){
 
 	$("#logo_color").text("Color: Brown");  
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLBrown.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNBrown.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Brown.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Brown.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Brown.png");
@@ -580,7 +580,7 @@ $("#forest_green_logo").click(function(){
 
 	$("#logo_color").text("Color: Forest Green");
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLFGreen.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNFGreen.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1FGreen.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2FGreen.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3FGreen.png");
@@ -621,7 +621,7 @@ $("#silver_logo").click(function(){
 
 	$("#logo_color").text("Color: Silver");     
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLSilver.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNSilver.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Silver.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Silver.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Silver.png");
@@ -662,7 +662,7 @@ $("#volt_yellow_logo").click(function(){
 
 	$("#logo_color").text("Color: Volt Yellow");
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLYellow.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNYellow.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Yellow.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Yellow.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Yellow.png");
@@ -703,7 +703,7 @@ $("#maroon_logo").click(function(){
 
 	$("#logo_color").text("Color: Maroon");  
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLMaroon.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNMaroon.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Maroon.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Maroon.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Maroon.png");
@@ -744,7 +744,7 @@ $("#gold_logo").click(function(){
 
 	$("#logo_color").text("Color: Gold");                   
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLGold.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNGold.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Gold.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Gold.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Gold.png");
@@ -786,7 +786,7 @@ $("#black_logo").click(function(){
 
 	$("#logo_color").text("Color: Black");                   
 
-	$("#CLImage").attr("xlink:href","imgs/Catcher/LogoColors/CLBlack.png");
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNBlack.png");
 	$("#FLImg1").attr("xlink:href","imgs/Fielding/LogoColors/FL1Black.png");
 	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Black.png");
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Black.png");
@@ -806,6 +806,1288 @@ $("#black_logo").click(function(){
 
 });
 ////////////////////////////////////////logo color handler enda here ////////////////////////////////////
+//
+//
+//
+//
+////////////////////////////////////////////////////// logo Patch color handler/////////////////////////////////////////
+$("#red_logo_1").click(function(){
+	$("#red_logo_1").addClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+	$("#logo_patch_color").text("Color: Red");
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchRed.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+});
+$("#volt_green_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").addClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+	$("#logo_patch_color").text("Color: Volt Green");
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchVGreen.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//                                                                                                   
+});
+$("#sky_blue_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").addClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+
+	$("#logo_patch_color").text("Color: Sky Blue");
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchSBlue.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+});
+$("#tan_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").addClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+
+	$("#logo_patch_color").text("Color: Tan");
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchTan.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+});
+$("#blonde_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").addClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+
+	$("#logo_patch_color").text("Color: Bone");  
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchBone.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//                                                                                                                 
+});
+$("#teal_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").addClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+	$("#logo_patch_color").text("Color: Teal");    
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchTeal.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#orange_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").addClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+	$("#logo_patch_color").text("Color: Orange");  
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchOrange.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#white_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").addClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+
+	$("#logo_patch_color").text("Color: White");  
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchWhite.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#pink_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").addClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+
+	$("#logo_patch_color").text("Color: Pink");
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchPink.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#navy_blue_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").addClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+
+	$("#logo_patch_color").text("Color: Navy Blue");  
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchNBlue.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#purple_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").addClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+
+	$("#logo_patch_color").text("Color: Purple");  
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchPurple.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#royal_blue_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").addClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	
+
+	$("#logo_patch_color").text("Color: Royal Blue");
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchRBlue.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#brown_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").addClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	
+
+	$("#logo_patch_color").text("Color: Brown");  
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchBrown.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#forest_green_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").addClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	
+
+	$("#logo_patch_color").text("Color: Forest Green");
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchFGreen.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#silver_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#silver_logo_1").addClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_patch_color").text("Color: Silver");     
+
+
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#volt_yellow_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").addClass("selected");
+	
+
+	$("#logo_patch_color").text("Color: Volt Yellow");
+
+	 $("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchYellow.png");                                                   
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#maroon_logo").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#maroon_logo").addClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_patch_color").text("Color: Maroon");  
+
+	
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#gold_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+
+	$("#volt_yellow_logo_1").removeClass("selected");
+	
+	$("#gold_logo_1").addClass("selected");
+
+	$("#logo_patch_color").text("Color: Gold");                   
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchGold.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#black_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+
+	$("#volt_yellow_logo_1").removeClass("selected");
+	
+	$("#gold_logo_1").removeClass("selected");
+	$("#black_logo_1").addClass("selected");
+
+	$("#logo_patch_color").text("Color: Black");                   
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchBlack.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+///////////////////////////////////////// logo patch color end/////////////////////////////////////
+///
+///
+///
+///
+//
+//
+//
+//
+////////////////////////////////////////////////////// logo Patch color handler/////////////////////////////////////////
+$("#red_logo_2").click(function(){
+	$("#red_logo_2").addClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+	$("#logo_9n_color").text("Color: Red");
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NRed.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+});
+$("#volt_green_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").addClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+	$("#logo_9n_color").text("Color: Volt Green");
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NVGreen.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//                                                                                                   
+});
+$("#sky_blue_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").addClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+
+	$("#logo_9n_color").text("Color: Sky Blue");
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NSBlue.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+});
+$("#tan_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").addClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+
+	$("#logo_9n_color").text("Color: Tan");
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NTan.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+});
+$("#blonde_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").addClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+
+	$("#logo_9n_color").text("Color: Bone");  
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NBone.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//                                                                                                                 
+});
+$("#teal_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").addClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+	$("#logo_9n_color").text("Color: Teal");    
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NTeal.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#orange_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").addClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+	$("#logo_9n_color").text("Color: Orange");  
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NOrange.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#white_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").addClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+
+	$("#logo_9n_color").text("Color: White");  
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NWhite.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#pink_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").addClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+
+	$("#logo_9n_color").text("Color: Pink");
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NPink.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#navy_blue_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").addClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+
+	$("#logo_9n_color").text("Color: Navy Blue");  
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NNBlue.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#purple_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").addClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+
+	$("#logo_9n_color").text("Color: Purple");  
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NPurple.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#royal_blue_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").addClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	
+
+	$("#logo_9n_color").text("Color: Royal Blue");
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NRBlue.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#brown_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").addClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	
+
+	$("#logo_9n_color").text("Color: Brown");  
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NBrown.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#forest_green_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").addClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	
+
+	$("#logo_9n_color").text("Color: Forest Green");
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NFGreen.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#silver_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#silver_logo_2").addClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_9n_color").text("Color: Silver");     
+
+
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#volt_yellow_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").addClass("selected");
+	
+
+	$("#logo_9n_color").text("Color: Volt Yellow");
+
+	 $("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NYellow.png");                                                   
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#maroon_logo").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#gold_logo_2").removeClass("selected");
+	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#maroon_logo").addClass("selected");
+	$("#gold_logo").removeClass("selected");
+
+	$("#logo_9n_color").text("Color: Maroon");  
+
+	
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#gold_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+
+	$("#volt_yellow_logo_2").removeClass("selected");
+	
+	$("#gold_logo_2").addClass("selected");
+
+	$("#logo_9n_color").text("Color: Gold");                   
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NGold.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#black_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+
+	$("#volt_yellow_logo_2").removeClass("selected");
+	
+	$("#gold_logo_2").removeClass("selected");
+	$("#black_logo_2").addClass("selected");
+
+	$("#logo_9n_color").text("Color: Black");                   
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NBlack.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+///////////////////////////////////////// logo patch color end/////////////////////////////////////
+///
+///
+///
+///
 //////////////////////////////////////// laces color handler starts here ////////////////////////////////////
 $("#red_laces").click(function(){
 	$("#red_laces").addClass("selected");
