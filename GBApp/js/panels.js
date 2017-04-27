@@ -8329,6 +8329,7 @@ $("#forest_green_binding").click(function(){
 
 
 $("#red_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/SRed.png");
 	$("#red_stitch").addClass("selected");
 	$("#tan_stitch").removeClass("selected");
 	$("#blonde_stitch").removeClass("selected");
@@ -8346,7 +8347,7 @@ $("#red_stitch").click(function(){
 
 	$("#stitch_color").text("Color: Red");   
 
-	$("#CSColors").attr("xlink:href","imgs/Catcher/StitchColors/CSRed.png");
+	
 	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/SKWeb/FSKWebRed.png");
 	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/SAWeb/FSAWebRed.png");
 	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/SEWeb/FSEWebRed.png");
@@ -8370,6 +8371,7 @@ $("#red_stitch").click(function(){
 	                                                                                                                 
 });
 $("#tan_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/STan.png");
 	$("#red_stitch").removeClass("selected");
 	$("#tan_stitch").addClass("selected");
 	$("#blonde_stitch").removeClass("selected");
@@ -8411,6 +8413,7 @@ $("#tan_stitch").click(function(){
 	
 });
 $("#blonde_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/SBone.png");
 	$("#red_stitch").removeClass("selected");
 	$("#tan_stitch").removeClass("selected");
 	$("#blonde_stitch").addClass("selected");
@@ -8452,6 +8455,7 @@ $("#blonde_stitch").click(function(){
 	                                                                                                                 
 });
 $("#orange_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/SOrange.png");
 	$("#red_stitch").removeClass("selected");
 	$("#tan_stitch").removeClass("selected");
 	$("#blonde_stitch").removeClass("selected");
@@ -8493,6 +8497,7 @@ $("#orange_stitch").click(function(){
 	                                                                                                                   
 });
 $("#white_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/SWhite.png");
 	$("#red_stitch").removeClass("selected");
 	$("#tan_stitch").removeClass("selected");
 	$("#blonde_stitch").removeClass("selected");
@@ -8534,6 +8539,7 @@ $("#white_stitch").click(function(){
 	
 });
 $("#navy_blue_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/SNBlue.png");
 	$("#red_stitch").removeClass("selected");
 	$("#tan_stitch").removeClass("selected");
 	$("#blonde_stitch").removeClass("selected");
@@ -8575,6 +8581,7 @@ $("#navy_blue_stitch").click(function(){
 	
 });
 $("#brown_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/SBrown.png");
 	$("#red_stitch").removeClass("selected");
 	$("#tan_stitch").removeClass("selected");
 	$("#blonde_stitch").removeClass("selected");
@@ -8616,6 +8623,7 @@ $("#brown_stitch").click(function(){
 	
 });
 $("#forest_green_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/SFGreen.png");
 	$("#red_stitch").removeClass("selected");
 	$("#tan_stitch").removeClass("selected");
 	$("#blonde_stitch").removeClass("selected");
@@ -8657,6 +8665,7 @@ $("#forest_green_stitch").click(function(){
 	
 });
 $("#black_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/SBlack.png");
 	$("#red_stitch").removeClass("selected");
 	$("#tan_stitch").removeClass("selected");
 	$("#blonde_stitch").removeClass("selected");
@@ -8698,6 +8707,7 @@ $("#black_stitch").click(function(){
 	                                                                                                                   
 });
 $("#royal_blue_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/SRBlue.png");
 	$("#red_stitch").removeClass("selected");
 	$("#tan_stitch").removeClass("selected");
 	$("#blonde_stitch").removeClass("selected");
@@ -8739,6 +8749,7 @@ $("#royal_blue_stitch").click(function(){
 	                                                                                                                   
 });
 $("#yellow_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/SYellow.png");
 	$("#red_stitch").removeClass("selected");
 	$("#tan_stitch").removeClass("selected");
 	$("#blonde_stitch").removeClass("selected");
@@ -8780,6 +8791,7 @@ $("#yellow_stitch").click(function(){
 	
 });
 $("#grey_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/SGrey.png");
 	$("#red_stitch").removeClass("selected");
 	$("#tan_stitch").removeClass("selected");
 	$("#blonde_stitch").removeClass("selected");
@@ -8821,6 +8833,7 @@ $("#grey_stitch").click(function(){
 	
 });
 $("#pink_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/SPink.png");
 	$("#red_stitch").removeClass("selected");
 	$("#tan_stitch").removeClass("selected");
 	$("#blonde_stitch").removeClass("selected");
@@ -8862,6 +8875,7 @@ $("#pink_stitch").click(function(){
 	
 });
 $("#purple_stitch").click(function(){
+	$("#CStitch").attr("xlink:href","imgs/Catcher/Stitch/SPurple.png");
 	$("#red_stitch").removeClass("selected");
 	$("#tan_stitch").removeClass("selected");
 	$("#blonde_stitch").removeClass("selected");
@@ -9504,7 +9518,305 @@ $("#black_text_color").click(function(){
 });
 
 /////////////////////////////////////////////////////// text color handler ends here //////////////////////////////////
+//
+//
+//
+///////////////////////////////////////////////////////// Flag haldler /////////////////////////////////////////////////
+//////////////////////////////////////////////////////// flag handler /////////////////////////////////////////////////
+$("#usa_flag").click(function(){
+	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/USA.png");
+	prop2_total = 4;custom_flag = 0;
+	Flag = 1;
+	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
+	 if(sel_prop1 != prop2_total)
+		$("#step_3_count").html("<span style = \"color:red;\" id = \"step_3_count\">("+sel_prop1+"/"+prop2_total+")</span>")
+	else
+		$("#step_3_count").html("<span style = \"color:green;\" id = \"step_3_count\">(Completed!)</span>")
+	
+});
+$("#puerto_flag").click(function(){
+	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/PR.png");
+	prop2_total = 4;custom_flag = 0;
+	Flag = 1;
+	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
+	 if(sel_prop1 != prop2_total)
+		$("#step_3_count").html("<span style = \"color:red;\" id = \"step_3_count\">("+sel_prop1+"/"+prop2_total+")</span>")
+	else
+		$("#step_3_count").html("<span style = \"color:green;\" id = \"step_3_count\">(Completed!)</span>")
+	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/PuertoRico.png");
+	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/PuertoRico.png");
+	$("#FBFlag").attr("xlink:href","imgs/FirstBase/Flags/PuertoRico.png");
+	$("#flag_discription").attr("style","display:none");
+	$("#flag_discription").val("");
+});
+$("#mexico_flag").click(function(){
+	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Mexico.png");
+	prop2_total = 4;custom_flag = 0;
+	Flag = 1;
+	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
+	 if(sel_prop1 != prop2_total)
+		$("#step_3_count").html("<span style = \"color:red;\" id = \"step_3_count\">("+sel_prop1+"/"+prop2_total+")</span>")
+	else
+		$("#step_3_count").html("<span style = \"color:green;\" id = \"step_3_count\">(Completed!)</span>")
+	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Mexico.png");
+	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/Mexico.png");
+	$("#FBFlag").attr("xlink:href","imgs/FirstBase/Flags/Mexico.png");
+	$("#flag_discription").attr("style","display:none");
+	$("#flag_discription").val("");
+});
+$("#cuba_flag").click(function(){
+	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Cuba.png");
+	prop2_total = 4;custom_flag = 0;
+	Flag = 1;
+	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
+	 if(sel_prop1 != prop2_total)
+		$("#step_3_count").html("<span style = \"color:red;\" id = \"step_3_count\">("+sel_prop1+"/"+prop2_total+")</span>")
+	else
+		$("#step_3_count").html("<span style = \"color:green;\" id = \"step_3_count\">(Completed!)</span>")
+	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Cuba.png");
+	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/Cuba.png");
+	$("#FBFlag").attr("xlink:href","imgs/FirstBase/Flags/Cuba.png");
+	$("#flag_discription").attr("style","display:none");
+	$("#flag_discription").val("");
+});
+$("#dominican_flag").click(function(){
+	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Dominic.png");
+	prop2_total = 4;custom_flag = 0;
+	Flag = 1;
+	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
+	 if(sel_prop1 != prop2_total)
+		$("#step_3_count").html("<span style = \"color:red;\" id = \"step_3_count\">("+sel_prop1+"/"+prop2_total+")</span>")
+	else
+		$("#step_3_count").html("<span style = \"color:green;\" id = \"step_3_count\">(Completed!)</span>")
+	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/DominicanRepublic.png");
+	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/DominicanRepublic.png");
+	$("#FBFlag").attr("xlink:href","imgs/FirstBase/Flags/DominicanRepublic.png");
+	$("#flag_discription").attr("style","display:none");
+	$("#flag_discription").val("");
+});
+$("#australia_flag").click(function(){
+	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Australia.png");
+	prop2_total = 4;custom_flag = 0;
+	Flag = 1;
+	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
+	 if(sel_prop1 != prop2_total)
+		$("#step_3_count").html("<span style = \"color:red;\" id = \"step_3_count\">("+sel_prop1+"/"+prop2_total+")</span>")
+	else
+		$("#step_3_count").html("<span style = \"color:green;\" id = \"step_3_count\">(Completed!)</span>")
+	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Australia.png");
+	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/Australia.png");
+	$("#FBFlag").attr("xlink:href","imgs/FirstBase/Flags/Australia.png");
+	$("#flag_discription").attr("style","display:none");
+	$("#flag_discription").val("");
+});
+$("#other_flag").click(function(){
+	$("#CFlag").attr("xlink:href","");
+	prop2_total = 5;custom_flag = 0;
+	Flag = 1;
+	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
+	 if(sel_prop1 != prop2_total)
+		$("#step_3_count").html("<span style = \"color:red;\" id = \"step_3_count\">("+sel_prop1+"/"+prop2_total+")</span>")
+	else
+		$("#step_3_count").html("<span style = \"color:green;\" id = \"step_3_count\">(Completed!)</span>")
+	
+	$("#FFlag").attr("xlink:href","");
+	$("#FBFlag").attr("xlink:href","");
+	$("#flag_discription").attr("style","display:block");
+});
+///////////////////////////////////////////////////////// Flag handler end here ////////////////////////////////////////
+//
+//
+//
+///////////////////////////////////////////////////////// thumb test handler ////////////////////////////////////////////
+//////////////////////////////////////////////////// thumb text text box input handler ///////////////////////////
+
+$("#TB_ThumbText").keyup(function(){
+	var text  = $("#TB_ThumbText").val();
+	$(".CustomText").html(text);
+	thumb_text = 1;
+	 sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
+	 if(sel_prop1 != prop2_total)
+		$("#step_3_count").html("<span style = \"color:red;\" id = \"step_3_count\">("+sel_prop1+"/"+prop2_total+")</span>")
+	else
+		$("#step_3_count").html("<span style = \"color:green;\" id = \"step_3_count\">(Completed!)</span>")
+	
+});
+$("#text_font_block").click(function(){
+	$(".CustomText").attr("font-family","verdana");
+	$(".CustomText").attr("font-size","15px");
+	text_font = 1;
+	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
+	 if(sel_prop1 != prop2_total)
+		$("#step_3_count").html("<span style = \"color:red;\" id = \"step_3_count\">("+sel_prop1+"/"+prop2_total+")</span>")
+	else
+		$("#step_3_count").html("<span style = \"color:green;\" id = \"step_3_count\">(Completed!)</span>")
+
+	
+});
+$("#text_font_script").click(function(){
+		$(".CustomText").attr("font-family","Edwardian Script ITC");
+	$(".CustomText").attr("font-size","25px");
+
+	text_font = 1;
+	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
+	 if(sel_prop1 != prop2_total)
+		$("#step_3_count").html("<span style = \"color:red;\" id = \"step_3_count\">("+sel_prop1+"/"+prop2_total+")</span>")
+	else
+		$("#step_3_count").html("<span style = \"color:green;\" id = \"step_3_count\">(Completed!)</span>")
+
+
+});
+
+//////////////////////////////////////////////////// thumb text text box input handler ends ///////////////////////////
+
+
+///////////////////////////////////////////////////////// thumb text handler ends here //////////////////////////////////
 });
 //
 //
 //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
