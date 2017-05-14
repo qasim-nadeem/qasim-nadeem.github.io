@@ -2146,7 +2146,14 @@ $("#red_laces").click(function(){
 	$("#laces_color").text("Color: Red");  
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesRed.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebIRed.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebRed.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebRed.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebRed.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebRed.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebRed.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebRed.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebRed.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebRed.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebRed.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebRed.png");
@@ -2184,7 +2191,8 @@ $("#sky_blue_laces").click(function(){
 	$("#laces_color").text("Color: Sky Blue");   
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesSBlue.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebISBlue.png");
+	
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebSBlue.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebSBlue.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebSBlue.png");
@@ -2221,7 +2229,14 @@ $("#tan_laces").click(function(){
 
 	$("#laces_color").text("Color: Tan"); 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesTan.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebITan.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebTan.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebTan.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebTan.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebTan.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebTan.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebTan.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebTan.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebTan.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebTan.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebTan.png");
@@ -2259,7 +2274,14 @@ $("#blonde_laces").click(function(){
 	$("#laces_color").text("Color: Bone");
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesBone.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebIBone.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebBone.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebBone.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebBone.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebBone.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebBone.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebBone.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebBone.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebBlonde.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebBlonde.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebBlonde.png");
@@ -2332,7 +2354,14 @@ $("#orange_laces").click(function(){
 	$("#laces_color").text("Color: Orange");   
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesOrange.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebIOrange.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebOrange.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebOrange.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebOrange.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebOrange.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebOrange.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebOrange.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebOrange.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebOrange.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebOrange.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebOrange.png");
@@ -2370,7 +2399,14 @@ $("#white_laces").click(function(){
 	$("#laces_color").text("Color: White");  
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesWhite.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebIWhite.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebWhite.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebWhite.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebWhite.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebWhite.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebWhite.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebWhite.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebWhite.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebWhite.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebWhite.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebWhite.png");
@@ -2408,7 +2444,14 @@ $("#navy_blue_laces").click(function(){
 	$("#laces_color").text("Color: Navy Blue");   
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesNBlue.png");                                                 
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebINBlue.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebNBlue.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebNBlue.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebNBlue.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebNBlue.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebNBlue.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebNBlue.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebNBlue.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebNBlue.png");                                                              
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebNBlue.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebNBlue.png");
@@ -2445,7 +2488,14 @@ $("#purple_laces").click(function(){
 	$("#laces_color").text("Color: Purple");
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesPurple.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebIPurple.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebPurple.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebPurple.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebPurple.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebPurple.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebPurple.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebPurple.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebPurple.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebPurple.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebPurple.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebPurple.png");
@@ -2483,7 +2533,14 @@ $("#brown_laces").click(function(){
 	$("#laces_color").text("Color: Brown");       
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesBrown.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebIBrown.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebBrown.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebBrown.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebBrown.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebBrown.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebBrown.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebBrown.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebBrown.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebBrown.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebBrown.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebBrown.png");
@@ -2521,7 +2578,14 @@ $("#forest_green_laces").click(function(){
 	$("#laces_color").text("Color: Forest Green");                                                              
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesFGreen.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebIFGreen.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebFGreen.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebFGreen.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebFGreen.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebFGreen.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebFGreen.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebFGreen.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebFGreen.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebFGreen.png");                                                     
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebFGreen.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebFGreen.png");
@@ -2560,7 +2624,14 @@ $("#black_laces").click(function(){
 	$("#laces_color").text("Color: Black");   
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesBlack.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebIBlack.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebBlack.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebBlack.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebBlack.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebBlack.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebBlack.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebBlack.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebBlack.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebBlack.png");                                                
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebBlack.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebBlack.png");
@@ -2598,7 +2669,14 @@ $("#royal_blue_laces").click(function(){
 	$("#laces_color").text("Color: Royal Blue");
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesRBlue.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebIRBlue.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebRBlue.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebRBlue.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebRBlue.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebRBlue.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebRBlue.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebRBlue.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebRBlue.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebRBlue.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebRBlue.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebRBlue.png");
@@ -2636,7 +2714,14 @@ $("#yellow_laces").click(function(){
 	$("#laces_color").text("Color: Gold");      
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesYellow.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebIYellow.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebYellow.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebYellow.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebYellow.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebYellow.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebYellow.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebYellow.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebYellow.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebYellow.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebYellow.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebYellow.png");
@@ -2674,7 +2759,14 @@ $("#grey_laces").click(function(){
 	$("#laces_color").text("Color: Grey");                             
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesGrey.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebIGrey.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebGrey.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebGrey.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebGrey.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebGrey.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebGrey.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebGrey.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebGrey.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebGrey.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebGrey.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebGrey.png");
@@ -2712,7 +2804,14 @@ $("#pink_laces").click(function(){
 	$("#laces_color").text("Color: Pink");                             
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesPink.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebIPink.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebPink.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebPink.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebPink.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebPink.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebPink.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebPink.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebPink.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebPink.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebPink.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebPink.png");
@@ -2750,7 +2849,14 @@ $("#purple_laces").click(function(){
 	$("#laces_color").text("Color: Purple");                             
 
 	$("#CLaces").attr("xlink:href","imgs/Catcher/Laces/CLacesPurple.png");
-	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesWebIPurple.png");
+	$("#FLaceColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Laces/LacesKWebPurple.png");
+	$("#FLaceColors1").attr("xlink:href","imgs/Fielding/Web/AWeb/Laces/LacesAWebPurple.png");
+	$("#FLaceColors2").attr("xlink:href","imgs/Fielding/Web/EWeb/Laces/LacesEWebPurple.png");
+	$("#FLaceColors3").attr("xlink:href","imgs/Fielding/Web/HWeb/Laces/LacesHWebPurple.png");
+	$("#FLaceColors4").attr("xlink:href","imgs/Fielding/Web/IWeb/Laces/LacesIWebPurple.png");
+	$("#FLaceColors5").attr("xlink:href","imgs/Fielding/Web/LWeb/Laces/LacesLWebPurple.png");
+	$("#FLaceColors6").attr("xlink:href","imgs/Fielding/Web/MWeb/Laces/LacesMWebPurple.png");
+
 	$("#FBLaceColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/LGWeb/FBLGWebPurple.png");
 	$("#FBBWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/LBWeb/FBLBWebPurple.png");
 	$("#FBHWebLaceColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/LHWeb/FBLHWebPurple.png");
@@ -2789,7 +2895,14 @@ $("#red_web").click(function(){
 	$("#web_color").text("Color: Red"); 
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebRed.png");
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebIRed.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebRed.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebRed.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebRed.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebRed.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebRed.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebRed.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebRed.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebRed.png");                                        
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebRed.png");                                        
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebRed.png");                                        
@@ -2824,7 +2937,14 @@ $("#tan_web").click(function(){
 	$("#web_color").text("Color: Tan");
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebTan.png");
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebITan.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebTan.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebTan.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebTan.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebTan.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebTan.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebTan.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebTan.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebTan.png");
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebTan.png");
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebTan.png");                                        
@@ -2859,7 +2979,14 @@ $("#blonde_web").click(function(){
 	$("#web_color").text("Color: Bone");
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebBone.png");
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebIBone.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebBone.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebBone.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebBone.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebBone.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebBone.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebBone.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebBone.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebBlonde.png");
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebBlonde.png");  
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebBlonde.png");                                      
@@ -2894,7 +3021,14 @@ $("#orange_web").click(function(){
 	$("#web_color").text("Color: Orange");
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebOrange.png");
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebIOrange.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebOrange.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebOrange.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebOrange.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebOrange.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebOrange.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebOrange.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebOrange.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebOrange.png");
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebOrange.png");  
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebOrange.png");                                      
@@ -2929,7 +3063,14 @@ $("#white_web").click(function(){
 	$("#web_color").text("Color: White");
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebWhite.png");
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebIWhite.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebWhite.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebWhite.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebWhite.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebWhite.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebWhite.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebWhite.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebWhite.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebWhite.png");
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebWhite.png");
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebWhite.png");
@@ -2964,7 +3105,14 @@ $("#navy_blue_web").click(function(){
 	$("#web_color").text("Color: Navy Blue");
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebNBlue.png");                                                
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebINBlue.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebNBlue.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebNBlue.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebNBlue.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebNBlue.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebNBlue.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebNBlue.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebNBlue.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebNBlue.png");                               
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebNBlue.png");
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebNBlue.png");                                        
@@ -2999,7 +3147,14 @@ $("#brown_web").click(function(){
 	$("#web_color").text("Color: Brown");
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebBrown.png");
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebIBrown.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebBrown.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebBrown.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebBrown.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebBrown.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebBrown.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebBrown.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebBrown.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebBrown.png");                                                  
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebBrown.png");  
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebBrown.png");                                      
@@ -3034,7 +3189,14 @@ $("#forest_green_web").click(function(){
 	$("#web_color").text("Color: Forest Green");
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebFGreen.png");
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebIFGreen.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebFGreen.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebFGreen.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebFGreen.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebFGreen.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebFGreen.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebFGreen.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebFGreen.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebFGreen.png");                                                  
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebFGreen.png"); 
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebFGreen.png");                                       
@@ -3069,7 +3231,14 @@ $("#black_web").click(function(){
 	$("#web_color").text("Color: Black");
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebBlack.png");
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebIBlack.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebBlack.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebBlack.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebBlack.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebBlack.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebBlack.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebBlack.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebBlack.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebBlack.png");
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebBlack.png");  
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebBlack.png");                                      
@@ -3104,7 +3273,14 @@ $("#royal_blue_web").click(function(){
 	$("#web_color").text("Color: Royal Blue");
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebRBlue.png");
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebIRBlue.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebRBlue.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebRBlue.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebRBlue.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebRBlue.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebRBlue.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebRBlue.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebRBlue.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebRBlue.png");
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebRBlue.png"); 
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebRBlue.png");                                       
@@ -3139,7 +3315,14 @@ $("#yellow_web").click(function(){
 	$("#web_color").text("Color: Yellow");
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebYellow.png");
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebIYellow.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebYellow.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebYellow.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebYellow.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebYellow.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebYellow.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebYellow.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebYellow.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebYellow.png");
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebYellow.png"); 
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebYellow.png");                                       
@@ -3174,7 +3357,14 @@ $("#grey_web").click(function(){
 	$("#web_color").text("Color: Grey");
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebGrey.png");
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebIGrey.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebGrey.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebGrey.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebGrey.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebGrey.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebGrey.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebGrey.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebGrey.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebGrey.png");
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebGrey.png"); 
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebGrey.png");                                       
@@ -3209,7 +3399,14 @@ $("#pink_web").click(function(){
 	$("#web_color").text("Color: Pink");
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebPink.png");
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebIPink.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebPink.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebPink.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebPink.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebPink.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebPink.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebPink.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebPink.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebPink.png");
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebPink.png"); 
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebPink.png");                                       
@@ -3244,7 +3441,14 @@ $("#purple_web").click(function(){
 	$("#web_color").text("Color: Purple");
 
 	$("#CWeb").attr("xlink:href","imgs/Catcher/Web/CWebPurple.png");
-	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/WebIPurple.png");
+	$("#FWebColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Web/KWebPurple.png");
+	$("#FAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Web/AWebPurple.png");
+	$("#FEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Web/EWebPurple.png");
+	$("#FHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Web/HWebPurple.png");
+	$("#FIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Web/IWebPurple.png");
+	$("#FLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Web/LWebPurple.png");
+	$("#FMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Web/MWebPurple.png");
+
 	$("#FBWebColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/Web/FBGWebPurple.png");
 	$("#FBBWebColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/Web/FBBWebPurple.png"); 
 	$("#FBHWebColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/Web/FBHWebPurple.png");                                       
@@ -8203,8 +8407,14 @@ $("#red_stitch").click(function(){
 	$("#stitch_color").text("Color: Red");   
 
 	
-	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/SKWeb/FSKWebRed.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/SRed.png");
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/Red.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/Red.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/Red.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/Red.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/Red.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Red.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Red.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebRed.png");
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebRed.png");
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebRed.png");                                             
@@ -8240,7 +8450,14 @@ $("#tan_stitch").click(function(){
 	$("#stitch_color").text("Color: Tan");
 
 	$("#CSColors").attr("xlink:href","imgs/Catcher/StitchColors/CSTan.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/STan.png");
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/Tan.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/Tan.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/Tan.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/Tan.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/Tan.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Tan.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Tan.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebTan.png");
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebTan.png");
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebTan.png");                                             
@@ -8276,7 +8493,14 @@ $("#blonde_stitch").click(function(){
 	$("#stitch_color").text("Color: Bone");
 
 	$("#CSColors").attr("xlink:href","imgs/Catcher/StitchColors/CSBlonde.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/SBone.png");
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/Bone.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/Bone.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/Bone.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/Bone.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/Bone.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Bone.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Bone.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebBlonde.png");
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebBlonde.png");  
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebBlonde.png");                                           
@@ -8312,7 +8536,14 @@ $("#orange_stitch").click(function(){
 	$("#stitch_color").text("Color: Orange");
 
 	$("#CSColors").attr("xlink:href","imgs/Catcher/StitchColors/CSOrange.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/SOrange.png");
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/Orange.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/Orange.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/Orange.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/Orange.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/Orange.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Orange.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Orange.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebOrange.png");
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebOrange.png"); 
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebOrange.png");                                            
@@ -8348,7 +8579,14 @@ $("#white_stitch").click(function(){
 	$("#stitch_color").text("Color: White");                                                                      
 
 	$("#CSColors").attr("xlink:href","imgs/Catcher/StitchColors/CSWhite.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/SWhite.png");                 
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/White.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/White.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/White.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/White.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/White.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/White.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/White.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/fb1.png");        
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebWhite.png");
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebWhite.png");
@@ -8384,7 +8622,14 @@ $("#navy_blue_stitch").click(function(){
 	$("#stitch_color").text("Color: Navy Blue");
 
 	$("#CSColors").attr("xlink:href","imgs/Catcher/StitchColors/CSNBlue.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/SNBlue.png");                                                   
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/NBlue.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/NBlue.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/NBlue.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/NBlue.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/NBlue.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/NBlue.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/NBlue.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebNBlue.png"); 
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebNBlue.png"); 
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebNBlue.png");                                            
@@ -8420,7 +8665,14 @@ $("#brown_stitch").click(function(){
 	$("#stitch_color").text("Color: Brown");
 
 	$("#CSColors").attr("xlink:href","imgs/Catcher/StitchColors/CSBrown.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/SBrown.png");
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/Brown.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/Brown.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/Brown.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/Brown.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/Brown.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Brown.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Brown.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebBrown.png");                                             
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebBrown.png"); 
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebBrown.png");                                            
@@ -8456,7 +8708,14 @@ $("#forest_green_stitch").click(function(){
 	$("#stitch_color").text("Color: Forest Green");
 
 	$("#CSColors").attr("xlink:href","imgs/Catcher/StitchColors/CSFGreen.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/SFGreen.png");
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/FGreen.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/FGreen.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/FGreen.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/FGreen.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/FGreen.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/FGreen.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/FGreen.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebFGreen.png");
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebFGreen.png");
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebFGreen.png");
@@ -8492,7 +8751,14 @@ $("#black_stitch").click(function(){
 	$("#stitch_color").text("Color: Black");
 
 	$("#CSColors").attr("xlink:href","imgs/Catcher/StitchColors/CSBlack.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/SBlack.png");
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/Black.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/Black.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/Black.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/Black.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/Black.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Black.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Black.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebBlack.png");
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebBlack.png"); 
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebBlack.png");                                            
@@ -8528,7 +8794,14 @@ $("#royal_blue_stitch").click(function(){
 	$("#stitch_color").text("Color: Royal Blue");
 
 	$("#CSColors").attr("xlink:href","imgs/Catcher/StitchColors/CSRBlue.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/SRBlue.png");
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/RBlue.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/RBlue.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/RBlue.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/RBlue.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/RBlue.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/RBlue.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/RBlue.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebRBlue.png");
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebRBlue.png"); 
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebRBlue.png");                                            
@@ -8564,7 +8837,14 @@ $("#yellow_stitch").click(function(){
 	$("#stitch_color").text("Color: Yellow");
 
 	$("#CSColors").attr("xlink:href","imgs/Catcher/StitchColors/CSYellow.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/SYellow.png");
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/Yellow.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/Yellow.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/Yellow.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/Yellow.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/Yellow.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Yellow.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Yellow.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebYellow.png");                                             
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebYellow.png");
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebYellow.png");                                             
@@ -8600,7 +8880,14 @@ $("#grey_stitch").click(function(){
 	$("#stitch_color").text("Color: Grey");                                                                      
 
 	$("#CSColors").attr("xlink:href","imgs/Catcher/c0.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/SGrey.png");
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/Grey.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/Grey.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/Grey.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/Grey.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/Grey.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Grey.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Grey.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebGrey.png");                                             
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebGrey.png"); 
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebGrey.png");                                            
@@ -8636,7 +8923,14 @@ $("#pink_stitch").click(function(){
 	$("#stitch_color").text("Color: Pink");                                                                      
 
 	$("#CSColors").attr("xlink:href","imgs/Catcher/StitchColors/CSPink.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/SPink.png");
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/Pink.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/Pink.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/Pink.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/Pink.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/Pink.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Pink.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Pink.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebPink.png");                                             
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebPink.png"); 
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebPink.png");                                            
@@ -8672,7 +8966,14 @@ $("#purple_stitch").click(function(){
 	$("#stitch_color").text("Color: Purple");                                                                      
 
 	$("#CSColors").attr("xlink:href","imgs/Catcher/StitchColors/CSPurple.png");
-	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/SPurple.png");
+	$("#FSColors").attr("xlink:href","imgs/Fielding/Web/KWeb/Stitch/Purple.png");
+	$("#FSAWebColors").attr("xlink:href","imgs/Fielding/Web/AWeb/Stitch/Purple.png");
+	$("#FSEWebColors").attr("xlink:href","imgs/Fielding/Web/EWeb/Stitch/Purple.png");
+	$("#FSHWebColors").attr("xlink:href","imgs/Fielding/Web/HWeb/Stitch/Purple.png");
+	$("#FSIWebColors").attr("xlink:href","imgs/Fielding/Web/IWeb/Stitch/Purple.png");
+	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Purple.png");
+	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Purple.png");
+
 	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebPurple.png");                                             
 	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebPurple.png"); 
 	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebPurple.png");                                            
@@ -9297,6 +9598,7 @@ $("#black_text_color").click(function(){
 //////////////////////////////////////////////////////// flag handler /////////////////////////////////////////////////
 $("#usa_flag").click(function(){
 	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/USA.png");
+	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/USA.png");
 	prop2_total = 4;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
@@ -9308,6 +9610,7 @@ $("#usa_flag").click(function(){
 });
 $("#puerto_flag").click(function(){
 	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/PR.png");
+	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/PR.png");
 	prop2_total = 4;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
@@ -9323,6 +9626,7 @@ $("#puerto_flag").click(function(){
 });
 $("#mexico_flag").click(function(){
 	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Mexico.png");
+	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/Mexico.png");
 	prop2_total = 4;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
@@ -9338,6 +9642,7 @@ $("#mexico_flag").click(function(){
 });
 $("#cuba_flag").click(function(){
 	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Cuba.png");
+	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/Cuba.png");
 	prop2_total = 4;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
@@ -9353,6 +9658,7 @@ $("#cuba_flag").click(function(){
 });
 $("#dominican_flag").click(function(){
 	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Dominic.png");
+	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/DR.png");
 	prop2_total = 4;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
@@ -9368,6 +9674,7 @@ $("#dominican_flag").click(function(){
 });
 $("#australia_flag").click(function(){
 	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Australia.png");
+	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/Australia.png");
 	prop2_total = 4;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
@@ -9383,6 +9690,7 @@ $("#australia_flag").click(function(){
 });
 $("#other_flag").click(function(){
 	$("#CFlag").attr("xlink:href","");
+	$("#FFlag").attr("xlink:href","");
 	prop2_total = 5;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
@@ -9485,10 +9793,439 @@ $("#f_type2").click(function(){
 
 
 });
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//
+//
+//
+////////////////////////////////////////////////////////////fielding sizes //////////////////////////////////////////
+$("#glove_size_9_5").click(function(){
+
+	$("#fielding_web_styles").attr("style","display:block");
+	$("#f_web_a").attr("style","display:none");
+	$("#f_web_e").attr("style","display:block");
+	$("#f_web_h").attr("style","display:none");
+	$("#f_web_i").attr("style","display:none");
+	$("#f_web_k").attr("style","display:block");
+	$("#f_web_l").attr("style","display:none");
+	$("#f_web_m").attr("style","display:none");
+});
+$("#glove_size_10").click(function(){
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////// thumb text handler ends here //////////////////////////////////
+	$("#fielding_web_styles").attr("style","display:block");
+	$("#f_web_a").attr("style","display:none");
+	$("#f_web_e").attr("style","display:none");
+	$("#f_web_h").attr("style","display:none");
+	$("#f_web_i").attr("style","display:block");
+	$("#f_web_k").attr("style","display:block");
+	$("#f_web_l").attr("style","display:none");
+	$("#f_web_m").attr("style","display:block");
+});
+$("#glove_size_10_5").click(function(){
+
+	$("#fielding_web_styles").attr("style","display:block");
+	$("#f_web_a").attr("style","display:none");
+	$("#f_web_e").attr("style","display:none");
+	$("#f_web_h").attr("style","display:none");
+	$("#f_web_i").attr("style","display:block");
+	$("#f_web_k").attr("style","display:block");
+	$("#f_web_l").attr("style","display:none");
+	$("#f_web_m").attr("style","display:none");
+});
+$("#glove_size_10_75").click(function(){
+
+	$("#fielding_web_styles").attr("style","display:block");
+	$("#f_web_a").attr("style","display:none");
+	$("#f_web_e").attr("style","display:none");
+	$("#f_web_h").attr("style","display:none");
+	$("#f_web_i").attr("style","display:block");
+	$("#f_web_k").attr("style","display:block");
+	$("#f_web_l").attr("style","display:none");
+	$("#f_web_m").attr("style","display:none");
+});
+$("#glove_size_11").click(function(){
+
+	$("#fielding_web_styles").attr("style","display:block");
+	$("#f_web_a").attr("style","display:none");
+	$("#f_web_e").attr("style","display:block");
+	$("#f_web_h").attr("style","display:none");
+	$("#f_web_i").attr("style","display:block");
+	$("#f_web_k").attr("style","display:block");
+	$("#f_web_l").attr("style","display:none");
+	$("#f_web_m").attr("style","display:block");
+});
+$("#glove_size_11_25").click(function(){
+
+	$("#fielding_web_styles").attr("style","display:block");
+	$("#f_web_a").attr("style","display:none");
+	$("#f_web_e").attr("style","display:block");
+	$("#f_web_h").attr("style","display:none");
+	$("#f_web_i").attr("style","display:block");
+	$("#f_web_k").attr("style","display:block");
+	$("#f_web_l").attr("style","display:none");
+	$("#f_web_m").attr("style","display:block");
+});
+$("#glove_size_11_50_f").click(function(){
+
+
+	$("#fielding_web_styles").attr("style","display:block");
+	$("#f_web_a").attr("style","display:block");
+	$("#f_web_e").attr("style","display:block");
+	$("#f_web_h").attr("style","display:none");
+	$("#f_web_i").attr("style","display:block");
+	$("#f_web_k").attr("style","display:block");
+	$("#f_web_l").attr("style","display:block");
+	$("#f_web_m").attr("style","display:block");
+
+});
+$("#glove_size_11_75_f").click(function(){
+
+});
+$("#glove_size_12_f").click(function(){
+
+	$("#fielding_web_styles").attr("style","display:block");
+	$("#f_web_a").attr("style","display:block");
+	$("#f_web_e").attr("style","display:block");
+	$("#f_web_h").attr("style","display:block");
+	$("#f_web_i").attr("style","display:block");
+	$("#f_web_k").attr("style","display:block");
+	$("#f_web_l").attr("style","display:block");
+	$("#f_web_m").attr("style","display:block");
+});
+$("#glove_size_12_25_f").click(function(){
+
+	$("#fielding_web_styles").attr("style","display:block");
+	$("#f_web_a").attr("style","display:none");
+	$("#f_web_e").attr("style","display:none");
+	$("#f_web_h").attr("style","display:block");
+	$("#f_web_i").attr("style","display:block");
+	$("#f_web_k").attr("style","display:block");
+	$("#f_web_l").attr("style","display:none");
+	$("#f_web_m").attr("style","display:none");
+});
+$("#glove_size_12_50_f").click(function(){
+
+	$("#fielding_web_styles").attr("style","display:block");
+	$("#f_web_a").attr("style","display:none");
+	$("#f_web_e").attr("style","display:none");
+	$("#f_web_h").attr("style","display:block");
+	$("#f_web_i").attr("style","display:block");
+	$("#f_web_k").attr("style","display:block");
+	$("#f_web_l").attr("style","display:none");
+	$("#f_web_m").attr("style","display:none");
+});
+$("#glove_size_12_75_f").click(function(){
+
+	$("#fielding_web_styles").attr("style","display:block");
+	$("#f_web_a").attr("style","display:none");
+	$("#f_web_e").attr("style","display:none");
+	$("#f_web_h").attr("style","display:block");
+	$("#f_web_i").attr("style","display:block");
+	$("#f_web_k").attr("style","display:block");
+	$("#f_web_l").attr("style","display:none");
+	$("#f_web_m").attr("style","display:none");
+});
+$("#glove_size_13_f").click(function(){
+
+	$("#fielding_web_styles").attr("style","display:block");
+	$("#f_web_a").attr("style","display:none");
+	$("#f_web_e").attr("style","display:none");
+	$("#f_web_h").attr("style","display:block");
+	$("#f_web_i").attr("style","display:none");
+	$("#f_web_k").attr("style","display:block");
+	$("#f_web_l").attr("style","display:none");
+	$("#f_web_m").attr("style","display:none");
+});
+$("#glove_size_13_25_f").click(function(){
+
+	$("#fielding_web_styles").attr("style","display:block");
+	$("#f_web_a").attr("style","display:none");
+	$("#f_web_e").attr("style","display:none");
+	$("#f_web_h").attr("style","display:block");
+	$("#f_web_i").attr("style","display:none");
+	$("#f_web_k").attr("style","display:block");
+	$("#f_web_l").attr("style","display:none");
+	$("#f_web_m").attr("style","display:none");
+});
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//
+//
+//
+///////////////////////////////////////////////////// webstyles fielding handler /////////////////////////////////
+$("#fielding_web_k").click(function(){
+
+	$("#FWebColors").attr("opacity","1");
+	$("#FAWebColors").attr("opacity","0");
+	$("#FEWebColors").attr("opacity","0");
+	$("#FHWebColors").attr("opacity","0");
+	$("#FIWebColors").attr("opacity","0");
+	$("#FLWebColors").attr("opacity","0");
+	$("#FMWebColors").attr("opacity","0");
+
+	$("#FSColors").attr("opacity","1");
+	$("#FSAWebColors").attr("opacity","0");
+	$("#FSEWebColors").attr("opacity","0");
+	$("#FSHWebColors").attr("opacity","0");
+	$("#FSIWebColors").attr("opacity","0");
+	$("#FSLWebColors").attr("opacity","0");
+	$("#FSMWebColors").attr("opacity","0");
+
+	$("#FLaceColors").attr("opacity","1");
+	$("#FLaceColors1").attr("opacity","0");
+	$("#FLaceColors2").attr("opacity","0");
+	$("#FLaceColors3").attr("opacity","0");
+	$("#FLaceColors4").attr("opacity","0");
+	$("#FLaceColors5").attr("opacity","0");
+	$("#FLaceColors6").attr("opacity","0");
+
+	$("#FLImg3").attr("xlink:href","");
+
+});
+$("#fielding_web_a").click(function(){
+
+	$("#FWebColors").attr("opacity","0");
+	$("#FAWebColors").attr("opacity","1");
+	$("#FEWebColors").attr("opacity","0");
+	$("#FHWebColors").attr("opacity","0");
+	$("#FIWebColors").attr("opacity","0");
+	$("#FLWebColors").attr("opacity","0");
+	$("#FMWebColors").attr("opacity","0");
+
+	$("#FSColors").attr("opacity","0");
+	$("#FSAWebColors").attr("opacity","1");
+	$("#FSEWebColors").attr("opacity","0");
+	$("#FSHWebColors").attr("opacity","0");
+	$("#FSIWebColors").attr("opacity","0");
+	$("#FSLWebColors").attr("opacity","0");
+	$("#FSMWebColors").attr("opacity","0");
+
+	$("#FLaceColors").attr("opacity","0");
+	$("#FLaceColors1").attr("opacity","1");
+	$("#FLaceColors2").attr("opacity","0");
+	$("#FLaceColors3").attr("opacity","0");
+	$("#FLaceColors4").attr("opacity","0");
+	$("#FLaceColors5").attr("opacity","0");
+	$("#FLaceColors6").attr("opacity","0");
+
+	$("#FLImg3").attr("xlink:href","");
+
+});
+$("#fielding_web_e").click(function(){
+
+	$("#FWebColors").attr("opacity","0");
+	$("#FAWebColors").attr("opacity","0");
+	$("#FEWebColors").attr("opacity","1");
+	$("#FHWebColors").attr("opacity","0");
+	$("#FIWebColors").attr("opacity","0");
+	$("#FLWebColors").attr("opacity","0");
+	$("#FMWebColors").attr("opacity","0");
+
+	$("#FSColors").attr("opacity","0");
+	$("#FSAWebColors").attr("opacity","0");
+	$("#FSEWebColors").attr("opacity","1");
+	$("#FSHWebColors").attr("opacity","0");
+	$("#FSIWebColors").attr("opacity","0");
+	$("#FSLWebColors").attr("opacity","0");
+	$("#FSMWebColors").attr("opacity","0");
+
+	$("#FLaceColors").attr("opacity","0");
+	$("#FLaceColors1").attr("opacity","0");
+	$("#FLaceColors2").attr("opacity","1");
+	$("#FLaceColors3").attr("opacity","0");
+	$("#FLaceColors4").attr("opacity","0");
+	$("#FLaceColors5").attr("opacity","0");
+	$("#FLaceColors6").attr("opacity","0");
+
+	$("#FLImg3").attr("xlink:href","");
+
+});
+$("#fielding_web_h").click(function(){
+
+	$("#FWebColors").attr("opacity","0");
+	$("#FAWebColors").attr("opacity","0");
+	$("#FEWebColors").attr("opacity","0");
+	$("#FHWebColors").attr("opacity","1");
+	$("#FIWebColors").attr("opacity","0");
+	$("#FLWebColors").attr("opacity","0");
+	$("#FMWebColors").attr("opacity","0");
+
+	$("#FSColors").attr("opacity","0");
+	$("#FSAWebColors").attr("opacity","0");
+	$("#FSEWebColors").attr("opacity","0");
+	$("#FSHWebColors").attr("opacity","1");
+	$("#FSIWebColors").attr("opacity","0");
+	$("#FSLWebColors").attr("opacity","0");
+	$("#FSMWebColors").attr("opacity","0");
+
+	$("#FLaceColors").attr("opacity","0");
+	$("#FLaceColors1").attr("opacity","0");
+	$("#FLaceColors2").attr("opacity","0");
+	$("#FLaceColors3").attr("opacity","1");
+	$("#FLaceColors4").attr("opacity","0");
+	$("#FLaceColors5").attr("opacity","0");
+	$("#FLaceColors6").attr("opacity","0");
+
+	$("#FLImg3").attr("xlink:href","");
+
+});
+$("#fielding_web_i").click(function(){
+
+	$("#FWebColors").attr("opacity","0");
+	$("#FAWebColors").attr("opacity","0");
+	$("#FEWebColors").attr("opacity","0");
+	$("#FHWebColors").attr("opacity","0");
+	$("#FIWebColors").attr("opacity","1");
+	$("#FLWebColors").attr("opacity","0");
+	$("#FMWebColors").attr("opacity","0");
+
+	$("#FSColors").attr("opacity","0");
+	$("#FSAWebColors").attr("opacity","0");
+	$("#FSEWebColors").attr("opacity","0");
+	$("#FSHWebColors").attr("opacity","0");
+	$("#FSIWebColors").attr("opacity","1");
+	$("#FSLWebColors").attr("opacity","0");
+	$("#FSMWebColors").attr("opacity","0");
+
+	$("#FLaceColors").attr("opacity","0");
+	$("#FLaceColors1").attr("opacity","0");
+	$("#FLaceColors2").attr("opacity","0");
+	$("#FLaceColors3").attr("opacity","0");
+	$("#FLaceColors4").attr("opacity","1");
+	$("#FLaceColors5").attr("opacity","0");
+	$("#FLaceColors6").attr("opacity","0");
+
+	$("#FLImg3").attr("xlink:href","imgs/Fielding/f14.png");
+	$("#FLImg3").attr("opacity","1");
+});
+$("#fielding_web_l").click(function(){
+
+	$("#FWebColors").attr("opacity","0");
+	$("#FAWebColors").attr("opacity","0");
+	$("#FEWebColors").attr("opacity","0");
+	$("#FHWebColors").attr("opacity","0");
+	$("#FIWebColors").attr("opacity","0");
+	$("#FLWebColors").attr("opacity","1");
+	$("#FMWebColors").attr("opacity","0");
+
+	$("#FSColors").attr("opacity","0");
+	$("#FSAWebColors").attr("opacity","0");
+	$("#FSEWebColors").attr("opacity","0");
+	$("#FSHWebColors").attr("opacity","0");
+	$("#FSIWebColors").attr("opacity","0");
+	$("#FSLWebColors").attr("opacity","1");
+	$("#FSMWebColors").attr("opacity","0");
+
+	$("#FLaceColors").attr("opacity","0");
+	$("#FLaceColors1").attr("opacity","0");
+	$("#FLaceColors2").attr("opacity","0");
+	$("#FLaceColors3").attr("opacity","0");
+	$("#FLaceColors4").attr("opacity","0");
+	$("#FLaceColors5").attr("opacity","1");
+	$("#FLaceColors6").attr("opacity","0");
+
+	$("#FLImg3").attr("xlink:href","");
+
+});
+$("#fielding_web_m").click(function(){
+
+	$("#FWebColors").attr("opacity","0");
+	$("#FAWebColors").attr("opacity","0");
+	$("#FEWebColors").attr("opacity","0");
+	$("#FHWebColors").attr("opacity","0");
+	$("#FIWebColors").attr("opacity","0");
+	$("#FLWebColors").attr("opacity","0");
+	$("#FMWebColors").attr("opacity","1");
+
+	$("#FSColors").attr("opacity","0");
+	$("#FSAWebColors").attr("opacity","0");
+	$("#FSEWebColors").attr("opacity","0");
+	$("#FSHWebColors").attr("opacity","0");
+	$("#FSIWebColors").attr("opacity","0");
+	$("#FSLWebColors").attr("opacity","0");
+	$("#FSMWebColors").attr("opacity","1");
+
+	$("#FLaceColors").attr("opacity","0");
+	$("#FLaceColors1").attr("opacity","0");
+	$("#FLaceColors2").attr("opacity","0");
+	$("#FLaceColors3").attr("opacity","0");
+	$("#FLaceColors4").attr("opacity","0");
+	$("#FLaceColors5").attr("opacity","0");
+	$("#FLaceColors6").attr("opacity","1");
+
+	$("#FLImg3").attr("xlink:href","");
+
+});
+
+$("#firstbase_web_g").click(function(){
+
+	$("#FBWebColors").attr("opacity","1");
+	$("#FBLaceColors").attr("opacity","1");
+	$("#FBBinColors").attr("opacity","1");
+	$("#FBCrownColors").attr("opacity","1");
+	$("#FBStitchColors").attr("opacity","1");
+
+	$("#FBBWebColors").attr("opacity","0");
+	$("#FBBWebLaceColors").attr("opacity","0");
+	$("#FBBWebBinColors").attr("opacity","0");
+	$("#FBBWebCrownColors").attr("opacity","0");
+	$("#FBBWebStitchColors").attr("opacity","0");
+
+	$("#FBHWebColors").attr("opacity","0");
+	$("#FBHWebLaceColors").attr("opacity","0");
+	$("#FBHWebBinColors").attr("opacity","0");
+	$("#FBHWebCrownColors").attr("opacity","0");
+	$("#FBHWebStitchColors").attr("opacity","0");
+});
+$("#firstbase_web_b").click(function(){
+
+	$("#FBWebColors").attr("opacity","0");
+	$("#FBLaceColors").attr("opacity","0");
+	$("#FBBinColors").attr("opacity","0");
+	$("#FBCrownColors").attr("opacity","0");
+	$("#FBStitchColors").attr("opacity","0");
+
+	$("#FBBWebColors").attr("opacity","1");
+	$("#FBBWebLaceColors").attr("opacity","1");
+	$("#FBBWebBinColors").attr("opacity","1");
+	$("#FBBWebCrownColors").attr("opacity","1");
+	$("#FBBWebStitchColors").attr("opacity","1");
+
+	$("#FBHWebColors").attr("opacity","0");
+	$("#FBHWebLaceColors").attr("opacity","0");
+	$("#FBHWebBinColors").attr("opacity","0");
+	$("#FBHWebCrownColors").attr("opacity","0");
+	$("#FBHWebStitchColors").attr("opacity","0");
+});
+$("#firstbase_web_h").click(function(){
+
+	$("#FBWebColors").attr("opacity","0");
+	$("#FBLaceColors").attr("opacity","0");
+	$("#FBBinColors").attr("opacity","0");
+	$("#FBCrownColors").attr("opacity","0");
+	$("#FBStitchColors").attr("opacity","0");
+
+	$("#FBBWebColors").attr("opacity","0");
+	$("#FBBWebLaceColors").attr("opacity","0");
+	$("#FBBWebBinColors").attr("opacity","0");
+	$("#FBBWebCrownColors").attr("opacity","0");
+	$("#FBBWebStitchColors").attr("opacity","0");
+
+	$("#FBHWebColors").attr("opacity","1");
+	$("#FBHWebLaceColors").attr("opacity","1");
+	$("#FBHWebBinColors").attr("opacity","1");
+	$("#FBHWebCrownColors").attr("opacity","1");
+	$("#FBHWebStitchColors").attr("opacity","1");
+});
+
+///////////////////////////////////////////////////// webs tyle fielding handler ends////////////////////////////
+
+
+
+
+
+
 });
 //
 //
