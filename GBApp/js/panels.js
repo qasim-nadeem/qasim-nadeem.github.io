@@ -7856,7 +7856,7 @@ $("#grey_wrist").click(function(){
 
 	$("#wrist_color").text("Color: Grey");
 
-	$("#CWrist").attr("xlink:href","imgs/Catcher/Wrist/CWristRedGrey.png");
+	$("#CWrist").attr("xlink:href","imgs/Catcher/Wrist/CWristGrey.png");
 	$("#FWrstColors").attr("xlink:href","imgs/Fielding/Wrist/WristGrey.png");     
 	$("#FBWrstColors").attr("xlink:href","imgs/FirstBase/Wrist/Grey.png");                                              
 	//
@@ -9661,6 +9661,7 @@ $("#black_text_color").click(function(){
 $("#usa_flag").click(function(){
 	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/USA.png");
 	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/USA.png");
+	$("#FBFlag").attr("xlink:href","imgs/FirstBase/Flags/USA.png");
 	prop2_total = 4;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
@@ -9673,6 +9674,7 @@ $("#usa_flag").click(function(){
 $("#puerto_flag").click(function(){
 	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/PR.png");
 	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/PR.png");
+	$("#FBFlag").attr("xlink:href","imgs/FirstBase/Flags/PR.png");
 	prop2_total = 4;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
@@ -9689,6 +9691,7 @@ $("#puerto_flag").click(function(){
 $("#mexico_flag").click(function(){
 	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Mexico.png");
 	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/Mexico.png");
+	$("#FBFlag").attr("xlink:href","imgs/FirstBase/Flags/Mexico.png");
 	prop2_total = 4;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
@@ -9705,6 +9708,7 @@ $("#mexico_flag").click(function(){
 $("#cuba_flag").click(function(){
 	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Cuba.png");
 	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/Cuba.png");
+	$("#FBFlag").attr("xlink:href","imgs/FirstBase/Flags/Cuba.png");
 	prop2_total = 4;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
@@ -9721,6 +9725,7 @@ $("#cuba_flag").click(function(){
 $("#dominican_flag").click(function(){
 	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Dominic.png");
 	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/DR.png");
+	$("#FBFlag").attr("xlink:href","imgs/FirstBase/Flags/DR.png");
 	prop2_total = 4;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
@@ -9737,6 +9742,7 @@ $("#dominican_flag").click(function(){
 $("#australia_flag").click(function(){
 	$("#CFlag").attr("xlink:href","imgs/Catcher/Flags/Australia.png");
 	$("#FFlag").attr("xlink:href","imgs/Fielding/Flags/Australia.png");
+	$("#FBFlag").attr("xlink:href","imgs/FirstBase/Flags/Australia.png");
 	prop2_total = 4;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
@@ -9753,6 +9759,7 @@ $("#australia_flag").click(function(){
 $("#other_flag").click(function(){
 	$("#CFlag").attr("xlink:href","");
 	$("#FFlag").attr("xlink:href","");
+	$("#FBFlag").attr("xlink:href","");
 	prop2_total = 5;custom_flag = 0;
 	Flag = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
