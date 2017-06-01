@@ -9,7 +9,142 @@ $(document).ready(function() {
 		Binding = 0, Crown = 0, Wrist = 0, Stitch = 0, Welting = 0, Wingtip = 0;
 	var TextColor = 0, TextFont = 0, text = 0, Flag = 0;
 	var prop_sel = 0;
-	var prop1_total = 8;
+	var prop1_total = 9;
+	var prop2_total = 15;
+	var prop3_total = 4;
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////// FUNCTIONS /////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+function clearCrownColor(){
+	$("#red_crown").removeClass("selected");
+	$("#tan_crown").removeClass("selected");
+	$("#blonde_crown").removeClass("selected");
+	$("#orange_crown").removeClass("selected");
+	$("#white_crown").removeClass("selected");
+	$("#navy_blue_crown").removeClass("selected");
+	$("#brown_crown").removeClass("selected");
+	$("#forest_green_crown").removeClass("selected");
+	$("#black_crown").removeClass("selected");
+	$("#royal_blue_crown").removeClass("selected");
+	$("#yellow_crown").removeClass("selected");
+	$("#grey_crown").removeClass("selected");
+	$("#pink_crown").removeClass("selected");
+	$("#purple_crown").removeClass("selected");
+
+	$("#crown_color").text("Color: none");
+
+}
+function clearHoodColor(){
+	$("#red_hood").removeClass("selected");
+	$("#tan_hood").removeClass("selected");
+	$("#blonde_hood").removeClass("selected");
+	$("#orange_hood").removeClass("selected");
+	$("#white_hood").removeClass("selected");
+	$("#navy_blue_hood").removeClass("selected");
+	$("#brown_hood").removeClass("selected");
+	$("#forest_green_hood").removeClass("selected");
+	$("#black_hood").removeClass("selected");
+	$("#royal_blue_hood").removeClass("selected");
+	$("#yellow_hood").removeClass("selected");
+	$("#grey_hood").removeClass("selected");
+	$("#pink_hood").removeClass("selected");
+	$("#purple_hood").removeClass("selected");
+
+	$("#hood_color").text("Color: none");
+}
+function clearPadColor(){
+	$("#red_pad").removeClass("selected");
+	$("#tan_pad").removeClass("selected");
+	$("#blonde_pad").removeClass("selected");
+	$("#orange_pad").removeClass("selected");
+	$("#white_pad").removeClass("selected");
+	$("#navy_blue_pad").removeClass("selected");
+	$("#brown_pad").removeClass("selected");
+	$("#forest_green_pad").removeClass("selected");
+	$("#black_pad").removeClass("selected");
+	$("#royal_blue_pad").removeClass("selected");
+	$("#yellow_pad").removeClass("selected");
+	$("#grey_pad").removeClass("selected");
+	$("#pink_pad").removeClass("selected");
+	$("#purple_pad").removeClass("selected");
+
+	$("#pad_color").text("Color: none");
+}
+function clearWingtipColor(){
+	$("#red_wingtip").removeClass("selected");
+	$("#tan_wingtip").removeClass("selected");
+	$("#blonde_wingtip").removeClass("selected");
+	$("#orange_wingtip").removeClass("selected");
+	$("#white_wingtip").removeClass("selected");
+	$("#navy_blue_wingtip").removeClass("selected");
+	$("#brown_wingtip").removeClass("selected");
+	$("#forest_green_wingtip").removeClass("selected");
+	$("#black_wingtip").removeClass("selected");
+	$("#royal_blue_wingtip").removeClass("selected");
+	$("#yellow_wingtip").removeClass("selected");
+	$("#grey_wingtip").removeClass("selected");
+	$("#pink_wingtip").removeClass("selected");
+	$("#purple_wingtip").removeClass("selected");
+
+	$("#wingtip_color").text("Color: none");
+}
+function clearWeltingColor(){
+	$("#red_welting").removeClass("selected");
+	$("#tan_welting").removeClass("selected");
+	$("#blonde_welting").removeClass("selected");
+	$("#orange_welting").removeClass("selected");
+	$("#white_welting").removeClass("selected");
+	$("#navy_blue_welting").removeClass("selected");
+	$("#brown_welting").removeClass("selected");
+	$("#forest_green_welting").removeClass("selected");
+	$("#black_welting").removeClass("selected");
+	$("#royal_blue_welting").removeClass("selected");
+	$("#yellow_welting").removeClass("selected");
+	$("#grey_welting").removeClass("selected");
+	$("#pink_welting").removeClass("selected");
+	$("#purple_welting").removeClass("selected");
+
+	$("#welting_color").text("Color: none");
+}
+function clearBack2Color(){
+	$("#red_back2").removeClass("selected");
+	$("#tan_back2").removeClass("selected");
+	$("#blonde_back2").removeClass("selected");
+	$("#orange_back2").removeClass("selected");
+	$("#white_back2").removeClass("selected");
+	$("#navy_blue_back2").removeClass("selected");
+	$("#brown_back2").removeClass("selected");
+	$("#forest_green_back2").removeClass("selected");
+	$("#black_back2").removeClass("selected");
+	$("#royal_blue_back2").removeClass("selected");
+	$("#yellow_back2").removeClass("selected");
+	$("#grey_back2").removeClass("selected");
+	$("#pink_back2").removeClass("selected");
+	$("#purple_back2").removeClass("selected");
+
+	$("#back2_color").text("Color: none");
+}
+function clearBack3Color(){
+	$("#red_back3").removeClass("selected");
+	$("#tan_back3").removeClass("selected");
+	$("#blonde_back3").removeClass("selected");
+	$("#orange_back3").removeClass("selected");
+	$("#white_back3").removeClass("selected");
+	$("#navy_blue_back3").removeClass("selected");
+	$("#brown_back3").removeClass("selected");
+	$("#forest_green_back3").removeClass("selected");
+	$("#black_back3").removeClass("selected");
+	$("#royal_blue_back3").removeClass("selected");
+	$("#yellow_back3").removeClass("selected");
+	$("#grey_back3").removeClass("selected");
+	$("#pink_back3").removeClass("selected");
+	$("#purple_back3").removeClass("selected");
+
+	$("#back3_color").text("Color: none");
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////// FUNCTIONS END //////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// changing color s the options boxex on click/selection
 	// and also display spesific set of options in the following option panel
 		$("#step-1").click(function(){
@@ -8477,9 +8612,9 @@ $("#red_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Red.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Red.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebRed.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebRed.png");
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebRed.png");                                             
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/Red.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/Red.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/Red.png");                                             
 	//
 	// handling step 2 count 
 	//
@@ -8520,9 +8655,9 @@ $("#tan_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Tan.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Tan.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebTan.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebTan.png");
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebTan.png");                                             
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/Tan.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/Tan.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/Tan.png");                                              
 	//
 	// handling step 2 count 
 	//
@@ -8563,9 +8698,9 @@ $("#blonde_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Bone.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Bone.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebBlonde.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebBlonde.png");  
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebBlonde.png");                                           
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/Bone.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/Bone.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/Bone.png");                                           
 	//
 	// handling step 2 count 
 	//
@@ -8606,9 +8741,9 @@ $("#orange_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Orange.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Orange.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebOrange.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebOrange.png"); 
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebOrange.png");                                            
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/Orange.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/Orange.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/Orange.png");                                             
 	//
 	// handling step 2 count 
 	//
@@ -8649,9 +8784,9 @@ $("#white_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/White.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/White.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/fb1.png");        
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebWhite.png");
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebWhite.png");
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/White.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/White.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/White.png"); 
 	//
 	// handling step 2 count 
 	//
@@ -8692,9 +8827,9 @@ $("#navy_blue_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/NBlue.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/NBlue.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebNBlue.png"); 
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebNBlue.png"); 
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebNBlue.png");                                            
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/NBlue.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/NBlue.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/NBlue.png");                                             
 	//
 	// handling step 2 count 
 	//
@@ -8735,9 +8870,9 @@ $("#brown_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Brown.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Brown.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebBrown.png");                                             
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebBrown.png"); 
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebBrown.png");                                            
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/Brown.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/Brown.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/Brown.png");                                             
 	//
 	// handling step 2 count 
 	//
@@ -8778,9 +8913,9 @@ $("#forest_green_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/FGreen.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/FGreen.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebFGreen.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebFGreen.png");
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebFGreen.png");
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/FGreen.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/FGreen.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/FGreen.png"); 
 	//
 	// handling step 2 count 
 	//
@@ -8821,9 +8956,9 @@ $("#black_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Black.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Black.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebBlack.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebBlack.png"); 
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebBlack.png");                                            
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/Black.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/Black.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/Black.png");                                             
 	//
 	// handling step 2 count 
 	//
@@ -8864,9 +8999,9 @@ $("#royal_blue_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/RBlue.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/RBlue.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebRBlue.png");
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebRBlue.png"); 
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebRBlue.png");                                            
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/RBlue.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/RBlue.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/RBlue.png");                                             
 	//
 	// handling step 2 count 
 	//
@@ -8907,9 +9042,9 @@ $("#yellow_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Yellow.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Yellow.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebYellow.png");                                             
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebYellow.png");
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebYellow.png");                                             
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/Yellow.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/Yellow.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/Yellow.png");                                              
 	//
 	// handling step 2 count 
 	//
@@ -8950,9 +9085,9 @@ $("#grey_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Grey.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Grey.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebGrey.png");                                             
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebGrey.png"); 
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebGrey.png");                                            
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/Grey.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/Grey.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/Grey.png");                                             
 	//
 	// handling step 2 count 
 	//
@@ -8993,9 +9128,9 @@ $("#pink_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Pink.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Pink.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebPink.png");                                             
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebPink.png"); 
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebPink.png");                                            
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/Pink.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/Pink.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/Pink.png");                                            
 	//
 	// handling step 2 count 
 	//
@@ -9036,9 +9171,9 @@ $("#purple_stitch").click(function(){
 	$("#FSLWebColors").attr("xlink:href","imgs/Fielding/Web/LWeb/Stitch/Purple.png");
 	$("#FSMWebColors").attr("xlink:href","imgs/Fielding/Web/MWeb/Stitch/Purple.png");
 
-	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/GWeb/SGWeb/FBSGWebPurple.png");                                             
-	$("#FBBWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/BWeb/SBWeb/FBSBWebPurple.png"); 
-	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/HWeb/SHWeb/FBSHWebPurple.png");                                            
+	$("#FBStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebB/Stitch/Purple.png");
+	$("#FBGWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebG/Stitch/Purple.png");
+	$("#FBHWebStitchColors").attr("xlink:href","imgs/FirstBase/Web/WebH/Stitch/Purple.png");                                            
 	//
 	// handling step 2 count 
 	//
@@ -9839,9 +9974,14 @@ $("#f_type1").click(function(){
 	$("#FieldingWelting").attr("style","display:none");
 	$("#FieldingWingTip").attr("style","display:none");
 	$("#Crown").attr("style","display:block;");
+	$("#game_type").attr("style","display:none;");
+	$("#firstbase_webstyles").attr("style","display:none;");
+	$("#fielding_web_styles").attr("style","display:none");
+	$("#finger_HoodPad").attr("style","display:block;");
 
+	prop1_total = 7;Web = 0; GameType = 0;GSize = 0;
 	GloveType = 1;
-	prop_sel = GloveType + THand + WGuard + VWrist + HoodPad + LLength + GSize;
+	prop_sel = GloveType + THand + WGuard + VWrist + HoodPad + LLength + GSize + Web + GameType;
 	if(prop_sel != prop1_total)
 		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
 	if(prop_sel == prop1_total)
@@ -9866,9 +10006,13 @@ $("#f_type2").click(function(){
 	$("#FieldingWelting").attr("style","display:block");
 	$("#FieldingWingTip").attr("style","display:block");
 	$("#Crown").attr("style","display:none;");
+	$("#firstbase_webstyles").attr("style","display:none;");
+	$("#game_type").attr("style","display:none;");
+	$("#finger_HoodPad").attr("style","display:block;");
 
+	prop1_total = 8;GameType = 0;GSize = 0;
 	GloveType = 1;
-	prop_sel = GloveType + THand + WGuard + VWrist + HoodPad + LLength + GSize + Web;
+	prop_sel = GloveType + THand + WGuard + VWrist + HoodPad + LLength + GSize + Web + GameType;
 	if(prop_sel != prop1_total)
 		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
 	if(prop_sel == prop1_total)
@@ -9893,6 +10037,8 @@ $("#f_type3").click(function(){
 	$("#FieldingWelting").attr("style","display:none");
 	$("#FieldingWingTip").attr("style","display:none");
 	$("#Crown").attr("style","display:block;");
+	$("#game_type").attr("style","display:none;");
+	$("#finger_HoodPad").attr("style","display:none;");
 
 	$("#firstbase_webstyles").attr("style","display:block;");
 	$("#fielding_web_styles").attr("style","display:none");
@@ -9904,8 +10050,9 @@ $("#f_type3").click(function(){
 	$("#f_web_l").attr("style","display:none");
 	$("#f_web_m").attr("style","display:none");
 
+	prop1_total = 7;GameType = 0;HoodPad = 0;GSize = 0;
 	GloveType = 1;
-	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
 	if(prop_sel != prop1_total)
 		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
 	if(prop_sel == prop1_total)
@@ -9917,7 +10064,7 @@ $("#f_type3").click(function(){
 
 $("#velcro_wrist_yes").click(function(){
 	VWrist = 1;
-	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
 	if(prop_sel != prop1_total)
 		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
 	if(prop_sel == prop1_total)
@@ -9925,18 +10072,201 @@ $("#velcro_wrist_yes").click(function(){
 });
 $("#velcro_wrist_no").click(function(){
 	VWrist = 1;
-	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
 	if(prop_sel != prop1_total)
 		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
 	if(prop_sel == prop1_total)
 		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 ///////////////////////////////////////////////////////// glove velcro wrist handler ends //////////////////////
+//////////////////////////////////////////////////////// glove throwing hand handler start ////////////////////
+
+$("#throwing_hand_left").click(function(){
+	THand = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#throwing_hand_right").click(function(){
+	THand = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+//////////////////////////////////////////////////////// glove throwing handler ends ///////////////////////////
+///////////////////////////////////////////////////////// glove wrist guard handler stasts /////////////////////
+
+$("#wrist_guard_yes").click(function(){
+	WGuard = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#wrist_guard_no").click(function(){
+	WGuard = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+///////////////////////////////////////////////////////// glove wrist gurad handler ends ///////////////////////
+//
+//////////////////////////////////////////////////////// glove finger hood handler stars ////////////////////////
+//var isAlreadyIncreamented = 1;
+$("#finger_hood_none").click(function(){
+	//$("#img2").attr("src","pics/classic_series.png");
+	//$(".CHColors").attr("style","display:none");
+	//$(".CPadColors").attr("style","display:none");
+	//$("#FingerHoodColors").attr("style","display:none");
+	//$("#FingerPadColors").attr("style","display:none");
+	HoodPad = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+	
+});
+$("#finger_hood_pad").click(function(){
+	//$("#img2").attr("src","pics/classic_series.png");
+	//$(".CHColors").attr("style","display:none");
+	//$(".CPadColors").attr("style","display:block");
+	//$("#FingerHoodColors").attr("style","display:none");
+	//$("#FingerPadColors").attr("style","display:block");
+	HoodPad = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+	
+});
+$("#finger_hood_hood").click(function(){
+	//$("#img2").attr("src","pics/classic_series.png");
+	//$(".CHColors").attr("style","display:block");
+	//$(".CPadColors").attr("style","display:none");
+	//$("#FingerHoodColors").attr("style","display:block");
+	//$("#FingerPadColors").attr("style","display:none");
+	HoodPad = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+	
+});
+//////////////////////////////////////////////////////// glove finger hood handler edns ///////////////////////////
+//
+/////////////////////////////////////////////////////// glove lace length handler ///////////////////////////////////////
+$("#lace_length_normal").click(function(){
+	LLength = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#lace_length_long").click(function(){
+	LLength = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+////////////////////////////////////////////////////// glove lace length handler ends ///////////////////////////////////
+//
+///////////////////////////////////////////////////// Game Type Handler  //////////////////////////////////////////////////
+$("#game_type_slowPitching").click(function(){
+	GameType = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#game_type_fastPitching").click(function(){
+	GameType = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+///////////////////////////////////////////////////// Game type handler ends here /////////////////////////////////////////
+$("#lace_length_long").click(function(){
+	LLength = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //
 //
 //
+////////////////////////////////////////////////////////// Catcher Glove size handler //////////////////////////////
+//
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+$("#glove_size_32").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#glove_size_32_5").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#glove_size_33").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#glove_size_33_5").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#glove_size_34").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#glove_size_35").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////fielding sizes //////////////////////////////////////////
 $("#glove_size_9_5").click(function(){
 
@@ -9948,9 +10278,14 @@ $("#glove_size_9_5").click(function(){
 	$("#f_web_k").attr("style","display:block");
 	$("#f_web_l").attr("style","display:none");
 	$("#f_web_m").attr("style","display:none");
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#glove_size_10").click(function(){
-
 
 	$("#fielding_web_styles").attr("style","display:block");
 	$("#f_web_a").attr("style","display:none");
@@ -9960,6 +10295,12 @@ $("#glove_size_10").click(function(){
 	$("#f_web_k").attr("style","display:block");
 	$("#f_web_l").attr("style","display:none");
 	$("#f_web_m").attr("style","display:block");
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#glove_size_10_5").click(function(){
 
@@ -9971,6 +10312,12 @@ $("#glove_size_10_5").click(function(){
 	$("#f_web_k").attr("style","display:block");
 	$("#f_web_l").attr("style","display:none");
 	$("#f_web_m").attr("style","display:none");
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#glove_size_10_75").click(function(){
 
@@ -9982,6 +10329,12 @@ $("#glove_size_10_75").click(function(){
 	$("#f_web_k").attr("style","display:block");
 	$("#f_web_l").attr("style","display:none");
 	$("#f_web_m").attr("style","display:none");
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#glove_size_11").click(function(){
 
@@ -9993,6 +10346,12 @@ $("#glove_size_11").click(function(){
 	$("#f_web_k").attr("style","display:block");
 	$("#f_web_l").attr("style","display:none");
 	$("#f_web_m").attr("style","display:block");
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#glove_size_11_25").click(function(){
 
@@ -10004,6 +10363,12 @@ $("#glove_size_11_25").click(function(){
 	$("#f_web_k").attr("style","display:block");
 	$("#f_web_l").attr("style","display:none");
 	$("#f_web_m").attr("style","display:block");
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#glove_size_11_50_f").click(function(){
 
@@ -10016,6 +10381,12 @@ $("#glove_size_11_50_f").click(function(){
 	$("#f_web_k").attr("style","display:block");
 	$("#f_web_l").attr("style","display:block");
 	$("#f_web_m").attr("style","display:block");
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 
 });
 $("#glove_size_11_75_f").click(function(){
@@ -10031,6 +10402,12 @@ $("#glove_size_12_f").click(function(){
 	$("#f_web_k").attr("style","display:block");
 	$("#f_web_l").attr("style","display:block");
 	$("#f_web_m").attr("style","display:block");
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#glove_size_12_25_f").click(function(){
 
@@ -10042,6 +10419,12 @@ $("#glove_size_12_25_f").click(function(){
 	$("#f_web_k").attr("style","display:block");
 	$("#f_web_l").attr("style","display:none");
 	$("#f_web_m").attr("style","display:none");
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#glove_size_12_50_f").click(function(){
 
@@ -10053,6 +10436,12 @@ $("#glove_size_12_50_f").click(function(){
 	$("#f_web_k").attr("style","display:block");
 	$("#f_web_l").attr("style","display:none");
 	$("#f_web_m").attr("style","display:none");
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#glove_size_12_75_f").click(function(){
 
@@ -10064,6 +10453,12 @@ $("#glove_size_12_75_f").click(function(){
 	$("#f_web_k").attr("style","display:block");
 	$("#f_web_l").attr("style","display:none");
 	$("#f_web_m").attr("style","display:none");
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#glove_size_13_f").click(function(){
 
@@ -10075,6 +10470,12 @@ $("#glove_size_13_f").click(function(){
 	$("#f_web_k").attr("style","display:block");
 	$("#f_web_l").attr("style","display:none");
 	$("#f_web_m").attr("style","display:none");
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#glove_size_13_25_f").click(function(){
 
@@ -10086,12 +10487,89 @@ $("#glove_size_13_25_f").click(function(){
 	$("#f_web_k").attr("style","display:block");
 	$("#f_web_l").attr("style","display:none");
 	$("#f_web_m").attr("style","display:none");
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////Fielding size handler ends///////////////////////////////////////////////////////////////////////
 //
 //
 //
 //
+///////////////////////////////////////////////// First base size handler /////////////////////////////////////////////////
+//
+//
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+$("#glove_size_12_fb").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#glove_size_12_25_fb").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#glove_size_12_50_fb").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#glove_size_12_75_fb").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#glove_size_13_fb").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#glove_size_13_25_fb").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#glove_size_13_50_fb").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+$("#glove_size_14_fb").click(function(){
+	GSize = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
+});
+///////////////////////////////////////////////////// first base size handler ends ///////////////////////////////////////
+
 ///////////////////////////////////////////////////// webstyles fielding handler /////////////////////////////////
 $("#fielding_web_k").click(function(){
 
@@ -10120,6 +10598,12 @@ $("#fielding_web_k").click(function(){
 	$("#FLaceColors6").attr("opacity","0");
 
 	$("#FLImg3").attr("xlink:href","");
+	Web = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 
 });
 $("#fielding_web_a").click(function(){
@@ -10149,6 +10633,12 @@ $("#fielding_web_a").click(function(){
 	$("#FLaceColors6").attr("opacity","0");
 
 	$("#FLImg3").attr("xlink:href","");
+	Web = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 
 });
 $("#fielding_web_e").click(function(){
@@ -10178,6 +10668,12 @@ $("#fielding_web_e").click(function(){
 	$("#FLaceColors6").attr("opacity","0");
 
 	$("#FLImg3").attr("xlink:href","");
+	Web = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 
 });
 $("#fielding_web_h").click(function(){
@@ -10207,6 +10703,12 @@ $("#fielding_web_h").click(function(){
 	$("#FLaceColors6").attr("opacity","0");
 
 	$("#FLImg3").attr("xlink:href","");
+	Web = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 
 });
 $("#fielding_web_i").click(function(){
@@ -10237,6 +10739,12 @@ $("#fielding_web_i").click(function(){
 
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/f14.png");
 	$("#FLImg3").attr("opacity","1");
+	Web = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#fielding_web_l").click(function(){
 
@@ -10265,6 +10773,12 @@ $("#fielding_web_l").click(function(){
 	$("#FLaceColors6").attr("opacity","0");
 
 	$("#FLImg3").attr("xlink:href","");
+	Web = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 
 });
 $("#fielding_web_m").click(function(){
@@ -10294,9 +10808,15 @@ $("#fielding_web_m").click(function(){
 	$("#FLaceColors6").attr("opacity","1");
 
 	$("#FLImg3").attr("xlink:href","");
+	Web = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 
 });
-
+//////////////////////////////////////////////////////// First Base Web Styles //////////////////////////////////
 $("#firstbase_web_g").click(function(){
 
 	$("#FBWebColors").attr("opacity","0");
@@ -10310,6 +10830,12 @@ $("#firstbase_web_g").click(function(){
 	$("#FBHWebColors").attr("opacity","0");
 	$("#FBHWebLaceColors").attr("opacity","0");
 	$("#FBHWebStitchColors").attr("opacity","0");
+	Web = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#firstbase_web_b").click(function(){
 
@@ -10324,6 +10850,12 @@ $("#firstbase_web_b").click(function(){
 	$("#FBHWebColors").attr("opacity","0");
 	$("#FBHWebLaceColors").attr("opacity","0");
 	$("#FBHWebStitchColors").attr("opacity","0");
+	Web = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 $("#firstbase_web_h").click(function(){
 
@@ -10338,6 +10870,12 @@ $("#firstbase_web_h").click(function(){
 	$("#FBHWebColors").attr("opacity","1");
 	$("#FBHWebLaceColors").attr("opacity","1");
 	$("#FBHWebStitchColors").attr("opacity","1");
+	Web = 1;
+	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
+	if(prop_sel != prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:red;\"><b>("+prop_sel+"/"+prop1_total+")</b></span>")
+	if(prop_sel == prop1_total)
+		$("#prop_count").html("Select Options Bellow<span style = \"color:green;\"><b>(Completed)</b></span>")
 });
 
 ///////////////////////////////////////////////////// webs tyle fielding handler ends////////////////////////////
