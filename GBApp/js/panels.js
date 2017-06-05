@@ -197,6 +197,8 @@ $("#red_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
+
 	$("#logo_color").text("Color: Red");
 	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNRed.png");
 	$("#FLogoN").attr("xlink:href","imgs/Fielding/Logo/LogoNRed.png");
@@ -204,6 +206,7 @@ $("#red_logo").click(function(){
 	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Red.png");
 	$("#FLImg4").attr("xlink:href","imgs/Fielding/LogoColors/FL4Red.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NRed.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNRed.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Red.png");
 	//
 	// handling step 2 count 
@@ -236,6 +239,7 @@ $("#volt_green_logo").click(function(){
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
 	$("#logo_color").text("Color: Volt Green");
+	$("#grey_logo").removeClass("selected");
 
 	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNVGreen.png");
 	$("#FLogoN").attr("xlink:href","imgs/Fielding/Logo/LogoNVGreen.png");
@@ -245,6 +249,7 @@ $("#volt_green_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLVGreen.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1VGreen.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NVGreen.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNVGreen.png");
 	//
 	// handling step 2 count 
 	//
@@ -275,6 +280,7 @@ $("#sky_blue_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Sky Blue");
 
@@ -285,6 +291,7 @@ $("#sky_blue_logo").click(function(){
 	$("#FLImg4").attr("xlink:href","imgs/Fielding/LogoColors/FL4SBlue.png");
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLSBlue.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1SBlue.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNSBlue.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NSBlue.png");
 	//
 	// handling step 2 count 
@@ -316,6 +323,7 @@ $("#tan_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Tan");
 
@@ -327,6 +335,7 @@ $("#tan_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLTan.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Tan.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NTan.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNTan.png");
 	//
 	// handling step 2 count 
 	//
@@ -357,6 +366,7 @@ $("#blonde_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Bone");  
 
@@ -368,6 +378,7 @@ $("#blonde_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLBlonde.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Blonde.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NBone.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNBone.png");
 	//
 	// handling step 2 count 
 	//
@@ -398,6 +409,7 @@ $("#teal_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Teal");    
 
@@ -409,6 +421,7 @@ $("#teal_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLTeal.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Teal.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NTeal.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNTeal.png");
 	//
 	// handling step 2 count 
 	//
@@ -440,6 +453,7 @@ $("#orange_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Orange");  
 
@@ -451,6 +465,7 @@ $("#orange_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLOrange.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Orange.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NOrange.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNOrange.png");
 	//
 	// handling step 2 count 
 	//
@@ -482,6 +497,7 @@ $("#white_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: White");  
 
@@ -493,6 +509,7 @@ $("#white_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLWhite.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1White.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NWhite.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNWhite.png");
 	//
 	// handling step 2 count 
 	//
@@ -524,6 +541,7 @@ $("#pink_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Pink");
 
@@ -535,6 +553,7 @@ $("#pink_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLPink.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Pink.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NPink.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNPink.png");
 	//
 	// handling step 2 count 
 	//
@@ -566,6 +585,7 @@ $("#navy_blue_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Navy Blue");  
 
@@ -577,6 +597,7 @@ $("#navy_blue_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLNBlue.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1NBlue.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NNBlue.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNNBlue.png");
 	//
 	// handling step 2 count 
 	//
@@ -608,6 +629,7 @@ $("#purple_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Purple");  
 
@@ -619,6 +641,7 @@ $("#purple_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLPurple.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Purple.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NPurple.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNPurple.png");
 	//
 	// handling step 2 count 
 	//
@@ -650,6 +673,7 @@ $("#royal_blue_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Royal Blue");
 
@@ -661,6 +685,7 @@ $("#royal_blue_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLRBlue.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1RBlue.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NRBlue.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNRBlue.png");
 	//
 	// handling step 2 count 
 	//
@@ -692,6 +717,7 @@ $("#brown_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Brown");  
 
@@ -703,6 +729,7 @@ $("#brown_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLBrown.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Brown.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NBrown.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNBrown.png");
 	//
 	// handling step 2 count 
 	//
@@ -734,6 +761,7 @@ $("#forest_green_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Forest Green");
 
@@ -745,6 +773,7 @@ $("#forest_green_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLFGreen.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1FGreen.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NFGreen.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNFGreen.png");
 	//
 	// handling step 2 count 
 	//
@@ -776,6 +805,7 @@ $("#silver_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Silver");     
 
@@ -787,6 +817,7 @@ $("#silver_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLSilver.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Silver.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NSilver.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNSilver.png");
 	//
 	// handling step 2 count 
 	//
@@ -818,6 +849,7 @@ $("#volt_yellow_logo").click(function(){
 	$("#volt_yellow_logo").addClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Volt Yellow");
 
@@ -828,7 +860,8 @@ $("#volt_yellow_logo").click(function(){
 	$("#FLImg4").attr("xlink:href","imgs/Fielding/LogoColors/FL4Yellow.png");
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLYellow.png"); 
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Yellow.png");
-	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NYellow.png");                                                    
+	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NYellow.png"); 
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNYellow.png");                                                   
 	//
 	// handling step 2 count 
 	//
@@ -860,6 +893,7 @@ $("#maroon_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").addClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Maroon");  
 
@@ -871,6 +905,7 @@ $("#maroon_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLMaroon.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Maroon.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NMaroon.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNMaroon.png");
 	//
 	// handling step 2 count 
 	//
@@ -902,6 +937,7 @@ $("#gold_logo").click(function(){
 	$("#volt_yellow_logo").removeClass("selected");
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").addClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Gold");                   
 
@@ -913,6 +949,7 @@ $("#gold_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLGold.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Gold.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NGold.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNGold.png");
 	//
 	// handling step 2 count 
 	//
@@ -945,6 +982,7 @@ $("#black_logo").click(function(){
 	$("#maroon_logo").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
 	$("#black_logo").addClass("selected");
+	$("#grey_logo").removeClass("selected");
 
 	$("#logo_color").text("Color: Black");                   
 
@@ -956,6 +994,52 @@ $("#black_logo").click(function(){
 	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLBlack.png");
 	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Black.png");
 	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NBlack.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNBlack.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#grey_logo").click(function(){
+	$("#red_logo").removeClass("selected");
+	$("#volt_green_logo").removeClass("selected");
+	$("#sky_blue_logo").removeClass("selected");
+	$("#tan_logo").removeClass("selected");
+	$("#blonde_logo").removeClass("selected");
+	$("#teal_logo").removeClass("selected");
+	$("#orange_logo").removeClass("selected");
+	$("#white_logo").removeClass("selected");
+	$("#pink_logo").removeClass("selected");
+	$("#navy_blue_logo").removeClass("selected");
+	$("#purple_logo").removeClass("selected");
+	$("#royal_blue_logo").removeClass("selected");
+	$("#brown_logo").removeClass("selected");
+	$("#forest_green_logo").removeClass("selected");
+	$("#silver_logo").removeClass("selected");
+	$("#volt_yellow_logo").removeClass("selected");
+	$("#maroon_logo").removeClass("selected");
+	$("#gold_logo").removeClass("selected");
+	$("#black_logo").removeClass("selected");
+	$("#grey_logo").addClass("selected");
+
+	$("#logo_color").text("Color: Black");                   
+
+	$("#CLogoN").attr("xlink:href","imgs/Catcher/Logo/LogoNGrey.png");
+	$("#FLogoN").attr("xlink:href","imgs/Fielding/Logo/LogoNGrey.png");
+	$("#FLImg2").attr("xlink:href","imgs/Fielding/LogoColors/FL2Grey.png");
+	$("#FLImg3").attr("xlink:href","imgs/Fielding/LogoColors/FL3Grey.png");
+	$("#FLImg4").attr("xlink:href","imgs/Fielding/LogoColors/FL4Grey.png");
+	$("#FBLImg").attr("xlink:href","imgs/FirstBase/LogoColors/FBLGrey.png");
+	$("#FBLImg1").attr("xlink:href","imgs/FirstBase/LogoColors/FBL1Grey.png");
+	$("#FBLogoN").attr("xlink:href","imgs/FirstBase/Logo/NGrey.png");
+	$("#FBLogoBackN").attr("xlink:href","imgs/FirstBase/Logo/LogoBackNGrey.png");
 	//
 	// handling step 2 count 
 	//
@@ -992,6 +1076,7 @@ $("#red_logo_1").click(function(){
 	$("#volt_yellow_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
 	$("#logo_patch_color").text("Color: Red");
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchRed.png");
 	$("#FLogoPatch").attr("xlink:href","imgs/Fielding/Logo/LogoPRed.png");
@@ -1025,6 +1110,7 @@ $("#volt_green_logo_1").click(function(){
 	$("#volt_yellow_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
 	$("#logo_patch_color").text("Color: Volt Green");
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchVGreen.png");
 	$("#FLogoPatch").attr("xlink:href","imgs/Fielding/Logo/LogoPVGreen.png");
@@ -1057,6 +1143,7 @@ $("#sky_blue_logo_1").click(function(){
 	$("#forest_green_logo_1").removeClass("selected");
 	$("#volt_yellow_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: Sky Blue");
 
@@ -1091,6 +1178,7 @@ $("#tan_logo_1").click(function(){
 	$("#forest_green_logo_1").removeClass("selected");
 	$("#volt_yellow_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: Tan");
 
@@ -1125,6 +1213,7 @@ $("#blonde_logo_1").click(function(){
 	$("#forest_green_logo_1").removeClass("selected");
 	$("#volt_yellow_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: Bone");  
 
@@ -1160,6 +1249,7 @@ $("#teal_logo_1").click(function(){
 	$("#volt_yellow_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
 	$("#logo_patch_color").text("Color: Teal");    
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchTeal.png");
 	$("#FLogoPatch").attr("xlink:href","imgs/Fielding/Logo/LogoPTeal.png");
@@ -1194,6 +1284,7 @@ $("#orange_logo_1").click(function(){
 	$("#volt_yellow_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
 	$("#logo_patch_color").text("Color: Orange");  
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchOrange.png");
 	$("#FLogoPatch").attr("xlink:href","imgs/Fielding/Logo/LogoPOrange.png");
@@ -1228,6 +1319,7 @@ $("#white_logo_1").click(function(){
 	$("#forest_green_logo_1").removeClass("selected");
 	$("#volt_yellow_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: White");  
 
@@ -1263,6 +1355,7 @@ $("#pink_logo_1").click(function(){
 	$("#forest_green_logo_1").removeClass("selected");
 	$("#volt_yellow_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: Pink");
 
@@ -1298,6 +1391,7 @@ $("#navy_blue_logo_1").click(function(){
 	$("#forest_green_logo_1").removeClass("selected");
 	$("#volt_yellow_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: Navy Blue");  
 
@@ -1333,6 +1427,7 @@ $("#purple_logo_1").click(function(){
 	$("#forest_green_logo_1").removeClass("selected");
 	$("#volt_yellow_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: Purple");  
 
@@ -1368,7 +1463,7 @@ $("#royal_blue_logo_1").click(function(){
 	$("#forest_green_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
 	$("#volt_yellow_logo_1").removeClass("selected");
-	
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: Royal Blue");
 
@@ -1404,7 +1499,7 @@ $("#brown_logo_1").click(function(){
 	$("#forest_green_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
 	$("#volt_yellow_logo_1").removeClass("selected");
-	
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: Brown");  
 
@@ -1440,7 +1535,7 @@ $("#forest_green_logo_1").click(function(){
 	$("#forest_green_logo_1").addClass("selected");
 	$("#gold_logo_1").removeClass("selected");
 	$("#volt_yellow_logo_1").removeClass("selected");
-	
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: Forest Green");
 
@@ -1478,6 +1573,7 @@ $("#silver_logo_1").click(function(){
 	$("#volt_yellow_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: Silver");     
 
@@ -1511,7 +1607,7 @@ $("#volt_yellow_logo_1").click(function(){
 	$("#forest_green_logo_1").removeClass("selected");
 	$("#gold_logo_1").removeClass("selected");
 	$("#volt_yellow_logo_1").addClass("selected");
-	
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: Volt Yellow");
 
@@ -1549,7 +1645,8 @@ $("#maroon_logo").click(function(){
 	$("#volt_yellow_logo_1").removeClass("selected");
 	$("#maroon_logo").addClass("selected");
 	$("#gold_logo").removeClass("selected");
-
+	$("#grey_logo_1").removeClass("selected");
+	
 	$("#logo_patch_color").text("Color: Maroon");  
 
 	
@@ -1580,10 +1677,9 @@ $("#gold_logo_1").click(function(){
 	$("#royal_blue_logo_1").removeClass("selected");
 	$("#brown_logo_1").removeClass("selected");
 	$("#forest_green_logo_1").removeClass("selected");
-
-	$("#volt_yellow_logo_1").removeClass("selected");
-	
+	$("#volt_yellow_logo_1").removeClass("selected");	
 	$("#gold_logo_1").addClass("selected");
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: Gold");                   
 
@@ -1617,17 +1713,53 @@ $("#black_logo_1").click(function(){
 	$("#royal_blue_logo_1").removeClass("selected");
 	$("#brown_logo_1").removeClass("selected");
 	$("#forest_green_logo_1").removeClass("selected");
-
 	$("#volt_yellow_logo_1").removeClass("selected");
-	
 	$("#gold_logo_1").removeClass("selected");
 	$("#black_logo_1").addClass("selected");
+	$("#grey_logo_1").removeClass("selected");
 
 	$("#logo_patch_color").text("Color: Black");                   
 
 	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchBlack.png");
 	$("#FLogoPatch").attr("xlink:href","imgs/Fielding/Logo/LogoPBlack.png");
 	$("#FBLogoPatch").attr("xlink:href","imgs/FirstBase/Logo/PBlack.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#grey_logo_1").click(function(){
+	$("#red_logo_1").removeClass("selected");
+	$("#volt_green_logo_1").removeClass("selected");
+	$("#sky_blue_logo_1").removeClass("selected");
+	$("#tan_logo_1").removeClass("selected");
+	$("#blonde_logo_1").removeClass("selected");
+	$("#teal_logo_1").removeClass("selected");
+	$("#orange_logo_1").removeClass("selected");
+	$("#white_logo_1").removeClass("selected");
+	$("#pink_logo_1").removeClass("selected");
+	$("#navy_blue_logo_1").removeClass("selected");
+	$("#purple_logo_1").removeClass("selected");
+	$("#royal_blue_logo_1").removeClass("selected");
+	$("#brown_logo_1").removeClass("selected");
+	$("#forest_green_logo_1").removeClass("selected");
+	$("#volt_yellow_logo_1").removeClass("selected");
+	$("#gold_logo_1").removeClass("selected");
+	$("#black_logo_1").removeClass("selected");
+	$("#grey_logo_1").addClass("selected");
+
+	$("#logo_patch_color").text("Color: Grey");                   
+
+	$("#CLogoPatch").attr("xlink:href","imgs/Catcher/Logo/LogoPatchGrey.png");
+	$("#FLogoPatch").attr("xlink:href","imgs/Fielding/Logo/LogoPGrey.png");
+	$("#FBLogoPatch").attr("xlink:href","imgs/FirstBase/Logo/PGrey.png");
 	//
 	// handling step 2 count 
 	//
@@ -1667,11 +1799,14 @@ $("#red_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
+
 	$("#logo_9n_color").text("Color: Red");
 
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NRed.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93Red.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93Red.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93Red.png");
 	//
 	// handling step 2 count 
 	//
@@ -1700,11 +1835,14 @@ $("#volt_green_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
+
 	$("#logo_9n_color").text("Color: Volt Green");
 
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NVGreen.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93VGreen.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93VGreen.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93VGreen.png");
 	//
 	// handling step 2 count 
 	//
@@ -1733,12 +1871,14 @@ $("#sky_blue_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#logo_9n_color").text("Color: Sky Blue");
 
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NSBlue.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93SBlue.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93SBlue.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93SBlue.png");
 	//
 	// handling step 2 count 
 	//
@@ -1767,12 +1907,14 @@ $("#tan_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#logo_9n_color").text("Color: Tan");
 
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NTan.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93Tan.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93Tan.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93Tan.png");
 	//
 	// handling step 2 count 
 	//
@@ -1801,12 +1943,14 @@ $("#blonde_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#logo_9n_color").text("Color: Bone");  
 
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NBone.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93Bone.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93Bone.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93Bone.png");
 	//
 	// handling step 2 count 
 	//
@@ -1835,11 +1979,14 @@ $("#teal_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
+
 	$("#logo_9n_color").text("Color: Teal");    
 
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NTeal.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93Teal.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93Teal.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93Teal.png");
 	//
 	// handling step 2 count 
 	//
@@ -1869,11 +2016,14 @@ $("#orange_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
+
 	$("#logo_9n_color").text("Color: Orange");  
 
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NOrange.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93Orange.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93Orange.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93Orange.png");
 	//
 	// handling step 2 count 
 	//
@@ -1903,12 +2053,14 @@ $("#white_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#logo_9n_color").text("Color: White");  
 
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NWhite.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93White.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93White.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93White.png");
 	//
 	// handling step 2 count 
 	//
@@ -1938,12 +2090,14 @@ $("#pink_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#logo_9n_color").text("Color: Pink");
 
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NPink.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93Pink.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93Pink.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93Pink.png");
 	//
 	// handling step 2 count 
 	//
@@ -1973,12 +2127,14 @@ $("#navy_blue_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#logo_9n_color").text("Color: Navy Blue");  
 
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NNBlue.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93NBlue.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93NBlue.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93NBlue.png");
 	//
 	// handling step 2 count 
 	//
@@ -2008,12 +2164,14 @@ $("#purple_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#logo_9n_color").text("Color: Purple");  
 
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NPurple.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93Purple.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93Purple.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93Purple.png");
 	//
 	// handling step 2 count 
 	//
@@ -2043,6 +2201,7 @@ $("#royal_blue_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
 	
 
 	$("#logo_9n_color").text("Color: Royal Blue");
@@ -2050,6 +2209,7 @@ $("#royal_blue_logo_2").click(function(){
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NRBlue.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93RBlue.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93RBlue.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93RBlue.png");
 	//
 	// handling step 2 count 
 	//
@@ -2079,13 +2239,14 @@ $("#brown_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
-	
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#logo_9n_color").text("Color: Brown");  
 
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NBrown.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93Brown.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93Brown.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93Brown.png");
 	//
 	// handling step 2 count 
 	//
@@ -2115,13 +2276,14 @@ $("#forest_green_logo_2").click(function(){
 	$("#forest_green_logo_2").addClass("selected");
 	$("#gold_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").removeClass("selected");
-	
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#logo_9n_color").text("Color: Forest Green");
 
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NFGreen.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93FGreen.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93FGreen.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93FGreen.png");
 	//
 	// handling step 2 count 
 	//
@@ -2153,6 +2315,7 @@ $("#silver_logo_2").click(function(){
 	$("#volt_yellow_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#logo_9n_color").text("Color: Silver");     
 
@@ -2186,13 +2349,14 @@ $("#volt_yellow_logo_2").click(function(){
 	$("#forest_green_logo_2").removeClass("selected");
 	$("#gold_logo_2").removeClass("selected");
 	$("#volt_yellow_logo_2").addClass("selected");
-	
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#logo_9n_color").text("Color: Volt Yellow");
 
 	 $("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NYellow.png");    
 	 $("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93Yellow.png");  
-	 $("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93Yellow.png");                                             
+	 $("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93Yellow.png");   
+	 $("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93Yellow.png");                                          
 	//
 	// handling step 2 count 
 	//
@@ -2224,6 +2388,7 @@ $("#maroon_logo").click(function(){
 	$("#volt_yellow_logo_2").removeClass("selected");
 	$("#maroon_logo").addClass("selected");
 	$("#gold_logo").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#logo_9n_color").text("Color: Maroon");  
 
@@ -2255,6 +2420,7 @@ $("#gold_logo_2").click(function(){
 	$("#royal_blue_logo_2").removeClass("selected");
 	$("#brown_logo_2").removeClass("selected");
 	$("#forest_green_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#volt_yellow_logo_2").removeClass("selected");
 	
@@ -2265,6 +2431,7 @@ $("#gold_logo_2").click(function(){
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NGold.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93Gold.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93Gold.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93Gold.png");
 	//
 	// handling step 2 count 
 	//
@@ -2292,6 +2459,7 @@ $("#black_logo_2").click(function(){
 	$("#royal_blue_logo_2").removeClass("selected");
 	$("#brown_logo_2").removeClass("selected");
 	$("#forest_green_logo_2").removeClass("selected");
+	$("#grey_logo_2").removeClass("selected");
 
 	$("#volt_yellow_logo_2").removeClass("selected");
 	
@@ -2303,6 +2471,47 @@ $("#black_logo_2").click(function(){
 	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NBlack.png");
 	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93Black.png");
 	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93Black.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93Black.png");
+	//
+	// handling step 2 count 
+	//
+	logo = 1;
+	sel_prop = logo+lace+web+palm+back1+back2+back3+binding+crown+wrist+stitch+hood+pad+welting+wingtip;
+	if(sel_prop != prop_total)
+		$("#step_2_count").html("<span style = \"color:red;\" id = \"step_2_count\">("+sel_prop+"/"+prop_total+")</span>");
+	else
+		$("#step_2_count").html("<span style = \"color:green;\" id = \"step_2_count\">(Completed!)</span>");
+	//
+
+});
+$("#grey_logo_2").click(function(){
+	$("#red_logo_2").removeClass("selected");
+	$("#volt_green_logo_2").removeClass("selected");
+	$("#sky_blue_logo_2").removeClass("selected");
+	$("#tan_logo_2").removeClass("selected");
+	$("#blonde_logo_2").removeClass("selected");
+	$("#teal_logo_2").removeClass("selected");
+	$("#orange_logo_2").removeClass("selected");
+	$("#white_logo_2").removeClass("selected");
+	$("#pink_logo_2").removeClass("selected");
+	$("#navy_blue_logo_2").removeClass("selected");
+	$("#purple_logo_2").removeClass("selected");
+	$("#royal_blue_logo_2").removeClass("selected");
+	$("#brown_logo_2").removeClass("selected");
+	$("#forest_green_logo_2").removeClass("selected");
+	$("#grey_logo_2").addClass("selected");
+	
+	$("#volt_yellow_logo_2").removeClass("selected");
+	
+	$("#gold_logo_2").removeClass("selected");
+	$("#black_logo_2").addClass("selected");
+
+	$("#logo_9n_color").text("Color: Grey");                   
+
+	$("#CLogo9N").attr("xlink:href","imgs/Catcher/Logo/Logo9NGrey.png");
+	$("#FLogo93").attr("xlink:href","imgs/Fielding/Logo/Logo93Grey.png");
+	$("#FBLogo93").attr("xlink:href","imgs/FirstBase/Logo/93Grey.png");
+	$("#FBLogoBack93").attr("xlink:href","imgs/FirstBase/Logo/LogoBack93Grey.png");
 	//
 	// handling step 2 count 
 	//
@@ -9927,7 +10136,7 @@ $("#TB_ThumbText").keyup(function(){
 });
 $("#text_font_block").click(function(){
 	$(".CustomText").attr("font-family","verdana");
-	$(".CustomText").attr("font-size","15px");
+	$(".CustomText").attr("font-size","12px");
 	text_font = 1;
 	sel_prop1 =  text_color+text_font+thumb_text+Flag+custom_flag;
 	 if(sel_prop1 != prop2_total)
@@ -9938,7 +10147,7 @@ $("#text_font_block").click(function(){
 	
 });
 $("#text_font_script").click(function(){
-		$(".CustomText").attr("font-family","Edwardian Script ITC");
+		$(".CustomText").attr("font-family","Kunstler Script");
 	$(".CustomText").attr("font-size","25px");
 
 	text_font = 1;
