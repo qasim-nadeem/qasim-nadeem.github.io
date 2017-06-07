@@ -6989,7 +6989,7 @@ $("#red_hood").click(function(){
 
 	$("#hood_color").text("Color: Red");   
 
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHRed.png");                      
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/Red.png");                      
 	//
 	// handling step 2 count 
 	//
@@ -7019,7 +7019,7 @@ $("#tan_hood").click(function(){
 
 	$("#hood_color").text("Color: Tan");
 
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHTan.png");
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/Tan.png");
 	//
 	// handling step 2 count 
 	//
@@ -7050,7 +7050,7 @@ $("#blonde_hood").click(function(){
 
 	$("#hood_color").text("Color: Bone");
 
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHBlonde.png");
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/Bone.png");
 	//
 	// handling step 2 count 
 	//
@@ -7080,7 +7080,7 @@ $("#orange_hood").click(function(){
 	$("#purple_hood").removeClass("selected");
 
 	$("#hood_color").text("Color: Orange");
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHOrange.png");
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/Orange.png");
 	//
 	// handling step 2 count 
 	//
@@ -7112,7 +7112,7 @@ $("#white_hood").click(function(){
 
 	$("#hood_color").text("Color: White");
 
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHWhite.png");
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/White.png");
 	//
 	// handling step 2 count 
 	//
@@ -7143,7 +7143,7 @@ $("#navy_blue_hood").click(function(){
 
 	$("#hood_color").text("Color: Navy Blue");
 
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHNBlue.png");//
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/NBlue.png");//
 	// handling step 2 count 
 	//
 	hood = 1;
@@ -7173,7 +7173,8 @@ $("#brown_hood").click(function(){
 
 	$("#hood_color").text("Color: Brown");
 
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHBrown.png");//
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/Brown.png");
+	//
 	// handling step 2 count 
 	//
 	hood = 1;
@@ -7203,7 +7204,8 @@ $("#forest_green_hood").click(function(){
 
 	$("#hood_color").text("Color: Forest Green");
 
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHFGreen.png");//
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/FGreen.png");
+	//
 	// handling step 2 count 
 	//
 	hood = 1;
@@ -7233,7 +7235,8 @@ $("#black_hood").click(function(){
 
 	$("#hood_color").text("Color: Black");
 
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHBlack.png");//
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/Black.png");
+	//
 	// handling step 2 count 
 	//
 	hood = 1;
@@ -7263,7 +7266,7 @@ $("#royal_blue_hood").click(function(){
 
 	$("#hood_color").text("Color: Royal Blue");
 
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHRBlue.png");//
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/RBlue.png");//
 	// handling step 2 count 
 	//
 	hood = 1;
@@ -7293,7 +7296,7 @@ $("#yellow_hood").click(function(){
 
 	$("#hood_color").text("Color: Yellow");
 
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHYellow.png");//
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/Yellow.png");//
 	// handling step 2 count 
 	//
 	hood = 1;
@@ -7323,7 +7326,7 @@ $("#grey_hood").click(function(){
 
 	$("#hood_color").text("Color: Grey");
 
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHGrey.png");//
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/Grey.png");//
 	// handling step 2 count 
 	//
 	hood = 1;
@@ -7353,7 +7356,7 @@ $("#pink_hood").click(function(){
 
 	$("#hood_color").text("Color: Pink");
 
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHPink.png");//
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/Pink.png");//
 	// handling step 2 count 
 	//
 	hood = 1;
@@ -7383,7 +7386,8 @@ $("#purple_hood").click(function(){
 
 	$("#hood_color").text("Color: Purple");
 
-	$(".CHColors").attr("xlink:href","imgs/Catcher/FingerHoodColors/CFHPurple.png");//
+	$(".CHColors").attr("xlink:href","imgs/Catcher/Hood/Purple.png");
+	//
 	// handling step 2 count 
 	//
 	hood = 1;
@@ -7416,7 +7420,7 @@ $("#red_pad").click(function(){
 
 	$("#pad_color").text("Color: Red");   
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPRed.png");                               
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/Red.png");                               
 	// handling step 2 count 
 	//
 	pad = 1;
@@ -7446,7 +7450,7 @@ $("#tan_pad").click(function(){
 
 	$("#pad_color").text("Color: Tan");
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPTan.png");
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/Tan.png");
 	// handling step 2 count 
 	//
 	pad = 1;
@@ -7475,7 +7479,7 @@ $("#blonde_pad").click(function(){
 
 	$("#pad_color").text("Color: Bone");
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPBlonde.png");
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/Bone.png");
 	// handling step 2 count 
 	//
 	pad = 1;
@@ -7505,7 +7509,7 @@ $("#orange_pad").click(function(){
 
 	$("#pad_color").text("Color: Orange");
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPOrange.png");
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/Orange.png");
 	// handling step 2 count 
 	//
 	pad = 1;
@@ -7535,7 +7539,7 @@ $("#white_pad").click(function(){
 
 	$("#pad_color").text("Color: White");
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPWhite.png");
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/White.png");
 	// handling step 2 count 
 	//
 	pad = 1;
@@ -7564,7 +7568,7 @@ $("#navy_blue_pad").click(function(){
 
 	$("#pad_color").text("Color: Navy Blue");
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPNBlue.png");
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/NBlue.png");
 	// handling step 2 count 
 	//
 	pad = 1;
@@ -7594,7 +7598,7 @@ $("#brown_pad").click(function(){
 
 	$("#pad_color").text("Color: Brown");
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPBrown.png");
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/Brown.png");
 	// handling step 2 count 
 	//
 	pad = 1;
@@ -7624,7 +7628,7 @@ $("#forest_green_pad").click(function(){
 
 	$("#pad_color").text("Color: Forest Green");
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPFGreen.png");
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/FGreen.png");
 	// handling step 2 count 
 	//
 	pad = 1;
@@ -7654,7 +7658,7 @@ $("#black_pad").click(function(){
 
 	$("#pad_color").text("Color: Black");
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPBlack.png");
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/Black.png");
 	// handling step 2 count 
 	//
 	pad = 1;
@@ -7683,7 +7687,7 @@ $("#royal_blue_pad").click(function(){
 
 	$("#pad_color").text("Color: Royal Blue");
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPRBlue.png");
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/RBlue.png");
 	// handling step 2 count 
 	//
 	pad = 1;
@@ -7713,7 +7717,7 @@ $("#yellow_pad").click(function(){
 
 	$("#pad_color").text("Color: Yellow");
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPYellow.png");
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/Yellow.png");
 	// handling step 2 count 
 	//
 	pad = 1;
@@ -7743,7 +7747,7 @@ $("#grey_pad").click(function(){
 
 	$("#pad_color").text("Color: Grey");
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPGrey.png");
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/Grey.png");
 	// handling step 2 count 
 	//
 	pad = 1;
@@ -7772,7 +7776,7 @@ $("#pink_pad").click(function(){
 
 	$("#pad_color").text("Color: Pink");
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPPink.png");
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/Pink.png");
 	// handling step 2 count 
 	//
 	pad = 1;
@@ -7802,7 +7806,7 @@ $("#purple_pad").click(function(){
 
 	$("#pad_color").text("Color: Purple");
 
-	$(".CPadColors").attr("xlink:href","imgs/Catcher/FingerPadColors/CFPPurple.png");
+	$(".CPadColors").attr("xlink:href","imgs/Catcher/Pad/Purple.png");
 	//
 	// handling step 2 count 
 	//
@@ -8785,6 +8789,11 @@ $("#forest_green_binding").click(function(){
 //////////////////////////////////////////////////////// binding color handler ends //////////////////////////////////////
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
 
 /////////////////////////////////////////////////// stitch color handler starts here /////////////////////////
 
@@ -10331,10 +10340,10 @@ $("#wrist_guard_no").click(function(){
 //var isAlreadyIncreamented = 1;
 $("#finger_hood_none").click(function(){
 	//$("#img2").attr("src","pics/classic_series.png");
-	//$(".CHColors").attr("style","display:none");
-	//$(".CPadColors").attr("style","display:none");
-	//$("#FingerHoodColors").attr("style","display:none");
-	//$("#FingerPadColors").attr("style","display:none");
+	$(".CHColors").attr("opacity","0");
+	$(".CPadColors").attr("opacity","0");
+	$("#FingerHoodColors").attr("style","display:none");
+	$("#FingerPadColors").attr("style","display:none");
 	HoodPad = 1;
 	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
 	if(prop_sel != prop1_total)
@@ -10345,10 +10354,10 @@ $("#finger_hood_none").click(function(){
 });
 $("#finger_hood_pad").click(function(){
 	//$("#img2").attr("src","pics/classic_series.png");
-	//$(".CHColors").attr("style","display:none");
-	//$(".CPadColors").attr("style","display:block");
-	//$("#FingerHoodColors").attr("style","display:none");
-	//$("#FingerPadColors").attr("style","display:block");
+	$(".CHColors").attr("opacity","0");
+	$(".CPadColors").attr("opacity","1");
+	$("#FingerHoodColors").attr("style","display:none");
+	$("#FingerPadColors").attr("style","display:block");
 	HoodPad = 1;
 	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
 	if(prop_sel != prop1_total)
@@ -10359,10 +10368,10 @@ $("#finger_hood_pad").click(function(){
 });
 $("#finger_hood_hood").click(function(){
 	//$("#img2").attr("src","pics/classic_series.png");
-	//$(".CHColors").attr("style","display:block");
-	//$(".CPadColors").attr("style","display:none");
-	//$("#FingerHoodColors").attr("style","display:block");
-	//$("#FingerPadColors").attr("style","display:none");
+	$(".CHColors").attr("opacity","1");
+	$(".CPadColors").attr("opacity","0");
+	$("#FingerHoodColors").attr("style","display:block");
+	$("#FingerPadColors").attr("style","display:none");
 	HoodPad = 1;
 	prop_sel = GloveType + THand + WGuard + VWrist + LLength + GSize + Web + GameType + HoodPad;
 	if(prop_sel != prop1_total)
