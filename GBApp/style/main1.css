@@ -18,7 +18,9 @@
 	height: 650px;
 	}
 #option-content{
-	background-color: #5ac3ff;
+	background-color: #5ac3ff;;
+	height: 650px;
+	overflow: scroll;
 	}
 #op-container{
 }
@@ -28,13 +30,54 @@
 	text-align: center;
 	cursor: pointer;
 	color: white;
+	height: 80px;
+	display: inline-block;
+}
+#step-1{
+	background-color: #5ac3ff;
 }
 #step-1 span,#step-2 span,#step-3 span,#step-4 span{
 	font-size: 12px;
 }
-
+/*===================================== creating drop downs =================================*/
+#step2-op,#step4-op{
+	display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+#step2-op a,#step4-op a{
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#step-2:hover #step2-op,#step-4:hover #step4-op{
+	display: block;
+}
+#step-2:hover a:hover,#step-4:hover a:hover{
+	background-color: #1680a1;
+}
 #step-1:hover,#step-2:hover,#step-3:hover,#step-4:hover{
 	background-color: #5ac3ff;
+}
+/*=============================================================================================*/
+#step1-op-content{
+	margin-left: 30px;
+	font-size: 20px; 
+}
+/*=========================================== Common styles ===================================*/
+h4{
+	font-size: 25px;
+	text-shadow: .2px .1px .5px;
+}
+.op-selected{
+	background-color:#5ac3ff; 
+}
+#step1-next{
+	float: right;
+	margin: 20px;
 }
 /*
 #main{
