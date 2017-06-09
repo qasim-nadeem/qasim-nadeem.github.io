@@ -16,7 +16,7 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/npm.js"></script>
 <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
-<!--<script type="text/javascript" src="js/panels.js"></script>-->
+<script type="text/javascript" src="js/panels1.js"></script>
 <!-- All font files -->
 
 <title>Glove Builder - 9N3 Pro Gloves</title>
@@ -35,24 +35,368 @@
 		<div class="row" id="op-container">
 			<div class="col-md-3" id="step-1">
 				step-1 <br><span>(Select Glove)</span>
-			<div id="step1-op">
-				<a href=""> panel op 1 i am qasim nadeem </a>
-				<a href=""> panel op 1 </a>
-				<a href=""> panel op 1 </a>
-				<a href=""> panel op 1 </a>
-				<a href=""> panel op 1 </a>
-			</div>
 			</div>
 			<div class="col-md-3" id="step-2">
 				step-2 <br><span>(Color Settings)</span>
+				<div id="step2-op">
+				<a href=""> Logo Patch </a>
+				<a href=""> Logo Number </a>
+				<a href=""> Logo Letter </a>
+				<a href=""> Laces </a>
+				<a href=""> Web </a>
+				<a href=""> Palm </a>
+				<a href=""> Right Back Color </a>
+				<a href=""> Center Back Color </a>
+				<a href=""> Welting </a>
+				<a href=""> Left Back Color </a>
+				<a href=""> WinTip </a>
+				<a href=""> Binding Color </a>
+				<a href=""> Stitching </a>
+				<a href=""> Hood </a>
+				<a href=""> Pad </a>
+				</div>
 			</div>
 			<div class="col-md-3" id="step-3">
 				step-3 <br> <span>(Leather Options)</span>
+
 			</div>
 			<div class="col-md-3" id="step-4">
 				step-4 <br> <span>(Personalize)</span>
+				<div id="step4-op">
+				<a href=""> Text Options </a>
+				<a href=""> Flags </a>
+				</div>
 			</div>
-		</div>
+<!----------------------------------------------------- step-1 options -------------------------------------->
+			<div id="step1-op-content" style="display:block">
+			<h4 style="margin-bottom:20px;">Positions*</h4>
+                <div class="radio">
+                    <label>
+                    <input type="radio" name="f_type" id="f_type1" value="Catcher">Catcher
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                    <input type="radio" name="f_type" id="f_type2" value="Fielding">Fielding
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                    <input type="radio" name="f_type" id="f_type3" value="First Base">First Base
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                    <input type="radio" name="f_type" id="f_type4" value="Soft Ball">Softball
+                    </label>
+                </div>
+
+                <h4 style="margin-bottom:20px;">Throwing Hand*</h4>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="throwing_hand" id="throwing_hand_left" value="Left">Left
+	                    </label>
+	                </div>	
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="throwing_hand" id="throwing_hand_right" value="Right">Right
+	                    </label>
+	                </div>
+
+	            <div id = "finger_HoodPad" style = "display:block">
+	                <h4 style="margin-bottom:20px;">Finger Hood or Pad*</h4>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="finger_hood" id="finger_hood_none" value="None">None
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="finger_hood" id="finger_hood_hood" value="Hood">Hood
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="finger_hood" id="finger_hood_pad" value="Pad">Pad
+	                    </label>
+	                </div>
+	            </div>
+
+	            <div id  = "glove_size_catcher" style = "display:block;">
+		                <h4 style="margin-bottom:20px;">Glove Size*</h4>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_32" value="32-inches">32"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_32_5" value="32.5-inches">32.5"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_33" value="33-inches">33"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_34" value="34-inches">34"
+		                    </label>
+		                </div>
+		            </div>
+		        <div id  = "glove_size_fielding" style = "display:none;">
+		            	<h4 style="margin-bottom:20px;">Glove Size*</h4>
+		            	<div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_9_5" value="9.5-inches">9.5"(Youth)
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_10" value="10-inches">10"(Youth)
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_10_5" value="10.5-inches">10.5"(Youth)
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_10_75" value="10.75-inches">10.75"(Youth)
+		                    </label>
+		                </div>
+		                
+
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_11" value="11-inches">11"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_11_25" value="11.25-inches">11.25"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_11_50_f" value="11.5-inches">11.50"
+		                    </label>
+		                </div>
+		               
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_f" value="12-inches">12"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_25_f" value="12.25-inches">12.25"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_50_f" value="12.50-inches">12.50"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_75_f" value="12.75-inches">12.75"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_f" value="13-inches">13"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_25_f" value="13.25-inches">13.25"
+		                    </label>
+		                </div>
+		            </div>
+		            <div id  = "glove_size_fbase" style = "display:none;">
+		            	<h4 style="margin-bottom:20px;">Glove Size*</h4>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_fb" value="12-inches">12"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_25_fb" value="12.25-inches">12.25"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_50_fb" value="12.50-inches">12.50"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_75_fb" value="12.75-inches">12.75"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_fb" value="13-inches">13"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_25_fb" value="13.25-inches">13.25"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_50_fb" value="13.50-inches">13.50"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_14_fb" value="14-inches">14"
+		                    </label>
+		                </div>
+		            </div>
+		            <div id  = "glove_size_softball" style = "display:none;">
+		            	<h4 style="margin-bottom:20px;">Glove Size*</h4>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_11_50_sb" value="11.50-inches">11.50"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_11_75_sb" value="11.75">11.75"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_sb" value="12-inches">12"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_25_sb" value="12.25-inches">12.25"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_50_sb" value="12.50-inches">12.50"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_12_75_sb" value="12.75-inches">12.75"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_sb" value="13-inches">13"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_25_sb" value="13.25-inches">13.25"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_13_50_sb" value="13.50-inches">13.50"
+		                    </label>
+		                </div>
+		                <div class="radio">
+		                    <label>
+		                    <input type="radio" name="glove_size" id="glove_size_14_sb" value="14-inches">14"
+		                    </label>
+		                </div>
+		            </div>
+<!------------------------------------------ Web styles ---------------------------------------------->
+					<div id = "fielding_web_styles" style = "display:none">
+		            	<h4 style="margin-bottom:20px;">Web Style*</h4>
+		            	<div id="f_web_k" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_k" value="Web-k">k-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	<div id="f_web_i" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_i" value="Web-i">i-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	<div id="f_web_a" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_a" value="Web-a">a-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	<div id="f_web_e" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_e" value="Web-e">e-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	<div id="f_web_h" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_h" value="Web-h">h-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	<div id="f_web_l" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_l" value="Web-L">l-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	<div id="f_web_m" style = "display:none">
+			            	<div class="radio">
+			                    <label>
+			                    <input type="radio" name="web_style" id="fielding_web_m" value="Web-m">m-Web
+			                    </label>
+			                </div>
+		            	</div>
+		            	
+		            </div>
+		            <div id = "firstbase_webstyles" style = "display:none;">
+		            	<h4 style="margin-bottom:20px;">Web Style*</h4>
+			            <div class="radio">
+			                <label>
+			                    <input type="radio" name="fb_web_style" id="firstbase_web_g" value="Web-g">g-Web
+			                </label>
+		            	</div>
+		            	<div class="radio">
+			                <label>
+			                    <input type="radio" name="fb_web_style" id="firstbase_web_b" value="Web-b">b-Web
+			                </label>
+		            	</div>
+		            	<div class="radio">
+			                <label>
+			                    <input type="radio" name="fb_web_style" id="firstbase_web_h" value="Web-h">h-Web
+			                </label>
+		            	</div>
+		            </div>
+		            <button type="button" id="step1-next" class="btn btn-primary">Next</button>
+            </div>
+<!-----------------------------------------------step - 1 options end ---------------------------------->
+
+			<div id="step2-op-content">
+
+			</div>
+<!-----------------------------------------------step-2 options content -------------------------------->
+
+
+
+<!--------------------------------------------step-2 op content end ------------------------------------>
+		</div><!-- #op container -->
 	</div>
 	<div class="col-md-7" id="glove-view">
 		<!----------------------------------------- Catcher view ------------------------------------------>
