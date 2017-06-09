@@ -15,11 +15,11 @@
 }
 #glove-view{
 	background-color: #85dcf8;
-	height: 650px;
+	height: 600px;
 	}
 #option-content{
 	background-color: #5ac3ff;;
-	height: 650px;
+	height: 600px;
 	overflow: scroll;
 	}
 #op-container{
@@ -63,13 +63,10 @@
 	background-color: #5ac3ff;
 }
 /*=============================================================================================*/
-#step1-op-content{
-	margin-left: 30px;
-	font-size: 20px; 
-}
+
 /*=========================================== Common styles ===================================*/
 h4{
-	font-size: 25px;
+	font-size: 20px;
 	text-shadow: .2px .1px .5px;
 }
 .op-selected{
@@ -78,6 +75,16 @@ h4{
 #step1-next{
 	float: right;
 	margin: 20px;
+}
+#step1-prev{
+	margin: 20px;
+}
+#step1-op-content,#step2-op-content{
+	margin-left: 30px;
+	font-size: 20px; 
+}
+#color_container{
+	width: 200px;
 }
 /*
 #main{
