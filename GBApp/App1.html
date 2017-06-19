@@ -1,4 +1,4 @@
-s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -31,7 +31,7 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
 </div>
 <!------------------------------------------------- Content ------------------------------------------>
 <div class="row" id="content">
-	<div class="col-md-5" id="option-content">
+	<div class="col-md-4" id="option-content">
 		<div class="row" id="op-container">
 			<div class="col-md-3" id="step-1">
 				step-1 <br><span>(Select Glove)</span>
@@ -69,6 +69,7 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
 			</div>
 <!----------------------------------------------------- step-1 options -------------------------------------->
 			<div id="step1-op-content" style="display:block">
+				<div id="GloveType" style="display:block">
 			<h4 style="margin-bottom:20px;">Positions*</h4>
                 <div class="radio">
                     <label>
@@ -90,7 +91,9 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
                     <input type="radio" name="f_type" id="f_type4" value="Soft Ball">Softball
                     </label>
                 </div>
-
+				<button type="button" id="GloveType-next" class="btn btn-primary">Next</button>
+            </div>
+            <div id="ThrowingHand" style="display:none">
                 <h4 style="margin-bottom:20px;">Throwing Hand*</h4>
 	                <div class="radio">
 	                    <label>
@@ -102,8 +105,10 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
 	                    <input type="radio" name="throwing_hand" id="throwing_hand_right" value="Right">Right
 	                    </label>
 	                </div>
-
-	            <div id = "finger_HoodPad" style = "display:block">
+	                <button type="button" id="ThrowingHand-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="ThrowingHand-next" class="btn btn-primary">Next</button>
+			</div>
+			<div id="HoodPad" style="display:none">
 	                <h4 style="margin-bottom:20px;">Finger Hood or Pad*</h4>
 	                <div class="radio">
 	                    <label>
@@ -120,9 +125,10 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
 	                    <input type="radio" name="finger_hood" id="finger_hood_pad" value="Pad">Pad
 	                    </label>
 	                </div>
-	            </div>
-
-	            <div id  = "glove_size_catcher" style = "display:block;">
+	                <button type="button" id="HoodPad-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="HoodPad-next" class="btn btn-primary">Next</button>
+	        </div>
+	            <div id  = "GloveSizeCatcher" style = "display:none;">
 		                <h4 style="margin-bottom:20px;">Glove Size*</h4>
 		                <div class="radio">
 		                    <label>
@@ -144,8 +150,10 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
 		                    <input type="radio" name="glove_size" id="glove_size_34" value="34-inches">34"
 		                    </label>
 		                </div>
-		            </div>
-		        <div id  = "glove_size_fielding" style = "display:none;">
+		                <button type="button" id="GSCatcher-prev" class="btn btn-primary">Prev</button>
+						<button type="button" id="GSCatcher-next" class="btn btn-primary">Next</button>
+		        </div>
+		        <div id  = "GloveSizeFielding" style = "display:none;">
 		            	<h4 style="margin-bottom:20px;">Glove Size*</h4>
 		            	<div class="radio">
 		                    <label>
@@ -215,8 +223,10 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
 		                    <input type="radio" name="glove_size" id="glove_size_13_25_f" value="13.25-inches">13.25"
 		                    </label>
 		                </div>
+		                <button type="button" id="GSFielding-prev" class="btn btn-primary">Prev</button>
+						<button type="button" id="GSFielding-next" class="btn btn-primary">Next</button>
 		            </div>
-		            <div id  = "glove_size_fbase" style = "display:none;">
+		            <div id  = "GloveSizeFB" style = "display:none;">
 		            	<h4 style="margin-bottom:20px;">Glove Size*</h4>
 		                <div class="radio">
 		                    <label>
@@ -258,8 +268,10 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
 		                    <input type="radio" name="glove_size" id="glove_size_14_fb" value="14-inches">14"
 		                    </label>
 		                </div>
+		                <button type="button" id="GSFirstbase-prev" class="btn btn-primary">Prev</button>
+						<button type="button" id="GSFirstbase-next" class="btn btn-primary">Next</button>
 		            </div>
-		            <div id  = "glove_size_softball" style = "display:none;">
+		            <div id  = "GloveSizeSB" style = "display:none;">
 		            	<h4 style="margin-bottom:20px;">Glove Size*</h4>
 		                <div class="radio">
 		                    <label>
@@ -311,9 +323,11 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
 		                    <input type="radio" name="glove_size" id="glove_size_14_sb" value="14-inches">14"
 		                    </label>
 		                </div>
+		                <button type="button" id="GSSoftball-prev" class="btn btn-primary">Prev</button>
+						<button type="button" id="GSSoftball-next" class="btn btn-primary">Next</button>
 		            </div>
 <!------------------------------------------ Web styles ---------------------------------------------->
-					<div id = "fielding_web_styles" style = "display:none">
+					<div id = "WebFielding" style = "display:none">
 		            	<h4 style="margin-bottom:20px;">Web Style*</h4>
 		            	<div id="f_web_k" style = "display:none">
 			            	<div class="radio">
@@ -364,9 +378,10 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
 			                    </label>
 			                </div>
 		            	</div>
-		            	
+		            	<button type="button" id="WebFielding-prev" class="btn btn-primary">Prev</button>
+						<button type="button" id="WebFielding-next" class="btn btn-primary">Next</button>
 		            </div>
-		            <div id = "firstbase_webstyles" style = "display:none;">
+		            <div id = "WebFB" style = "display:none;">
 		            	<h4 style="margin-bottom:20px;">Web Style*</h4>
 			            <div class="radio">
 			                <label>
@@ -383,13 +398,16 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
 			                    <input type="radio" name="fb_web_style" id="firstbase_web_h" value="Web-h">h-Web
 			                </label>
 		            	</div>
+		            	<button type="button" id="WebFB-prev" class="btn btn-primary">Prev</button>
+						<button type="button" id="WebFB-next" class="btn btn-primary">Next</button>
 		            </div>
-		            <button type="button" id="step1-next" class="btn btn-primary">Next</button>
-            </div>
+		            
+        </div>
 <!-----------------------------------------------step - 1 options end ---------------------------------->
 		<div id="step2-op-content">
-			<!-------------------------------- step 2 options colors -------------------------------------------->
-            <h4 style="margin-bottom:20px;">Logo Letter Color</h4>
+<!-------------------------------- step 2 options colors ------------------------------------------------>
+			<div id="LogoLetterColor" style="display:none;">
+            <h4 style="margin-bottom:20px;">Logo Letter Color*</h4>
 	               	<div id="color_container">
 						<div class="red selected" id="red_logo">
 						</div>
@@ -430,18 +448,823 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
 					</div><br><br><br><br><br><br><br><br>
 					<div id = "logo_color">Color:Not Selected</div>
 					<br>
-					<button type="button" id="step1-next" class="btn btn-primary">Next</button>
-					<button type="button" id="step1-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="LogoLetter-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="LogoLetter-next" class="btn btn-primary">Next</button>
+				</div>
 <!-------------------------------------------------------------------------------->
-		</div>
-<!-----------------------------------------------step-2 options content -------------------------------->
-
-
-
+<!----------------------------------Logo Patch colors---------------------------------------------->
+					<div id="LogoPatchColor" style="display:none;">
+					<h4 style="margin-bottom:20px;">Logo Patch Color*</h4>
+	               	<div id="color_container">
+						<div class="red selected" id="red_logo_1">
+						</div>
+						<div class = "volt_green" id = "volt_green_logo_1">
+						</div>
+						<div class = "sky_blue" id="sky_blue_logo_1">
+						</div>
+						<div class = "tan" id="tan_logo_1">
+						</div>
+						<div class = "blonde" id="blonde_logo_1">
+						</div>
+						<div class = "teal" id="teal_logo_1">
+						</div>
+						<div class = "orange" id="orange_logo_1">
+						</div>
+						<div class = "white" id="white_logo_1">
+						</div>
+						<div class = "pink" id="pink_logo_1">
+						</div>
+						<div class = "navy_blue" id="navy_blue_logo_1">
+						</div>
+						<div class = "purple" id = "purple_logo_1">
+						</div>
+						<div class = "royal_blue" id = "royal_blue_logo_1">
+						</div>
+						<div class = "brown" id="brown_logo_1">
+						</div>
+						<div class = "forest_green" id="forest_green_logo_1">
+						</div>
+						<div class = "volt_yellow" id="volt_yellow_logo_1">
+						</div>						
+						<div class = "gold" id="gold_logo_1">
+						</div>
+						<div class = "black" id = "black_logo_1">
+						</div>
+						<div class = "grey" id = "grey_logo_1">
+						</div>
+					</div><br><br><br><br><br><br><br>
+					<div id = "logo_patch_color">Color:Not Selected</div>
+					<br>
+					<button type="button" id="LogoPatch-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="LogoPatch-next" class="btn btn-primary">Next</button>
+				</div>
+<!-------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------->
+					<div id="LogoNumberColor" style="display:none">
+					<h4 style="margin-bottom:20px;">Logo Number Color*</h4>
+	               	<div id="color_container">
+						<div class="red selected" id="red_logo_2">
+						</div>
+						<div class = "volt_green" id = "volt_green_logo_2">
+						</div>
+						<div class = "sky_blue" id="sky_blue_logo_2">
+						</div>
+						<div class = "tan" id="tan_logo_2">
+						</div>
+						<div class = "blonde" id="blonde_logo_2">
+						</div>
+						<div class = "teal" id="teal_logo_2">
+						</div>
+						<div class = "orange" id="orange_logo_2">
+						</div>
+						<div class = "white" id="white_logo_2">
+						</div>
+						<div class = "pink" id="pink_logo_2">
+						</div>
+						<div class = "navy_blue" id="navy_blue_logo_2">
+						</div>
+						<div class = "purple" id = "purple_logo_2">
+						</div>
+						<div class = "royal_blue" id = "royal_blue_logo_2">
+						</div>
+						<div class = "brown" id="brown_logo_2">
+						</div>
+						<div class = "forest_green" id="forest_green_logo_2">
+						</div>
+						<div class = "volt_yellow" id="volt_yellow_logo_2">
+						</div>						
+						<div class = "gold" id="gold_logo_2">
+						</div>
+						<div class = "black" id = "black_logo_2">
+						</div>
+						<div class = "grey" id = "grey_logo_2">
+						</div>
+					</div><br><br><br><br><br><br><br>
+					<div id = "logo_9n_color">Color:Not Selected</div>
+					<button type="button" id="LogoNumber-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="LogoNumber-next" class="btn btn-primary">Next</button>
+				</div>
+<!-------------------------------------------------------------------------------->
+<!-------------------------- Logo Laces color------------------------------------------------------>
+			<div id="LacesColor" style="display:none">
+                <h4 style="margin-bottom:20px;">Laces*</h4>
+                	<div id="color_container">
+						<div class="red" id="red_laces">
+						</div>
+						<div class = "tan" id="tan_laces">
+						</div>
+						<div class = "blonde" id="blonde_laces">
+						</div>
+						<div class = "orange" id="orange_laces">
+						</div>
+						<div class = "white" id="white_laces">
+						</div>
+						<div class = "navy_blue" id="navy_blue_laces">
+						</div>
+						<div class = "brown" id="brown_laces">
+						</div>
+						<div class = "forest_green" id="forest_green_laces">
+						</div>
+						<div class = "black" id="black_laces">
+						</div>
+						<div class = "royal_blue" id="royal_blue_laces">
+						</div>
+						<div class = "yellow" id="yellow_laces">
+						</div>
+						<div class = "grey" id="grey_laces">
+						</div>
+						<div class = "pink" id  = "pink_laces" >
+						</div>
+						<div class = "purple" id="purple_laces">
+						</div>
+					</div><br><br><br><br><br><br><br><br>
+					<div id = "laces_color">Color:Not Selected</div>
+					<button type="button" id="Laces-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="Laces-next" class="btn btn-primary">Next</button>
+				</div>
+<!------------------------------------------------------------------------------------------------>
+<!---------------------------------------------Web colors ---------------------------------------->
+				<div id="WebColor" style="display:none">
+					<h4 style="margin-bottom:20px;">Web*</h4>
+					<div id="color_container">
+						<div class="red" id="red_web">
+						</div>
+						<div class = "tan" id="tan_web">
+						</div>
+						<div class = "blonde" id="blonde_web">
+						</div>
+						<div class = "orange" id="orange_web">
+						</div>
+						<div class = "white" id="white_web">
+						</div>
+						<div class = "navy_blue" id="navy_blue_web">
+						</div>
+						<div class = "brown" id="brown_web">
+						</div>
+						<div class = "forest_green" id="forest_green_web">
+						</div>
+						<div class = "black" id="black_web">
+						</div>
+						<div class = "royal_blue" id="royal_blue_web">
+						</div>
+						<div class = "yellow" id="yellow_web">
+						</div>
+						<div class = "grey" id="grey_web">
+						</div>
+						<div class = "pink" id  = "pink_web" >
+						</div>
+						<div class = "purple" id="purple_web">
+						</div>
+					</div><br><br><br><br><br><br><br><br>
+					<div id = "web_color">Color:Not Selected</div>
+					<button type="button" id="Web-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="Web-next" class="btn btn-primary">Next</button>
+				</div>
+<!-------------------------------------------------------------------------------------------------->
+<!------------------------------------------ Palm Color -------------------------------------------->
+				<div id="PalmColor" style="display:none">
+					<h4 style="margin-bottom:20px;">Palm Leather*</h4>
+					<div id="color_container">
+						<div class="red" id="red_palm">
+						</div>
+						<div class = "tan" id="tan_palm">
+						</div>
+						<div class = "blonde" id="blonde_palm">
+						</div>
+						<div class = "orange" id="orange_palm">
+						</div>
+						<div class = "white" id="white_palm">
+						</div>
+						<div class = "navy_blue" id="navy_blue_palm">
+						</div>
+						<div class = "brown" id="brown_palm">
+						</div>
+						<div class = "forest_green" id="forest_green_palm">
+						</div>
+						<div class = "black" id="black_palm">
+						</div>
+						<div class = "royal_blue" id="royal_blue_palm">
+						</div>
+						<div class = "yellow" id="yellow_palm">
+						</div>
+						<div class = "grey" id="grey_palm">
+						</div>
+						<div class = "pink" id  = "pink_palm" >
+						</div>
+						<div class = "purple" id="purple_palm">
+						</div>
+					</div><br><br><br><br><br><br><br><br>
+					<div id = "palm_color">Color:Not Selected</div>
+					<button type="button" id="Palm-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="Palm-next" class="btn btn-primary">Next</button>
+				</div>
+<!------------------------------------------------------------------------------------------>
+<!-------------------------------------- Binding Color -------------------------------------->
+				<div id="BindingColor" style="display:none">
+					<h4 style="margin-bottom:20px;">Binding*</h4>
+					<div id="color_container">
+						<div class="red" id="red_binding">
+						</div>
+						<div class = "tan" id="tan_binding">
+						</div>
+						<div class = "blonde" id="blonde_binding">
+						</div>
+						<div class = "orange" id = "orange_binding">
+						</div>
+						<div class = "white" id="white_binding">
+						</div>
+						<div class = "navy_blue" id="navy_blue_binding">
+						</div>
+						<div class = "brown" id="brown_binding">
+						</div>
+						<div class = "forest_green" id="forest_green_binding">
+						</div>
+						<div class = "black" id="black_binding">
+						</div>
+						<div class = "royal_blue" id="royal_blue_binding">
+						</div>
+						<div class = "yellow" id="yellow_binding">
+						</div>
+						<div class = "grey" id="grey_binding">
+						</div>
+						<div class = "pink" id  = "pink_binding" >
+						</div>
+						<div class = "purple" id="purple_binding">
+						</div>
+					</div><br><br><br><br><br><br><br><br>
+					<div id = "binding_color">Color:Not Selected</div>
+					<button type="button" id="Binding-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="Binding-next" class="btn btn-primary">Next</button>
+				</div>
+<!-------------------------------------------------------------------------------------------->
+<!---------------------------------------------- Wrist Colors -------------------------------->
+				<div id="WristColor" style="display:none">
+					<h4 style="margin-bottom:20px;">Wrist Color*</h4>
+					<div id="color_container">
+						<div class="red" id="red_wrist">
+						</div>
+						<div class = "tan" id="tan_wrist">
+						</div>
+						<div class = "blonde" id="blonde_wrist">
+						</div>
+						<div class = "orange" id="orange_wrist">
+						</div>
+						<div class = "white" id="white_wrist">
+						</div>
+						<div class = "navy_blue" id="navy_blue_wrist">
+						</div>
+						<div class = "brown" id="brown_wrist">
+						</div>
+						<div class = "forest_green" id="forest_green_wrist">
+						</div>
+						<div class = "black" id="black_wrist">
+						</div>
+						<div class = "royal_blue" id="royal_blue_wrist">
+						</div>
+						<div class = "yellow" id="yellow_wrist">
+						</div>
+						<div class = "grey" id="grey_wrist">
+						</div>
+						<div class = "pink" id  = "pink_wrist" >
+						</div>
+						<div class = "purple" id="purple_wrist">
+						</div>
+					</div><br><br><br><br><br><br><br><br>
+					<div id = "wrist_color">Color:Not Selected</div>
+					<button type="button" id="Wrist-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="Wrist-next" class="btn btn-primary">Next</button>
+				</div>
+<!-------------------------------------------------------------------------------------------->
+<!------------------------------------------- back1 colors ---------------------------------->
+				<div id="Back1Color" style="display:none">
+					<h4 style="margin-bottom:20px;">Back Leather 1*</h4>
+					<div id="color_container">
+						<div class="red" id="red_back">
+						</div>
+						<div class = "tan" id="tan_back">
+						</div>
+						<div class = "blonde" id="blonde_back">
+						</div>
+						<div class = "orange" id = "orange_back">
+						</div>
+						<div class = "white" id="white_back">
+						</div>
+						<div class = "navy_blue" id="navy_blue_back">
+						</div>
+						<div class = "brown" id="brown_back">
+						</div>
+						<div class = "forest_green" id="forest_green_back">
+						</div>
+						<div class = "black" id="black_back">
+						</div>
+						<div class = "royal_blue" id="royal_blue_back">
+						</div>
+						<div class = "yellow" id="yellow_back">
+						</div>
+						<div class = "grey" id="grey_back">
+						</div>
+						<div class = "pink" id  = "pink_back" >
+						</div>
+						<div class = "purple" id="purple_back">
+						</div>
+					</div><br><br><br><br><br><br><br><br>
+					<div id = "back_color">Color:Not Selected</div>
+					<button type="button" id="Back1-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="Back1-next" class="btn btn-primary">Next</button>
+				</div>
+<!-------------------------------------------------------------------------------------------->
+<!------------------------------------ Back2 colors ------------------------------------------>
+				<div id="Back2Color" style="display:none">
+					<h4 style="margin-bottom:20px;">Back Leather 2*</h4>
+					<div id="color_container">
+						<div class="red" id="red_back2">
+						</div>
+						<div class = "tan" id="tan_back2">
+						</div>
+						<div class = "blonde" id="blonde_back2">
+						</div>
+						<div class = "orange" id = "orange_back2">
+						</div>
+						<div class = "white" id="white_back2">
+						</div>
+						<div class = "navy_blue" id="navy_blue_back2">
+						</div>
+						<div class = "brown" id="brown_back2">
+						</div>
+						<div class = "forest_green" id="forest_green_back2">
+						</div>
+						<div class = "black" id="black_back2">
+						</div>
+						<div class = "royal_blue" id="royal_blue_back2">
+						</div>
+						<div class = "yellow" id="yellow_back2">
+						</div>
+						<div class = "grey" id="grey_back2">
+						</div>
+						<div class = "pink" id  = "pink_back2" >
+						</div>
+						<div class = "purple" id="purple_back2">
+						</div>
+					</div><br><br><br><br><br><br><br><br>
+					<div id = "back2_color">Color:Not Selected</div>
+					<button type="button" id="Back2-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="Back2-next" class="btn btn-primary">Next</button>
+				</div>
+<!-------------------------------------------------------------------------------------------->
+<!--------------------------------------- Back3 colors -------------------------------------->
+				<div id="Back3Color" style="display:none">
+					<h4 style="margin-bottom:20px;">Back Leather 3*</h4>
+					<div id="color_container">
+						<div class="red" id="red_back3">
+						</div>
+						<div class = "tan" id="tan_back3">
+						</div>
+						<div class = "blonde" id="blonde_back3">
+						</div>
+						<div class = "orange" id = "orange_back3">
+						</div>
+						<div class = "white" id="white_back3">
+						</div>
+						<div class = "navy_blue" id="navy_blue_back3">
+						</div>
+						<div class = "brown" id="brown_back3">
+						</div>
+						<div class = "forest_green" id="forest_green_back3">
+						</div>
+						<div class = "black" id="black_back3">
+						</div>
+						<div class = "royal_blue" id="royal_blue_back3">
+						</div>
+						<div class = "yellow" id="yellow_back3">
+						</div>
+						<div class = "grey" id="grey_back3">
+						</div>
+						<div class = "pink" id  = "pink_back3" >
+						</div>
+						<div class = "purple" id="purple_back3">
+						</div>
+					</div><br><br><br><br><br><br><br><br>
+					<div id = "back3_color">Color:Not Selected</div>
+					<button type="button" id="Back3-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="Back3-next" class="btn btn-primary">Next</button>
+				</div>
+<!------------------------------------------------------------------------------------------>
+<!----------------------------------- Welting ---------------------------------------------->
+				<div id="WeltingColor" style="display:none">
+					<h4 style="margin-bottom:20px;">Welting*</h4>
+					<div id="color_container">
+						<div class="red" id="red_welting">
+						</div>
+						<div class = "tan" id="tan_welting">
+						</div>
+						<div class = "blonde" id="blonde_welting">
+						</div>
+						<div class = "orange" id = "orange_welting">
+						</div>
+						<div class = "white" id="white_welting">
+						</div>
+						<div class = "navy_blue" id="navy_blue_welting">
+						</div>
+						<div class = "brown" id="brown_welting">
+						</div>
+						<div class = "forest_green" id="forest_green_welting">
+						</div>
+						<div class = "black" id="black_welting">
+						</div>
+						<div class = "royal_blue" id="royal_blue_welting">
+						</div>
+						<div class = "yellow" id="yellow_welting">
+						</div>
+						<div class = "grey" id="grey_welting">
+						</div>
+						<div class = "pink" id  = "pink_welting" >
+						</div>
+						<div class = "purple" id="purple_welting">
+						</div>
+					</div><br><br><br><br><br><br><br><br>
+					<div id = "welting_color">Color:Not Selected</div>
+					<button type="button" id="Welting-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="Welting-next" class="btn btn-primary">Next</button>
+				</div>
+<!------------------------------------------------------------------------------------------>
+<!----------------------------------------- Wingtip colors ---------------------------------->
+				<div id="WingtipColor" style="display:none">
+					<h4 style="margin-bottom:20px;">Wing Tip*</h4>
+					<div id="color_container">
+						<div class="red" id="red_wingtip">
+						</div>
+						<div class = "tan" id="tan_wingtip">
+						</div>
+						<div class = "blonde" id="blonde_wingtip">
+						</div>
+						<div class = "orange" id = "orange_wingtip">
+						</div>
+						<div class = "white" id="white_wingtip">
+						</div>
+						<div class = "navy_blue" id="navy_blue_wingtip">
+						</div>
+						<div class = "brown" id="brown_wingtip">
+						</div>
+						<div class = "forest_green" id="forest_green_wingtip">
+						</div>
+						<div class = "black" id="black_wingtip">
+						</div>
+						<div class = "royal_blue" id="royal_blue_wingtip">
+						</div>
+						<div class = "yellow" id="yellow_wingtip">
+						</div>
+						<div class = "grey" id="grey_wingtip">
+						</div>
+						<div class = "pink" id  = "pink_wingtip" >
+						</div>
+						<div class = "purple" id="purple_wingtip">
+						</div>
+					</div><br><br><br><br><br><br><br><br>
+					<div id = "wingtip_color">Color:Not Selected</div>
+					<button type="button" id="Wingtip-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="Wingtip-next" class="btn btn-primary">Next</button>
+				</div>
+<!------------------------------------------------------------------------------------------>
+<!----------------------------------------- Stitch Colors ------------------------------------>
+				<div id="StitchColor" style="display:none">
+					<h4 style="margin-bottom:20px;">Stitching Color*</h4>
+					<div id="color_container">
+						<div class="red" id="red_stitch">
+						</div>
+						<div class = "tan" id="tan_stitch">
+						</div>
+						<div class = "blonde" id="blonde_stitch">
+						</div>
+						<div class = "orange" id="orange_stitch">
+						</div>
+						<div class = "white" id="white_stitch">
+						</div>
+						<div class = "navy_blue" id="navy_blue_stitch">
+						</div>
+						<div class = "brown" id="brown_stitch">
+						</div>
+						<div class = "forest_green" id="forest_green_stitch">
+						</div>
+						<div class = "black" id="black_stitch">
+						</div>
+						<div class = "royal_blue" id="royal_blue_stitch">
+						</div>
+						<div class = "yellow" id="yellow_stitch">
+						</div>
+						<div class = "grey" id="grey_stitch">
+						</div>
+						<div class = "pink" id  = "pink_stitch" >
+						</div>
+						<div class = "purple" id="purple_stitch">
+						</div>
+					</div><br><br><br><br><br><br><br><br>
+					<div id = "stitch_color">Color:Not Selected</div>
+					<button type="button" id="Stitch-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="Stitch-next" class="btn btn-primary">Next</button>
+				</div>
+<!-------------------------------------------------------------------------------------------->
+<!------------------------------------ Crown Color ------------------------------------------>
+				<div id="CrownColor" style="display:none">
+					<h4 style="margin-bottom:20px;">Crown*</h4>
+					<div id="color_container">
+						<div class="red" id="red_crown">
+						</div>
+						<div class = "tan" id="tan_crown">
+						</div>
+						<div class = "blonde" id="blonde_crown">
+						</div>
+						<div class = "orange" id="orange_crown">
+						</div>
+						<div class = "white" id="white_crown">
+						</div>
+						<div class = "navy_blue" id="navy_blue_crown">
+						</div>
+						<div class = "brown" id="brown_crown">
+						</div>
+						<div class = "forest_green" id="forest_green_crown">
+						</div>
+						<div class = "black" id="black_crown">
+						</div>
+						<div class = "royal_blue" id="royal_blue_crown">
+						</div>
+						<div class = "yellow" id="yellow_crown">
+						</div>
+						<div class = "grey" id="grey_crown">
+						</div>
+						<div class = "pink" id  = "pink_crown" >
+						</div>
+						<div class = "purple" id="purple_crown">
+						</div>
+					</div><br><br><br><br><br><br><br><br>
+					<div id = "crown_color">Color:Not Selected</div>
+					<button type="button" id="Crown-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="Crown-next" class="btn btn-primary">Next</button>
+				</div>
+<!------------------------------------------------------------------------------------------>
+<!---------------------------------------------- Hood Color -------------------------------->
+				<div id="HoodColor" style="display:none">
+					<h4 style="margin-bottom:20px;">Finger Hood Color*</h4>
+						<div id="color_container">
+							<div class="red" id="red_hood">
+							</div>
+							<div class = "tan" id="tan_hood">
+							</div>
+							<div class = "blonde" id="blonde_hood">
+							</div>
+							<div class = "orange" id="orange_hood">
+							</div>
+							<div class = "white" id="white_hood">
+							</div>
+							<div class = "navy_blue" id="navy_blue_hood">
+							</div>
+							<div class = "brown" id="brown_hood">
+							</div>
+							<div class = "forest_green" id="forest_green_hood">
+							</div>
+							<div class = "black" id="black_hood">
+							</div>
+							<div class = "royal_blue" id="royal_blue_hood">
+							</div>
+							<div class = "yellow" id="yellow_hood">
+							</div>
+							<div class = "grey" id="grey_hood">
+							</div>
+							<div class = "pink" id  = "pink_hood" >
+							</div>
+							<div class = "purple" id="purple_hood">
+							</div>
+						</div><br><br><br><br><br><br><br><br>
+						<div id = "hood_color">Color:Not Selected</div>
+						<button type="button" id="Hood-prev" class="btn btn-primary">Prev</button>
+						<button type="button" id="Hood-next" class="btn btn-primary">Next</button>
+				</div>
+<!------------------------------------------------------------------------------------------>
+<!------------------------------------ Pad colors ------------------------------------------>
+				<div id="PadColor" style="display:none">
+					<h4 style="margin-bottom:20px;">Finger Pad Color*</h4>
+						<div id="color_container">
+							<div class="red" id="red_pad">
+							</div>
+							<div class = "tan" id="tan_pad">
+							</div>
+							<div class = "blonde" id="blonde_pad">
+							</div>
+							<div class = "orange" id="orange_pad">
+							</div>
+							<div class = "white" id="white_pad">
+							</div>
+							<div class = "navy_blue" id="navy_blue_pad">
+							</div>
+							<div class = "brown" id="brown_pad">
+							</div>
+							<div class = "forest_green" id="forest_green_pad">
+							</div>
+							<div class = "black" id="black_pad">
+							</div>
+							<div class = "royal_blue" id="royal_blue_pad">
+							</div>
+							<div class = "yellow" id="yellow_pad">
+							</div>
+							<div class = "grey" id="grey_pad">
+							</div>
+							<div class = "pink" id  = "pink_pad" >
+							</div>
+							<div class = "purple" id="purple_pad">
+							</div>
+						</div><br><br><br><br><br><br><br><br>
+						<div id = "pad_color">Color:Not Selected</div>
+						<button type="button" id="Pad-prev" class="btn btn-primary">Prev</button>
+						<button type="button" id="Pad-next" class="btn btn-primary">Next</button>
+				</div>
+<!------------------------------------------------------------------------------------------>
+		</div><!-- step2-op-->
 <!--------------------------------------------step-2 op content end ------------------------------------>
+<!--------------------------------------------step-3 op content ------------------------------------>
+		<div id="step3-op-content" style="display:block">
+				<div id="VelcroWrist" style="display:none">
+	            	<h4 style="margin-bottom:20px;">Velcro Wrist*</h4>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="velcro_wrist" id="velcro_wrist_yes" value="Yes">Yes
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="velcro_wrist" id="velcro_wrist_no" value="No">No
+	                    </label>
+	                </div>
+	                <button type="button" id="VelcroWrist-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="VelcroWrist-next" class="btn btn-primary">Next</button>
+	            </div>
+	            <div id="WristGuard" style="display:none">
+	            	<h4 style="margin-bottom:20px;">Wrist Guard*</h4>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="wrist_guard" id="wrist_guard_yes" value="Yes">Yes (+$14.95)
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="wrist_guard" id="wrist_guard_no" value="No">No
+	                    </label>
+	                </div>
+	                <button type="button" id="WristGuard-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="WristGuard-next" class="btn btn-primary">Next</button>
+	            </div>
+	            <div id="LaceLength" style="display:none">
+	            	<h4 style="margin-bottom:20px;">Lace Length*</h4>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="lace_length" id="lace_length_normal" value="Normal">Normal
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="lace_length" id="lace_length_long" value="Long">long (not shown on builder)
+	                    </label>
+	                </div>
+	                <button type="button" id="LaceLength-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="LaceLength-next" class="btn btn-primary">Next</button>
+	            </div>
+	            <div id="GameType" style="display:none">
+	            	<h4 style="margin-bottom:20px;">Game Type*</h4>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="game_type" id="game_type_slowPitching" value="Slow Pitching">Slow Pitching
+	                    </label>
+	                </div>
+	                <div class="radio">
+	                    <label>
+	                    <input type="radio" name="game_type" id="game_type_fastPitching" value="Fast Pitching">Fast Pitching
+	                    </label>
+	                </div>
+	                <button type="button" id="GameType-prev" class="btn btn-primary">Prev</button>
+					<button type="button" id="GameType-next" class="btn btn-primary">Next</button>
+	            </div>
+		</div>
+<!--------------------------------------------step-3 op content end ------------------------------------>
+<!--------------------------------------------Step4 op ceontent ---------------------------------------->
+		<div id="step4-op-content" style="display:block;margin:30px;">
+			<div id="ThumbText" style="display:none">
+				<h4 style="margin-bottom:20px;">Thumb Text*</h4>
+		        <div class="form-group">
+				<input id = "TB_ThumbText" type="text" class="form-control" placeholder="" value = "">
+				</div>
+				<button type="button" id="ThumbText-prev" class="btn btn-primary">Prev</button>
+				<button type="button" id="ThumbText-next" class="btn btn-primary">Next</button>
+			</div>
+		</div>
+		<div id="TextColor" style="display:none">
+			<h4 style="margin-bottom:20px;">Text Color*</h4>
+	               	<div id="color_container">
+						<div class="red" id="red_text_color">
+						</div>
+						<div class = "volt_green" id = "volt_green_text_color">
+						</div>
+						<div class = "sky_blue" id="sky_blue_text_color">
+						</div>
+						<div class = "tan" id="tan_text_color">
+						</div>
+						<div class = "blonde" id="blonde_text_color">
+						</div>
+						<div class = "teal" id="teal_text_color">
+						</div>
+						<div class = "orange" id="orange_text_color">
+						</div>
+						<div class = "white" id="white_text_color">
+						</div>
+						<div class = "pink" id="pink_text_color">
+						</div>
+						<div class = "navy_blue" id="navy_blue_text_color">
+						</div>
+						<div class = "purple" id = "purple_text_color">
+						</div>
+						<div class = "royal_blue" id = "royal_blue_text_color">
+						</div>
+						<div class = "brown" id="brown_text_color">
+						</div>
+						<div class = "forest_green" id="forest_green_text_color">
+						</div>
+						<div class = "silver" id="silver_text_color">
+						</div>
+						<div class = "volt_yellow" id="volt_yellow_text_color">
+						</div>
+						<div class = "maroon" id="maroon_text_color">
+						</div>
+						<div class = "gold" id="gold_text_color">
+						</div>
+						<div class = "black" id="black_text_color">
+						</div>
+					</div>
+						<br><br><br><br><br><br><br>
+						<div id = "text_color">Color:Not Selected</div>
+						<button type="button" id="TextColor-prev" class="btn btn-primary">Prev</button>
+						<button type="button" id="TextColor-next" class="btn btn-primary">Next</button>
+		</div>
+		<div id="TextFont" style="display:none">
+					<h4 style="margin-bottom:20px;">Text Font*</h4>
+						<div class="radio">
+	                    <label>
+	                    <input type="radio" name="text_font" id="text_font_block" value="Block">Block
+	                    </label>
+	                	</div>
+	                	<div class="radio">
+	                    <label>
+	                    <input type="radio" name="text_font" id="text_font_script" value="Script">Script
+	                    </label>
+	                	</div>
+	                	<button type="button" id="TextFont-prev" class="btn btn-primary">Prev</button>
+						<button type="button" id="TextFont-next" class="btn btn-primary">Next</button>
+		</div>
+		<div id="Flag" style="display:none">
+			<h4 style="margin-bottom:20px;">Flags*</h4>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="usa_flag" value="USA">USA
+			                    </label>
+			                </div>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="mexico_flag" value="Mexico">Mexico
+			                    </label>
+			                </div>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="puerto_flag" value="Puerto Rico">Puerto Rico
+			                    </label>
+			                </div>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="cuba_flag" value="Cuba">Cuba
+			                    </label>
+			                </div>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="dominican_flag" value="Dominican Republic">Dominican Republic
+			                    </label>
+			                </div>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="australia_flag" value="Australia">Australia
+			                    </label>
+			                </div>
+			                <div class="radio">
+			                    <label>
+			                    <input type="radio" name="flag" id="other_flag" value="Custom Flag">Other
+			                    </label>
+			                </div>
+			                <div id = "flag_discription" style = "display:none">
+			                	<h4 style="margin-bottom:20px;">Flag Name*</h4>
+			                	<div class="form-group">
+									<input id = "TB_custom_flag" type="text" class="form-control" placeholder="" value = "">
+								</div>
+			                </div>
+							<button type="button" id="Flag-next" class="btn btn-primary">Submit</button>
+		</div>
+<!------------------------------------------------------------------------------------------------------>
 		</div><!-- #op container -->
 	</div>
-	<div class="col-md-7" id="glove-view">
+	<div class="col-md-8" id="glove-view">
 		<!----------------------------------------- Catcher view ------------------------------------------>
         <div id = "CatcherView" style = "display:block;">
 				<svg xmlns="http://www.w3.org/2000/svg" style = "width:717px;height:550px;">
@@ -466,7 +1289,7 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
 		</div>
 		<!----------------------------------------------Fielding view------------------------------------>
         <div id = "FieldingView" style = "display:none;">
-				<svg xmlns="http://www.w3.org/2000/svg" style = "background-color:blue;width:701px;height:636px;">
+				<svg xmlns="http://www.w3.org/2000/svg" style = "width:701px;height:636px;">
 				<image id = "img" xlink:href = "imgs/Fielding/f1.png" x="0" y="0" width="701" height="636" opacity="0" />
 				<image id = "FVoid" xlink:href = "imgs/Fielding/Void.png" x="0" y="0" width="701" height="636" opacity="1" />
 
@@ -528,7 +1351,7 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
         <!-------------------------------------------------------------------------------------------->
         <!----------------------------------- display firstBase simulator ---------------------------->
 			<div id = "FirstBaseView" style = "display:none;">
-				<svg xmlns="http://www.w3.org/2000/svg" style = "background-color:blue;width:721px;height:656px;">
+				<svg xmlns="http://www.w3.org/2000/svg" style = "width:721px;height:656px;">
 				<image id = "FBPalmColors" xlink:href = "imgs/FirstBase/Palm/Base.png" x="0" y="0" width="721" height="656" opacity="1" />
 				<image id = "FBBackColors" xlink:href = "imgs/FirstBase/Back/Base.png" x="0" y="0" width="721" height="656" opacity="1" />
 				<image id = "img" xlink:href = "imgs/FirstBase/fb4.png" x="0" y="0" width="721" height="656" opacity="0" />
@@ -554,4 +1377,25 @@ s<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.o
 				<image id = "img" xlink:href = "imgs/FirstBase/fb10.png" x="0" y="0" width="721" height="656" opacity="0" />
 				<image id = "FBFlag" xlink:href = "" width="721" height="656" opacity="1" />
 				<!-- =============================================== laces ============================================== -->
-				<image id = "FBLaceColors" xlink:href = "imgs/Fi
+				<image id = "FBLaceColors" xlink:href = "imgs/FirstBase/Web/WebB/Laces/Base.png" x="0" y="0" width="721" height="656" opacity="1" />
+				<image id = "FBGWebLaceColors" xlink:href = "imgs/FirstBase/Web/WebG/Laces/Base.png" x="0" y="0" width="721" height="656" opacity="0" />
+				<image id = "FBHWebLaceColors" xlink:href = "imgs/FirstBase/Web/WebH/Laces/Base.png" x="0" y="0" width="721" height="656" opacity="0" />
+				<!-- =============================================== stitches ============================================== -->
+				<image id = "FBStitchColors" xlink:href = "imgs/FirstBase/Web/WebB/Stitch/Base.png" x="0" y="0" width="721" height="656" opacity="1" />
+				<image id = "FBGWebStitchColors" xlink:href = "imgs/FirstBase/Web/WebG/Stitch/Base.png" x="0" y="0" width="721" height="656" opacity="0" />
+				<image id = "FBHWebStitchColors" xlink:href = "imgs/FirstBase/Web/WebH/Stitch/Base.png" x="0" y="0" width="721" height="656" opacity="0" />
+				<text class = "CustomText" x = "540px" y = "25px" font-family="verdana" font-size = "12px" fill = "black" transform = "rotate(60)">Qasim</text>
+				</svg>
+			</div>
+			<!---------------------------------------------------------------------------------->
+	</div>
+</div>
+<!------------------------------------------------- Footer ------------------------------------------------>
+<div class="row">
+	<div class="col-md-12">
+		<center>Copyright 9N3 Pro-Gloves 2017</center>
+	</div>
+</div>
+</div>
+</body>
+</html>
