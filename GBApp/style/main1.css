@@ -20,7 +20,6 @@
 #option-content{
 	background-color: #5ac3ff;;
 	height: 600px;
-	overflow: scroll;
 	}
 #op-container{
 }
@@ -52,7 +51,7 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
+}/*
 #step-2:hover #step2-op,#step-4:hover #step4-op{
 	display: block;
 }
@@ -62,9 +61,14 @@
 #step-1:hover,#step-2:hover,#step-3:hover,#step-4:hover{
 	background-color: #5ac3ff;
 }
+*/
 /*=============================================================================================*/
 
 /*=========================================== Common styles ===================================*/
+#step1-op-content,#step2-op-content,#step3-op-content,#step4-op-content{
+	margin-left: 30px;
+	font-size: 20px; 
+}
 h4{
 	font-size: 20px;
 	text-shadow: .2px .1px .5px;
@@ -79,10 +83,7 @@ h4{
 #step1-prev{
 	margin: 20px;
 }
-#step1-op-content,#step2-op-content{
-	margin-left: 30px;
-	font-size: 20px; 
-}
+
 #color_container{
 	width: 200px;
 }
