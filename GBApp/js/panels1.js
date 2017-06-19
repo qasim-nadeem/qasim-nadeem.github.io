@@ -154,6 +154,7 @@ $("#step-1").click(function(){
 	$("#step-3").css("background-color","#1680a1");
 	$("#step-4").css("background-color","#1680a1");
 	$("#step1-op-content").css("display","block");
+	$("#LogoLetterColor").css("display","none");
 
 });
 $("#step-2").click(function(){
@@ -178,7 +179,432 @@ $("#step-4").click(function(){
 	$("#step-4").css("background-color","#5ac3ff");
 
 });
-		
+$("#Step1-next").click(function(){
+	$("#step-1").css("background-color","#1680a1");
+	$("#step-2").css("background-color","#5ac3ff");
+	$("#step-3").css("background-color","#1680a1");
+	$("#step-4").css("background-color","#1680a1");
+	$("#step1-op-content").css("display","none");
+	$("#LogoLetterColor").css("display","block");
+});
+/////////////////////////////////// Next and Prev buttons/////////////////////////////////////////////////
+/////////////////////////////////////////////////// Step 1 options //////////////////////////////////////
+$("#GloveType-next").click(function(){
+	$("#GloveType").css("display","none");
+	$("#ThrowingHand").css("display","block");
+});
+
+$("#ThrowingHand-next").click(function(){
+	$("#ThrowingHand").css("display","none");
+	var _GloveType = $("input[name=f_type]:checked").val();
+	if(_GloveType == "Catcher" || _GloveType == "Fielding" || _GloveType == "Soft Ball")
+		$("#HoodPad").css("display","block");
+	else
+	{
+		if(_GloveType == "Catcher")
+			$("#GloveSizeCatcher").css("display","block");
+		else if(_GloveType == "Fielding")
+			$("#GloveSizeFielding").css("display","block");
+		else if(_GloveType == "First Base")
+			$("#GloveSizeFB").css("display","block");
+		else if(_GloveType == "Soft Ball")
+			$("#GloveSizeSB").css("display","block");
+	}
+});
+$("#ThrowingHand-prev").click(function(){
+	$("#ThrowingHand").css("display","none");
+	$("#GloveType").css("display","block");
+});
+$("#HoodPad-next").click(function(){
+	$("#HoodPad").css("display","none");
+	var _GloveType = $("input[name=f_type]:checked").val();
+	if(_GloveType == "Catcher")
+			$("#GloveSizeCatcher").css("display","block");
+		else if(_GloveType == "Fielding")
+			$("#GloveSizeFielding").css("display","block");
+		else if(_GloveType == "First Base")
+			$("#GloveSizeFB").css("display","block");
+		else if(_GloveType == "Soft Ball")
+			$("#GloveSizeSB").css("display","block");
+});
+$("#HoodPad-prev").click(function(){
+	$("#HoodPad").css("display","none");
+	$("#ThrowingHand").css("display","block");
+});
+
+$("#GSFielding-next,#GSSoftball").click(function(){
+	$("#GloveSizeFielding,#GloveSizeSB").css("display","none");
+	$("#WebFielding").css("display","block");
+});
+$("#GSFirstbase-next").click(function(){
+	$("#GloveSizeFB").css("display","none");
+	$("#WebFB").css("display","block");
+});
+$("#GSCatcher-next").click(function(){
+	$("#GloveSizeCatcher").css("display","none");
+	$("#step-1").css("background-color","#1680a1");
+	$("#step-2").css("background-color","#5ac3ff");
+	$("#step-3").css("background-color","#1680a1");
+	$("#step-4").css("background-color","#1680a1");
+	$("#LogoLetterColor").css("display","block");
+});
+$("#GSFirstbase-prev,#GSCatcher-prev,#GSFielding-prev,#GSSoftball-prev").click(function(){
+	$("#GloveSizeFB,#GloveSizeCatcher,#GloveSizeFielding,#GloveSizeSB").css("display","none");
+	var _GloveType = $("input[name=f_type]:checked").val();
+	if(_GloveType == "Fielding" || _GloveType =="Catcher")
+		$("#HoodPad").css("display","block");
+	else
+		$("#ThrowingHand").css("display","block");
+});
+
+$("#WebFielding-next,#WebFB-next").click(function(){
+	$("#WebFielding,#WebFB").css("display","none");
+	$("#step-1").css("background-color","#1680a1");
+	$("#step-2").css("background-color","#5ac3ff");
+	$("#step-3").css("background-color","#1680a1");
+	$("#step-4").css("background-color","#1680a1");
+	$("#LogoLetterColor").css("display","block");
+});
+$("#WebFielding-prev").click(function(){
+	$("#WebFielding").css("display","none");
+	$("#GloveSizeFielding").css("display","block");
+});
+$("#WebFB-prev").click(function(){
+	$("#WebFB").css("display","none");
+	$("#GloveSizeFB").css("display","block");
+});
+///////////////////////////////////////////////////// step2 options /////////////////////////////////////
+$("#LogoLetter-next").click(function(){
+	$("#LogoLetterColor").css("display","none");
+	$("#LogoPatchColor").css("display","block");
+});
+$("#LogoLetter-prev").click(function(){
+	$("#step-1").css("background-color","#5ac3ff");
+	$("#step-2").css("background-color","#1680a1");
+	$("#step-3").css("background-color","#1680a1");
+	$("#step-4").css("background-color","#1680a1");
+	$("#LogoLetterColor").css("display","none");
+	var _GloveType = $("input[name=f_type]:checked").val();
+	if(_GloveType == "Fielding" || _GloveType == "Soft Ball")
+		$("#WebFielding").css("display","Block");
+	else if(_GloveType == "First Base")
+		$("#WebFB").css("display","Block");
+	else
+		$("#GloveSizeCatcher").css("display","Block");
+});
+
+$("#LogoPatch-next").click(function(){
+	$("#LogoPatchColor").css("display","none");
+	$("#LogoNumberColor").css("display","block");
+});
+$("#LogoPatch-prev").click(function(){
+	$("#LogoPatchColor").css("display","none");
+	$("#LogoLetterColor").css("display","block");
+});
+
+$("#LogoNumber-next").click(function(){
+	$("#LogoNumberColor").css("display","none");
+	$("#LacesColor").css("display","block");
+});
+$("#LogoNumber-prev").click(function(){
+	$("#LogoNumberColor").css("display","none");
+	$("#LogoPatchColor").css("display","block");
+});
+
+$("#Laces-next").click(function(){
+	$("#LacesColor").css("display","none");
+	$("#WebColor").css("display","block");
+});
+$("#Laces-prev").click(function(){
+	$("#LacesColor").css("display","none");
+	$("#LogoNumberColor").css("display","block");
+});	
+
+$("#Web-next").click(function(){
+	$("#WebColor").css("display","none");
+	$("#PalmColor").css("display","block");
+});
+$("#Web-prev").click(function(){
+	$("#WebColor").css("display","none");
+	$("#LacesColor").css("display","block");
+});
+
+$("#Palm-next").click(function(){
+	$("#PalmColor").css("display","none");
+	$("#BindingColor").css("display","block");
+});
+$("#Palm-prev").click(function(){
+	$("#PalmColor").css("display","none");
+	$("#WebColor").css("display","block");
+});
+
+$("#Binding-next").click(function(){
+	$("#BindingColor").css("display","none");
+	$("#WristColor").css("display","block");
+});
+$("#Binding-prev").click(function(){
+	$("#BindingColor").css("display","none");
+	$("#PalmColor").css("display","block");
+});
+
+$("#Wrist-next").click(function(){
+	$("#WristColor").css("display","none");
+	$("#Back1Color").css("display","block");
+});
+$("#Wrist-prev").click(function(){
+	$("#WristColor").css("display","none");
+	$("#BindingColor").css("display","block");
+});
+
+$("#Back1-next").click(function(){
+	$("#Back1Color").css("display","none");
+	$("#StitchColor").css("display","block");
+});
+$("#Back1-prev").click(function(){
+	$("#Back1Color").css("display","none");
+	$("#WristColor").css("display","block");
+});
+
+$("#Stitch-next").click(function(){
+	$("#StitchColor").css("display","none");
+	var _GloveType = $("input[name=f_type]:checked").val();
+	if(_GloveType == "Catcher" || _GloveType == "First Base")
+		$("#CrownColor").css("display","block");
+	if(_GloveType == "Fielding" || _GloveType == "Soft Ball")
+		$("#Back2Color").css("display","block");
+
+});
+$("#Stitch-prev").click(function(){
+	$("#StitchColor").css("display","none");
+	$("#Back1Color").css("display","block");
+});
+$("#Crown-next").click(function(){
+	$("#CrownColor").css("display","none");
+	var _HoodPad = $("input[name=finger_hood]:checked").val();
+	var _GloveType = $("input[name=f_type]:checked").val();
+	if(_HoodPad == "Hood" && (_GloveType == "Catcher" || _GloveType == "Fielding" || _GloveType == "Soft Ball"))
+		$("#HoodColor").css("display","block");
+	else if(_HoodPad == "Pad" && (_GloveType == "Catcher" || _GloveType == "Fielding" || _GloveType == "Soft Ball"))
+		$("#PadColor").css("display","block");
+	else
+	{
+		$("#step-1").css("background-color","#1680a1");
+		$("#step-2").css("background-color","#1680a1");
+		$("#step-3").css("background-color","#5ac3ff");
+		$("#step-4").css("background-color","#1680a1");
+		$("#WeltingColor").css("display","none");
+		$("#CrownColor").css("display","none");
+		$("#VelcroWrist").css("display","block");
+	}
+});
+$("#Crown-prev").click(function(){
+	$("#CrownColor").css("display","none");
+	$("#StitchColor").css("display","block");
+});
+/////////////////////////////// Fielding options //////////////////////////////////////////////
+/////// options that appears when fielding or soft ball is selelected /////////////////////////
+$("#Back2-next").click(function(){
+	$("#Back2Color").css("display","none");
+	$("#Back3Color").css("display","block");
+});
+$("#Back2-prev").click(function(){
+	$("#Back2Color").css("display","none");
+	$("#StitchColor").css("display","block");
+});
+
+$("#Back3-next").click(function(){
+	$("#Back3Color").css("display","none");
+	$("#WeltingColor").css("display","block");
+});
+$("#Back3-prev").click(function(){
+	$("#Back3Color").css("display","none");
+	$("#Back2Color").css("display","block");
+});
+
+$("#Welting-next").click(function(){
+	$("#WeltingColor").css("display","none");
+	$("#WingtipColor").css("display","block");
+});
+$("#Welting-prev").click(function(){
+	$("#WeltingColor").css("display","none");
+	$("#Back3Color").css("display","block");
+});
+
+$("#Wingtip-next").click(function(){
+	$("#WingtipColor").css("display","none");
+	var _HoodPad = $("input[name=finger_hood]:checked").val();
+	var _GloveType = $("input[name=f_type]:checked").val();
+	if(_HoodPad == "Hood" && (_GloveType == "Catcher" || _GloveType == "Fielding" || _GloveType == "Soft Ball"))
+		$("#HoodColor").css("display","block");
+	else if(_HoodPad == "Pad" && (_GloveType == "Catcher" || _GloveType == "Fielding" || _GloveType == "Soft Ball"))
+		$("#PadColor").css("display","block");
+	else
+	{
+		$("#step-1").css("background-color","#1680a1");
+		$("#step-2").css("background-color","#1680a1");
+		$("#step-3").css("background-color","#5ac3ff");
+		$("#step-4").css("background-color","#1680a1");
+		$("#WeltingColor").css("display","none");
+		$("#CrownColor").css("display","none");
+		$("#VelcroWrist").css("display","block");
+	}
+});
+$("#Wingtip-prev").click(function(){
+	$("#WingtipColor").css("display","none");
+	$("#WeltingColor").css("display","block");
+});
+////////////////////////////////////////////// Hood Pad ////////////////////////////////////////////
+$("#Hood-next").click(function(){
+	$("#step-1").css("background-color","#1680a1");
+	$("#step-2").css("background-color","#1680a1");
+	$("#step-3").css("background-color","#5ac3ff");
+	$("#step-4").css("background-color","#1680a1");
+	$("#WeltingColor").css("display","none");
+	$("#CrownColor").css("display","none");
+	$("#HoodColor").css("display","none");
+	$("#VelcroWrist").css("display","block");
+});
+$("#Hood-prev").click(function(){
+	$("#HoodColor").css("display","none");
+	var _GloveType = $("input[name=f_type]:checked").val();
+	if(_GloveType == "Catcher" || _GloveType == "First Base")
+		$("#CrownColor").css("display","block");
+	if(_GloveType == "Fielding" || _GloveType == "Soft Ball")
+		$("#WingtipColor").css("display","block");
+});
+
+$("#Pad-next").click(function(){
+	$("#step-1").css("background-color","#1680a1");
+	$("#step-2").css("background-color","#1680a1");
+	$("#step-3").css("background-color","#5ac3ff");
+	$("#step-4").css("background-color","#1680a1");
+	$("#WeltingColor").css("display","none");
+	$("#CrownColor").css("display","none");
+	$("#PadColor").css("display","none");
+	$("#VelcroWrist").css("display","block");
+});
+$("#Pad-prev").click(function(){
+	$("#PadColor").css("display","none");
+	var _GloveType = $("input[name=f_type]:checked").val();
+	if(_GloveType == "Catcher" || _GloveType == "First Base")
+		$("#CrownColor").css("display","block");
+	else if(_GloveType == "Fielding" || _GloveType == "Soft Ball")
+		$("#WingtipColor").css("display","block");
+});
+///////////////////////////////////////////////////// Step 3 options //////////////////////////////////////
+$("#VelcroWrist-next").click(function(){
+	$("#VelcroWrist").css("display","none");
+	$("#WristGuard").css("display","block");
+});
+$("#VelcroWrist-prev").click(function(){
+	$("#VelcroWrist").css("display","none");
+	var _HoodPad = $("input[name=finger_hood]:checked").val();
+	var _GloveType = $("input[name=f_type]:checked").val();
+		if(_GloveType == "Catcher" && _HoodPad == "Hood")
+			$("#HoodColor").css("display","block");
+		else if(_GloveType == "Catcher" && _HoodPad == "Pad")
+			$("#PadColor").css("display","block");
+		else if((_GloveType == "Fielding" || _GloveType == "Soft Ball") && _HoodPad == "Hood")
+			$("#HoodColor").css("display","block");
+		else if((_GloveType == "Fielding" || _GloveType == "Soft Ball") && _HoodPad == "Pad")
+			$("#PadColor").css("display","block");
+		else if((_GloveType == "Fielding" || _GloveType == "Soft Ball") && _HoodPad == "None")
+			$("#WingtipColor").css("display","block");
+		else if((_GloveType == "Catcher" || _GloveType == "First Base") && _HoodPad == "None")
+			$("#CrownColor").css("display","block");
+		else 
+			$("#CrownColor").css("display","block");
+});
+
+$("#WristGuard-next").click(function(){
+	$("#WristGuard").css("display","none");
+	$("#LaceLength").css("display","block");
+});
+$("#WristGuard-prev").click(function(){
+	$("#WristGuard").css("display","none");
+	$("#VelcroWrist").css("display","block");
+});
+
+$("#LaceLength-next").click(function(){
+	$("#LaceLength").css("display","none");
+	var _GloveType = $("input[name=f_type]:checked").val();
+	if(_GloveType == "Soft Ball")
+		$("#GameType").css("display","block");
+	else
+	{
+		$("#step-1").css("background-color","#1680a1");
+		$("#step-2").css("background-color","#1680a1");
+		$("#step-3").css("background-color","#1680a1");
+		$("#step-4").css("background-color","#5ac3ff");
+		$("#ThumbText").css("display","block");
+	}
+});
+$("#LaceLength-prev").click(function(){
+	$("#LaceLength").css("display","none");
+	$("#WristGuard").css("display","block");
+});
+
+$("#GameType-next").click(function(){
+	$("#GameType").css("display","none");
+	$("#step-1").css("background-color","#1680a1");
+	$("#step-2").css("background-color","#1680a1");
+	$("#step-3").css("background-color","#1680a1");
+	$("#step-4").css("background-color","#5ac3ff");
+	$("#ThumbText").css("display","block");
+});
+$("#GameType-prev").click(function(){
+	$("#GameType").css("display","none");
+	$("#LaceLength").css("display","block");
+});
+///////////////////////////////////////////////////// step 4 options ///////////////////////////////////////
+$("#ThumbText-next").click(function(){
+	$("#ThumbText").css("display","none");
+	$("#TextColor").css("display","block");
+});
+$("#ThumbText-prev").click(function(){
+	$("#ThumbText").css("display","none");
+	var _GloveType = $("input[name=f_type]:checked").val();
+	if(_GloveType == "Soft Ball")
+	{
+		$("#step-1").css("background-color","#1680a1");
+		$("#step-2").css("background-color","#1680a1");
+		$("#step-3").css("background-color","#5ac3ff");
+		$("#step-4").css("background-color","#1680a1");
+		$("#GameType").css("display","block");
+	}
+	else
+	{
+		$("#step-1").css("background-color","#1680a1");
+		$("#step-2").css("background-color","#1680a1");
+		$("#step-3").css("background-color","#5ac3ff");
+		$("#step-4").css("background-color","#1680a1");
+		$("#LaceLength").css("display","block");
+	}
+});
+
+$("#TextColor-next").click(function(){
+	$("#TextColor").css("display","none");
+	$("#TextFont").css("display","block");
+});
+$("#TextColor-prev").click(function(){
+	$("#TextColor").css("display","none");
+	$("#ThumbText").css("display","block");
+});
+
+$("#TextFont-next").click(function(){
+	$("#TextFont").css("display","none");
+	$("#Flag").css("display","block");
+});
+$("#TextFont-prev").click(function(){
+	$("#TextFont").css("display","none");
+	$("#TextColor").css("display","block");
+});
+
+$("#Flag-prev").click(function(){
+	$("#Flag").css("display","none");
+	$("#TextFont").css("display","block");
+});
+
 ///////////////////////////////////////////////////// logo color handler/////////////////////////////////////////
 $("#red_logo").click(function(){
 	$("#red_logo").addClass("selected");
