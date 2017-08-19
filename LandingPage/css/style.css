@@ -1,11 +1,11 @@
-ul
-{
-    list-style-type: none;
-}
+
 #list1 ul
 {
     list-style-type: none;
     margin-top: 50px;
+}
+#list2 ul li:nth-child(1), #list3 ul li:nth-child(1){
+    list-style-type: none;
 }
 #list1 ul li img
 {
