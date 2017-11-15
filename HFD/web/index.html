@@ -16,17 +16,36 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!--// bootstrap-css -->
 <!-- css -->
+<link rel="stylesheet" href="css/style_old.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+
 <!--// css -->
 <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
 <link href="css/owl.theme.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+<link type="text/css" href="style/animate.css" />
 <!-- font-awesome icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <!-- //font-awesome icons -->
 <!-- font -->
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic" rel="stylesheet" type="text/css" /><link href="http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic" rel="stylesheet" type="text/css" />
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
 <!-- //font -->
+<script src="js/classie.js" type="text/javascript"></script>
+    <script src="js/easing.js" type="text/javascript"></script>
+    <script src="js/jquery.carouFredSel-6.1.0-packed.js" type="text/javascript"></script>
+    <script src="js/jquery.easydropdown.js" type="text/javascript"></script>
+    <script src="js/jquery.flexisel.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/move-top.js" type="text/javascript"></script>
+    <script src="js/simpleCart.min.js" type="text/javascript"></script>
+    <script src="js/tms-0.4.1.js" type="text/javascript"></script>
+    <script src="js/uisearch.js" type="text/javascript"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
+     <script>
+     new WOW().init();
+	</script>
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script>
@@ -43,13 +62,48 @@ $(document).ready(function() {
 	
 }); 
 </script>
+ <!----------------SCRIPT---------------------->
+
+<script src="js/simpleCart.min.js"> </script>	
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1200);
+        });
+    });
+		</script>
+
+ <!-------------------------------------------->
+
 <script src="js/SmoothScroll.min.js"></script>
 </head>
 <body>
 <!-- top -->
 <div id="top">
 <div class="row">
-	<div class = "col-md-2">
+	<div class = "col-md-4">
+		<img src="images/foodlogo.jpg" height = "80" width="120" style="margin: 5px;">
+	</div>
+	<div class = "col-md-4">
+		
+		<div id="callusnumber">
+			<center>
+			<h2 style="font-family: 'fontBannerHeading';word-spacing: 10px;">Give us a Call</h2>
+			<ul>
+				<li>042-1234-5678</li>
+				<li>042-5678-1234</li>
+			</ul>
+			</center>
+		</div>
+	</div>
+	<div class = "col-md-4">
+		<div id = "cartarea">
+			<center><img src="images/cart.png"><br> 0 item</center>
+		</div>
+	</div>
 </div>
 </div>
 </div>
@@ -57,52 +111,76 @@ $(document).ready(function() {
 	<!-- banner -->
 	<div class="banner">
 		<!--header-->
-<div class="header">
-			<div class="logo">
-				<h1><a href="index.html">Logo</a></h1>
+<div class="menu-bar">
+			<div class="container">
+				<div class="top-menu">
+					<ul>
+						<li><a href="default.aspx">&nbsp Home</a></li>
+                        <li><a href="Services.aspx">&nbsp Services</a></li>
+						<li class="dropdown"><a href="#" class="badge1" data-badge="New">&nbsp GIFTS</a>
+                        <ul class="dropdown-content">
+                        <li>
+                        <table>
+                         <tr><td><a href="Cakes.aspx" class="badge2" data-badge="New">Cakes</a></td></tr>
+                         <tr><td><a href="Bouquet.aspx" class="badge2" data-badge="New">Bouquet</a></td></tr>
+                         <tr><td><a href="#">Ohter Gifts</a></td></tr>
+                        </table>
+                        </li>
+                        </ul>
+                        </li>
+                        <li><a href="about.aspx">&nbsp About Us</a></li>
+                        <li><a href="Faq.aspx">&nbsp FAQ'S</a></li>
+						<li><a href="Order.aspx">&nbsp Order</a></li>
+						<li><a href="#">&nbsp contact</a></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="login-section">
+					<ul>
+						<li><a href="#">Login</a>  </li> 
+						<li><a href="#">Register</a> </li> 
+						<li><a href="#">Help</a></li>
+                        
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
 			</div>
-			<div class="top-nav">
-				<span class="menu"><img src="images/menu.png" alt=""/></span>
-				<ul>
-					<li><a class="active" href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>					
-					<li><a href="menu.html">Menu</a></li>
-					<li><a href="codes.html">Codes</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-				<!-- script-for-menu -->
-				<script>					
-					$("span.menu").click(function(){
-						$(".top-nav ul").slideToggle("slow" , function(){
-						});
-					});
-				</script>
-				<!-- script-for-menu -->
-			</div>
-				<div class="clearfix"> </div>
-</div>	
-<!--//header-->
-<div id="searchform">
-	<form class="form-inline">
-    <div class="form-group">
-        <label for="inputEmail">City Name</label><br>
-        <input type="email" class="form-control" id="inputEmail" placeholder="Your City">
-    </div>
-    <div class="form-group">
-        <label for="inputPassword">Location</label><br>
-        <input type="email" class="form-control" id="inputEmail" placeholder="Location">
-    </div>
-    <div class="form-group">
-        <label for="inputEmail">Category</label><br>
-        <input type="email" class="form-control" id="inputEmail" placeholder="Category">
-    </div>
-    <div class="form-group" style="margin-top: 28px;">
-         <button type="submit" class="btn btn-success">Search</button>
-    </div>
-	</form>
 </div>
+<!--//header-->
+
+<div id="searchform">
+	<div class="row">
+		<div class="col-md-12 col-md-offset-1">
+		<form class="form-inline">
+	    <div class="form-group">
+	        <label for="inputEmail">City Name</label><br>
+	        <input type="text" class="form-control" id="inputEmail" placeholder="Your City">
+	    </div>
+	    <div class="form-group">
+	        <label for="inputPassword">Location</label><br>
+	        <input type="text" class="form-control" id="inputEmail" placeholder="Location">
+	    </div>
+	    <div class="form-group">
+	        <label for="inputEmail">Category</label><br>
+	        <input type="text" class="form-control" id="inputEmail" placeholder="Category">
+	    </div>
+	    <div class="form-group" style="margin-top: 23px;">
+	         <button type="submit" class="btn btn-success">Search</button>
+	    </div>
+		</form>
+		</div>
+	</div>
+</div>
+<div class="banner-info-head text-center wow fadeInLeft" data-wow-delay="0.5s">
+						<h1 style="font-family: 'fontBannerHeading';margin-top: 30px;">Network of over thousands of Restaurants and Stores</h1>
+						<div class="line">
+							<h2>Order Online</h2>
+						</div>
+</div>
+
 <!-- banner -->
+		<!--
 		<div class="banner-slider">
 			<div class="container">
 				<div class="slider">
@@ -110,36 +188,35 @@ $(document).ready(function() {
 						<ul class="rslides" id="slider4">
 							<li>
 								<div class="banner-info">
-									<h3>Lorem ipsum dolor sit amet</h3>
-									<p>Donec tellus metus, ornare et mollis ut, maximus id nisi. Quisque scelerisque accumsan sem nec ullamcorper. Cras sed purus eget augue egestas commodo. Sed erat magna, pharetra aliquet mattis mollis, maximus eget lacus. </p>
+									<h3>Text 1</h3>
+									
 									<a href="menu.html">Menu</a>
 								</div>
 							</li>
 							<li>
 								<div class="banner-info">
-									<h3>Fusce egestas purus in nulla</h3>
-									<p>Sed erat magna, pharetra aliquet mattis mollis, maximus eget lacus. Donec tellus metus, ornare et mollis ut, maximus id nisi. Quisque scelerisque accumsan sem nec ullamcorper. Cras sed purus eget augue egestas commodo. </p>
+									<h3>text 2</h3>
+									
 									<a href="menu.html">Menu</a>
 								</div>
 							</li>
 							<li>
 								<div class="banner-info">
-									<h3>Duis faucibus dolor risus</h3>
-									<p>Quisque scelerisque accumsan sem nec ullamcorper. Donec tellus metus, ornare et mollis ut, maximus id nisi. Cras sed purus eget augue egestas commodo. Sed erat magna, pharetra aliquet mattis mollis, maximus eget lacus. </p>
+									<h3>Text 3</h3>
 									<a href="menu.html">Menu</a>
 								</div>
 							</li>
 							<li>
 								<div class="banner-info">
-									<h3>Lorem ipsum dolor sit amet</h3>
-									<p>Donec tellus metus, ornare et mollis ut, maximus id nisi. Quisque scelerisque accumsan sem nec ullamcorper. Cras sed purus eget augue egestas commodo. Sed erat magna, pharetra aliquet mattis mollis, maximus eget lacus. </p>
+									<h3>Text 4</h3>
+									
 									<a href="menu.html">Menu</a>
 								</div>
 							</li>
 							<li>
 								<div class="banner-info">
-									<h3>Fusce egestas purus in nulla</h3>
-									<p>Sed erat magna, pharetra aliquet mattis mollis, maximus eget lacus. Donec tellus metus, ornare et mollis ut, maximus id nisi. Quisque scelerisque accumsan sem nec ullamcorper. Cras sed purus eget augue egestas commodo. </p>
+									<h3>Tesx 4</h3>
+									
 									<a href="menu.html">Menu</a>
 								</div>
 							</li>
@@ -166,26 +243,41 @@ $(document).ready(function() {
 					
 						});
 					 </script>
-					<!--banner Slider starts Here-->
+					<!--banner Slider starts Here>
 				</div>
 			</div>
 		</div>
+	-->
 	</div>
 	<!-- //banner -->
 
-	<!-- history -->
-	<div class="history">
-		<div class="container">
-			<div class="w3l-history-grids">
-				<div class="col-md-5 w3l-history-left">
-					<img src="images/7.jpg" alt="" />
+	<!-- deliver any thing any where -->
+	<div class="WhatWeDo wow fadeIn" data-wow-delay="0.2s">
+		<center><h3 style="font-family: 'fontBannerHeading'; font-size: 40px; margin: 10px; word-spacing: 10px;">Any Thing Deliverd</h3></center>
+		<div class="row">
+			<div class="col-md-2 col-xs-12 col-sm-6 col-md-offset-2">
+				<div class="cat">
+					<img src="images/food.jpg" height="200" width="200" />
+					<center><p> Food </p></center>
 				</div>
-				<div class="col-md-7 w3l-history-right">
-					<h2>Pellentesque ultrices tincidunt risus in pellentesque.</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam orci tortor, tincidunt non nunc eget, mollis pulvinar ligula. Quisque pharetra maximus feugiat. Morbi hendrerit dolor sit amet quam lobortis, at ultrices eros ultrices. Fusce eget mi nulla. Curabitur odio nisl, dapibus id hendrerit id, scelerisque et lorem. Sed accumsan lacinia orci, a lobortis neque finibus vitae. </p>
-					<a href="about.html">More</a>
+			</div>
+			<div class="col-md-2 col-xs-12 col-sm-6">
+				<div class="cat">
+					<img src="images/clothes.jpg" height="200" width="200" />
+					<center><p> Garments </p></center>
 				</div>
-				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-2 col-xs-12 col-sm-6">
+				<div class="cat">
+					<img src="images/grocery.jpg" height="200" width="200" />
+					<center><p> Grocery </p></center>
+				</div>
+			</div>
+			<div class="col-md-2 col-xs-12 col-sm-6">
+				<div class="cat">
+					<img src="images/medicin.jpg" height="200" width="200" />
+					<center><p> Medicines </p></center>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -195,92 +287,61 @@ $(document).ready(function() {
 	<div class="services">
 		<div class="container">
 			<div class="services-info">
-				<h3>Our Services</h3>
-				<p>Pellentesque ultrices tincidunt risus in pellentesque. Morbi facilisis consectetur nunc in luctus.</p>
+				<h3 style="font-family: 'fontBannerHeading';" >Seacial Deals</h3>
+				<p>Choose from, what we are most famous for.</p>
 			</div>
 		</div>
 		<div class="services-grids">
 			<div id="owl-demo" class="owl-carousel owl-theme">
 					<div class="item">
 						<div class="services-grid-info">
-							<img src="images/s1.jpg" alt="" />
+							<img src="images/macdon.jpg" alt="" height="360" width="500" />
 							<div class="services-grid-caption"> 
 								<i class="fa fa-cutlery" aria-hidden="true"></i>
-								<h4>Justo congue</h4>
-								<p>Fusce laoreet</p>
+								<h4>McChicken Burger</h4>
+								<p>Served with regular fries & 1 soft drink</p>
+								<button class="btn btn-danger" class="btn_ordernow" style="margin-top: 15px;"> Order Now</button>
 							</div>
 						</div>	
 					</div>
 					<div class="item">
 						<div class="services-grid-info">
-							<img src="images/s2.jpg" alt="" />
+							<img src="images/kfc.jpg" alt="" height="360" width="500" />
 							<div class="services-grid-caption"> 
 								<i class="fa fa-cutlery" aria-hidden="true"></i>
-								<h4>Nulla facilisi</h4>
-								<p>Lorem ipsum</p>
+								<h4>Chicken Chawal</h4>
+								<p>1 Piece chicken,
+										Arabian rice,
+								sauce & 1 soft drink </p>
+								<button class="btn btn-danger" class="btn_ordernow" style="margin-top: 15px;"> Order Now</button>
 							</div>
 						</div>	
 					</div>
 					<div class="item">
 						<div class="services-grid-info">
-							<img src="images/s3.jpg" alt="" />
+							<img src="images/rayyans.jpg" alt="" height="360" width="500" />
 							<div class="services-grid-caption"> 
 								<i class="fa fa-cutlery" aria-hidden="true"></i>
-								<h4>Aenean sed</h4>
-								<p>Nunc tincidunt</p>
+								<h4>Hesper Burgur</h4>
+								<p>Hesper burger,
+									1 piece chicken,
+									fries & 1 can.</p>
+									<button class="btn btn-danger" class="btn_ordernow" style="margin-top: 15px;"> Order Now</button>
 							</div>
 						</div>	
 					</div>
 					<div class="item">
 						<div class="services-grid-info">
-							<img src="images/s4.jpg" alt="" />
+							<img src="images/dainty.jpg" alt="" height="360" width="500" />
 							<div class="services-grid-caption"> 
 								<i class="fa fa-cutlery" aria-hidden="true"></i>
-								<h4>Justo congue</h4>
-								<p>Phasellus magna</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="services-grid-info">
-							<img src="images/s5.jpg" alt="" />
-							<div class="services-grid-caption"> 
-								<i class="fa fa-cutlery" aria-hidden="true"></i>
-								<h4>Justo congue</h4>
-								<p>Fusce laoreet</p>
+								<h4>Dainty Special Deal</h4>
+								<p>1 Beef Burger Or Crunch Burger, 1 Regular Fries & 1 drink</p>
+								<button class="btn btn-danger" class="btn_ordernow" style="margin-top: 15px;"> Order Now</button>
 							</div>
 						</div>	
 					</div>
-					<div class="item">
-						<div class="services-grid-info">
-							<img src="images/s6.jpg" alt="" />
-							<div class="services-grid-caption"> 
-								<i class="fa fa-cutlery" aria-hidden="true"></i>
-								<h4>Nulla facilisi</h4>
-								<p>Lorem ipsum</p>
-							</div>
-						</div>	
-					</div>
-					<div class="item">
-						<div class="services-grid-info">
-							<img src="images/s7.jpg" alt="" />
-							<div class="services-grid-caption"> 
-								<i class="fa fa-cutlery" aria-hidden="true"></i>
-								<h4>Aenean sed</h4>
-								<p>Nunc tincidunt</p>
-							</div>
-						</div>	
-					</div>
-					<div class="item">
-						<div class="services-grid-info">
-							<img src="images/s1.jpg" alt="" />
-							<div class="services-grid-caption">
-								<i class="fa fa-cutlery" aria-hidden="true"></i>
-								<h4>Justo congue</h4>
-								<p>Phasellus magna</p>
-							</div>
-						</div>
-					</div>
+					
 			</div>
 		</div>
 	</div>
@@ -290,82 +351,93 @@ $(document).ready(function() {
 	<div class="special">
 		<div class="container">
 			<div class="services-info">
-				<h3>Today Specials</h3>
-				<p>Pellentesque ultrices tincidunt risus in pellentesque. Morbi facilisis consectetur nunc in luctus.</p>
+				<h3 style="font-family: 'fontBannerHeading';">Top Orders</h3>
+				<p>Our top selling items, place your order now.</p>
 			</div>
 			<div class="special-grids">
-				<div class="col-md-6 w3l-special-grid">
-					<div class="col-md-6 w3ls-special-img">
+				<div class="col-md-12 w3l-special-grid">
+					<div class="col-md-3 w3ls-special-img">
 						<div class="wpf-demo-6">
 							<div class="w3ls-special-text">
-								<p><sub>$</sub>125</p>
 							</div>
 							<figcaption class="view-caption">
-								<h4>Lorem ipsum dolor sit amet</h4> 
-								<a href="menu.html">Menu</a>
+								<h4>Special Hallem</h4> 
+								<a href="menu.html">Order Now</a>
 							</figcaption>
 						</div>
 					</div>
-					<div class="col-md-6 agileits-special-info">
-						<h4>Aliquam</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-6 w3l-special-grid">
-					<div class="col-md-6 w3ls-special-img wthree-img">
+					<div class="col-md-3 w3ls-special-img1">
 						<div class="wpf-demo-6">
 							<div class="w3ls-special-text">
-								<p><sub>$</sub>130</p>
 							</div>
 							<figcaption class="view-caption">
-								<h4>Lorem ipsum dolor sit amet</h4> 
-								<a href="menu.html">Menu</a>
+								<h4>Fries</h4> 
+								<a href="menu.html">Order Now</a>
 							</figcaption>
 						</div>
 					</div>
-					<div class="col-md-6 agileits-special-info">
-						<h4>Nullam</h4>
-						<p>Maecenas ac hendrerit purus. Lorem ipsum dolor sit amet</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-6 w3l-special-grid">
-					<div class="col-md-6 agileits-special-info">
-						<h4>Aliquam</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-					</div>
-					<div class="col-md-6 w3ls-special-img wthree-img2">
+					<div class="col-md-3 w3ls-special-img wthree-img">
 						<div class="wpf-demo-6">
 							<div class="w3ls-special-text">
-								<p><sub>$</sub>190</p>
 							</div>
 							<figcaption class="view-caption">
-								<h4>Lorem ipsum dolor sit amet</h4> 
-								<a href="menu.html">Menu</a>
+								<h4>Najeeb Shawarma</h4> 
+								<a href="menu.html">Order Now</a>
 							</figcaption>
 						</div>
 					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-6 w3l-special-grid">
-					<div class="col-md-6 agileits-special-info">
-						<h4>Nullam</h4>
-						<p>Maecenas ac hendrerit purus. Lorem ipsum dolor sit amet</p>
-					</div>
-					<div class="col-md-6 w3ls-special-img wthree-img3">
+					<div class="col-md-3 w3ls-special-img wthree-img1">
 						<div class="wpf-demo-6">
 							<div class="w3ls-special-text">
-								<p><sub>$</sub>105</p>
 							</div>
 							<figcaption class="view-caption">
-								<h4>Lorem ipsum dolor sit amet</h4> 
-								<a href="menu.html">Menu</a>
+								<h4>Hardees Burgur</h4> 
+								<a href="menu.html">Order Now</a>
 							</figcaption>
 						</div>
 					</div>
-					<div class="clearfix"> </div>
+					<div class="col-md-3 w3ls-special-img wthree-img2">
+						<div class="wpf-demo-6">
+							<div class="w3ls-special-text">
+							</div>
+							<figcaption class="view-caption">
+								<h4>Tahzeeb</h4> 
+								<a href="menu.html">Order Now</a>
+							</figcaption>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls-special-img wthree-img3">
+						<div class="wpf-demo-6">
+							<div class="w3ls-special-text">
+							</div>
+							<figcaption class="view-caption">
+								<h4>Savour Food</h4> 
+								<a href="menu.html">Order Now</a>
+							</figcaption>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls-special-img wthree-img4">
+						<div class="wpf-demo-6">
+							<div class="w3ls-special-text">
+							</div>
+							<figcaption class="view-caption">
+								<h4>Hot Spot</h4> 
+								<a href="menu.html">Order Now</a>
+							</figcaption>
+						</div>
+					</div>
+					<div class="col-md-3 w3ls-special-img wthree-img5">
+						<div class="wpf-demo-6">
+							<div class="w3ls-special-text">
+							</div>
+							<figcaption class="view-caption">
+								<h4>Dunkin Donuts</h4> 
+								<a href="menu.html">Order Now</a>
+							</figcaption>
+						</div>
+					</div>
 				</div>
+				
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -376,26 +448,26 @@ $(document).ready(function() {
 		<div class="container">
 			<div class="agile-footer-grids">
 				<div class="col-md-3 agile-footer-grid">
-					<h4>About Food Corner</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque elit sit amet lorem fermentum.<span>Nullam turpis ipsum, dapibus eu congue sit amet.</span></p>
-					<h5>Get In Touch<h5>
-					<div class="agileinfo-social-grids">
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-rss"></i></a></li>
-							<li><a href="#"><i class="fa fa-vk"></i></a></li>
-						</ul>
+					<div id="footersitelinks">
+					<h4>Site Links</h4>
+					<ul>
+						<li><a href="#">Home</a></li><hr>
+						<li><a href="#">Contact</a></li><hr>
+						<li><a href="#">About</a></li><hr>
+						<li><a href="#">FAQ</a></li><hr>
+					</ul>
 					</div>
 				</div>
 				<div class="col-md-3 agile-footer-grid">
-					<h4>Twitter Posts</h4>
-					<ul class="w3agile_footer_grid_list">
-						<li>Ut aut reiciendis voluptatibus maiores <a href="#">http://lkj.ewr.com</a> alias, ut aut reiciendis.
-							<span><i class="fa fa-twitter" aria-hidden="true"></i> 02 days ago</span></li>
-						<li>Itaque earum rerum hic tenetur a sapiente delectus <a href="#">http://uiubajaj.com</a> ut aut
-							voluptatibus.<span><i class="fa fa-twitter" aria-hidden="true"></i> 03 days ago</span></li>
+					<div id="footersociallinks">
+					<h4>Follow Us On</h4>
+					<ul>
+						<li><a href="#">Facebook</a></li><hr>
+						<li><a href="#">Twitter</a></li><hr>
+						<li><a href="#">Linked In</a></li><hr>
+						<li><a href="#">Google Plus</a></li><hr>
 					</ul>
+					</div>
 				</div>
 				<div class="col-md-3 agile-footer-grid">
 					<h4>Popular Items</h4>
@@ -426,7 +498,7 @@ $(document).ready(function() {
 				</div>
 				<div class="col-md-3 agile-footer-grid">
 					<h4>Newsletter</h4>
-					<p>Sed pellentesque elit sit amet lorem fermentum, vitae maximus tortor accumsan.</p>
+					<p>Subscribe to get updated by us.</p>
 					<form action="#" method="post">
 						<input type="email" name="Email" placeholder="Email" required="">
 						<input type="submit" value="Subscribe">
@@ -440,7 +512,7 @@ $(document).ready(function() {
 	<!-- agileits-copyright -->
 	<div class="agileits-copyright">
 		<div class="container">
-			<p>© 2016 Food Corner. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+			<p>© 2017 Food Corner. All rights reserved | Design by <a href="http://regexsoft.com">Regexsoft</a></p>
 		</div>
 	</div>
 	<!-- //agileits-copyright -->

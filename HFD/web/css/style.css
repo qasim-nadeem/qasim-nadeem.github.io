@@ -1,11 +1,73 @@
 /*--
 --*/
 /* ----- My Styles  ---- */
+@font-face {
+    font-family: fontBannerHeading;
+    src: url(../fonts/HotThinRoof.otf);
+}
+#top{
+  text-align: center;
+
+}
 #searchform{
   position: absolute;
   z-index: 999;
-  margin-top: 3%;
-  margin-left: 30%;
+  margin-top: 12%;
+  margin-left: 5%;
+  padding: 20px;
+}
+#searchform input[type=text]{
+  width: 300px;
+}
+label{
+  color: white;
+}
+.WhatWeDo{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.WhatWeDo .cat img{
+  border: 2px solid black;
+  border-radius: 100px;
+}
+.WhatWeDo .cat p{
+  margin-top: 10px;
+  font-weight: bold;
+}
+#footersitelinks ul li,#footersociallinks ul li{
+  list-style: none;
+}
+#cartarea{
+  background-color: rgba(27, 19, 14, 0.88);
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+  color: white;
+  font-size: 10px;
+  float: right;
+  top: 15px;
+  right: 40px;
+  position: fixed;
+  z-index: 9999;
+  cursor: pointer;
+}
+#cartarea img{
+  vertical-align: center;
+  margin-top: 11px;
+  height: 30px;
+  width: 30px;
+}
+/* give us call */
+#callusnumber h2{
+  text-align: center;
+  color: white;
+  background-color: rgba(27, 19, 14, 0.88);
+  width: 200px;
+  padding: 10px;
+}
+#callusnumber ul li{
+  list-style: none;
+  font-weight: bolder;
 }
 /*vendor styles*/
 body a {
@@ -20,13 +82,12 @@ html, body{
 	font-family: 'Roboto Condensed', sans-serif;
 }
 .banner{
-    background: url(../images/1.jpg) no-repeat 0px -66px;
+    background: url(../images/bg.jpg) no-repeat 0px -66px;
     background-size: cover;
     padding: 0em 0 11em 0;
 }
 .header {
 	position: relative;
-    padding: 2em 0;
     background: #FFF;
     box-shadow: 0 2px 3px #e4e4e4;
 }
@@ -50,7 +111,7 @@ html, body{
 }
 
 .top-nav {
-    text-align: center;
+
     width: 100%;
     margin: 0 auto;
 }
@@ -61,12 +122,24 @@ span.menu {
 .top-nav ul {
 	margin: 0;
     padding: 0;
+    background-color: rgba(241, 102, 59, 1);
 }
 .top-nav ul li{
 	list-style-type:none;
 	display: inline-block;
-	margin: 0 2em;
+  padding: 10px;
+  margin-left: 20px;
 }	
+/*
+my style for extra 3 buttons in nave on the left side
+*/
+.top-nav ul li:nth-child(8),.top-nav ul li:nth-child(9),.top-nav ul li:nth-child(10){
+  background-color: rgba(241, 102, 59, 1);
+  border-radius: 5px;
+  margin-top: 5px;
+  padding:5px;
+  float: right;
+} 
 /*
 .top-nav ul li:nth-child(3) {
     margin-right: 31em;
@@ -76,11 +149,11 @@ span.menu {
     color: #333;
     font-size: 1em;
     padding: 0;
-    font-weight: 600;
+    font-weight: 200;
     text-decoration: none;
 }
 .top-nav li a:hover ,.top-nav li a.active{
-    color: #f35041;
+    color: #fff;
 }
 
 /*--//header--*/
@@ -414,13 +487,23 @@ i.fa.fa-cutlery {
 }
 .w3ls-special-img {
     padding: 0;
-    background: url(../images/sp1.jpg) no-repeat 0px 0px;
+    background: url(../images/haleem.jpg) no-repeat 0px 0px;
     min-height: 280px;
     background-size: cover;
     text-align: center;
     position: relative;
     border: solid 1px #eaeaea;
 }
+.w3ls-special-img1 {
+    padding: 0;
+    background: url(../images/fries.jpg) no-repeat 0px 0px;
+    min-height: 280px;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    border: solid 1px #eaeaea;
+}
+
 .w3ls-special-img img{
 	width:100%;
 }
@@ -452,16 +535,28 @@ i.fa.fa-cutlery {
     font-size: .9em;
 }
 .wthree-img{
-    background: url(../images/sp2.jpg) no-repeat 0px 0px !important;
+    background: url(../images/shawarma.jpg) no-repeat 0px 0px !important;
+    background-size: cover !important;
+}
+.wthree-img1{
+    background: url(../images/burger.jpg) no-repeat 0px 0px !important;
     background-size: cover !important;
 }
 .wthree-img2{
-    background: url(../images/sp3.jpg) no-repeat 0px 0px !important;
+    background: url(../images/pizza.jpg) no-repeat 0px 0px !important;
     background-size: cover !important;
 }
 .wthree-img3{
-    background: url(../images/sp4.jpg) no-repeat 0px 0px !important;
+    background: url(../images/biryani.jpg) no-repeat 0px 0px !important;
     background-size: cover !important;	
+}
+.wthree-img4{
+    background: url(../images/hotspot.jpg) no-repeat 0px 0px !important;
+    background-size: cover !important;  
+}
+.wthree-img5{
+    background: url(../images/donut.jpg) no-repeat 0px 0px !important;
+    background-size: cover !important;  
 }
 .w3ls-special-text p{
     color: #FFFFFF;
