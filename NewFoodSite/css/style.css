@@ -4,8 +4,20 @@
 	License: #############################
 	License URL: #########################
 --*/
+@font-face{
+	font-family: junction_regular;
+	src: url('../fonts/Junction-regular.otf');
+}
+@font-face{
+	font-family: junction_light;
+	src: url('../fonts/Junction-light.otf');
+}
 body{
-	background-color: #eae3e3;
+	background-image: url('../imgs/header_bg.png');
+	background-repeat: repeat;
+}
+a:hover{
+	text-decoration: none;
 }
 hr.hrstyle{
 	border-top: 3px double #8c8b8b;
@@ -21,24 +33,49 @@ hr.hrstyle1{
 }
 #DivLogo,#DivLogoLeft,#DivLogoRight{
 	padding-bottom: 70px;
+	font-family: junction_regular;
 }
 #DivLogo{
 	margin-top: 30px;
 }
+#DivLogoLeft{
+	padding-bottom: 50px;
+}
 #DivLogoLeft,#DivLogoRight{
 	padding: 10px;
+}
+#DivLogoRight{
+	text-align: right;
+}
+#social-fb img, #social-insta img, #social-twitter img{
+	float: right;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 0px;
+	padding: 5px;
+	-webkit-transition:-webkit-transform 0.5s; /* Safari */
+    transition: transform 0.5s;
+}
+#social-fb img:hover{
+	transform: rotate(360deg);
+}
+#social-insta img:hover{
+	transform: rotate(360deg);
+}
+#social-twitter img:hover{
+	transform: rotate(360deg);
 }
 #_Body{}
 #BgRed{
 	background-image: url('../imgs/body_bg.png');
 	background-repeat: repeat;
 	width: 100%;
-	height: 600px;
+	padding-bottom: 43%;
 }
 #Slider{
 	background-color: #eae3e3;
 	width: 80%;
-	height: 550px;
+	/*height: 550px;*/
 	position: absolute;
 	margin-top: -50px;
 	margin-left: 10%;
@@ -50,16 +87,30 @@ hr.hrstyle1{
 	background-image: url('../imgs/header_bg.png');
 	background-repeat: repeat;
 	width: 100%;
-	height: 1500px;
+	height: auto;
+}
+#about{
+	font-family: junction_light;
+	font-size: 17px;
+	word-spacing: 5px;
+	text-align: justify;
+}
+#about h3{
+	color: #b20e0e;
+}
+#about img{
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
 #NewArival{
 	background-color: none;
 	width: 80%;
-	height: 350px;
+	height: 50%;
 	margin-left: 10%;
 	padding: 20px;
 }
-
 #Gift,#Lunch{
 	background-color: white;
 	margin-top: 10px;
@@ -69,20 +120,18 @@ hr.hrstyle1{
 }
 .NewArivalContent{
 	width: 200px;
-	float: right;
-	text-align: right;
 }
-.NewArivalContent h1{
+.NewArivalContent h3{
 	color: #b20e0e;
 }
 #Gift{
-	background-image: url('../imgs/chef.jpg');
+	/*background-image: url('../imgs/subscribe.png');*/
 	background-repeat: no-repeat;
 	height: 300px;
 	margin-top: 10px;
 }
 #Lunch{
-	background-image: url('../imgs/salad.jpg');
+	/*background-image: url('../imgs/salad.jpg');*/
 	background-repeat: no-repeat;
 	height: 300px;
 	margin-top: 10px;
@@ -94,11 +143,9 @@ hr.hrstyle1{
 	font-weight: bolder;
 	background-color: #b20e0e;
 	padding-top: 15px;
-	padding-left: 40px;
+	padding-left: 30px;
 	cursor: pointer;
-	position: absolute;
-	bottom: -5%;
-	left: 35%;
+	margin: 10% auto;
 }
 .btn-OrderNow1{
 	height: 50px;
@@ -107,8 +154,10 @@ hr.hrstyle1{
 	font-weight: bolder;
 	background-color: #b20e0e;
 	padding-top: 15px;
-	padding-left: 10px;
 	cursor: pointer;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 15%;
 }
 .btn-OrderNow:hover{
 	background-color: #ce4444;
@@ -125,20 +174,27 @@ hr.hrstyle1{
 .Deals{
 	background-color: none;
 	width: 80%;
-	height: 250px;
-	margin-left: 10%;
-	padding: 20px;
+	height: 35%;
+	margin-left: 7%;
+	padding: 30px;
+	text-align: center;
+	font-family: junction_light;
+}
+.Deals p{
+	width: 100%;
+	height: 20%;
+	margin-bottom: 10%;
 }
 #Deal1{
-	background-image: url('../imgs/deal1.png');
+	background-image: url('../imgs/breakfast.jpg');
 	background-size: cover;
 }
 #Deal2{
-	background-image: url('../imgs/deal2.png');
+	background-image: url('../imgs/lunch.jpg');
 	background-size: cover;
 }
 #Deal3{
-	background-image: url('../imgs/deal3.png');
+	background-image: url('../imgs/dinner.jpg');
 	background-size: cover;
 }
 .Deals h5{
@@ -153,21 +209,45 @@ hr.hrstyle1{
 	padding: 20px;
 }
 #Map{
-	background-color: white;
-	height: 400px;
+	background-color: #eae3e3;
+	height: 500px;
 	margin-left: 30px;
 	border-radius: 20px;
+	box-shadow: 1px 1px 5px;
 }
 #map {
-        height: 400px;
+        height: 500px;
         width: 100%;
-        border: 20px solid white;
+        border: 20px solid #eae3e3;
 
+}
+#navigation{
+	margin-top: 20px;
+}
+#navigation ul li{
+	list-style: none;
+	color: white;
+	width: 150px;
+	background-color: #b20e0e;
+	text-align: center;
+	padding: 10px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-left: auto;
+	border-radius: 10px;
+	text-decoration: none;
+}
+#navigation ul li:hover{
+	font-size: 15px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+#navigation ul a:hover{
+	text-decoration: none;
 }
 #Contact ul li{
 	list-style: none;
 }
-
 @media only screen and (max-width : 320px) {
 	/* Styles */
 
